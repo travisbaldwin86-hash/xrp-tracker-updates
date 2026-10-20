@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-20T13:20:00-04:00",
+ "updated": "2026-10-20T14:04:29-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -18,12 +18,16 @@
    "Ripple Payments",
    "corridor",
    "cross-border",
-   "remittance"
+   "remittance",
+   "Thunes"
   ],
   "RLUSD / stablecoins": [
    "RLUSD",
    "stablecoin",
-   "GENIUS"
+   "GENIUS",
+   "Inveo",
+   "Türkiye",
+   "dust"
   ],
   "ETFs / treasuries": [
    "ETF",
@@ -49,14 +53,18 @@
    "tokeniz",
    "RWA",
    "collateral",
-   "Canton"
+   "Canton",
+   "Ripple Prime",
+   "working group"
   ],
   "Banks": [
    "bank",
    "Standard Chartered",
    "Cross River",
    "Meritz",
-   "custody"
+   "custody",
+   "Sparkasse",
+   "DekaBank"
   ],
   "Big tech": [
    "Google",
@@ -77,7 +85,8 @@
    "EVM",
    "sidechain",
    "x402",
-   "AI agent"
+   "AI agent",
+   "Batch"
   ],
   "Teasers": [
    "big news",
@@ -103,14 +112,27 @@
    "Uphold",
    "Binance",
    "MoonPay",
-   "listing"
+   "listing",
+   "CryptoQuant",
+   "exchange reserves"
+  ],
+  "Scams / safety": [
+   "scam",
+   "impersonat",
+   "DM me",
+   "seed phrase",
+   "airdrop",
+   "clone"
   ]
  },
  "discovered": [
   "open channel",
   "x402",
   "RWA perps",
-  "collateral mirroring"
+  "collateral mirroring",
+  "bot cluster",
+  "FUZZY",
+  "Swell"
  ],
  "events": [
   {
@@ -122,6 +144,11 @@
    "d": "2026-10-23",
    "name": "fixCleanup3_4_0 activates",
    "kind": "ledger"
+  },
+  {
+   "d": "2026-10-27",
+   "name": "Ripple Swell 2026 NYC (Oct 27-29)",
+   "kind": "conference"
   },
   {
    "d": "2026-10-28",
@@ -675,6 +702,214 @@
    ],
    "theme": "Community / teasers",
    "note": ""
+  },
+  {
+   "d": "2026-10-20T07:30",
+   "acct": "@InveoKripto",
+   "url": "https://x.com/InveoKripto/status/2112506618201969038",
+   "title": "Inveo Kripto lists RLUSD in Türkiye (retail app/web + OTC), first RLUSD transaction done with Ripple",
+   "status": "confirmed",
+   "entities": [
+    "Ripple",
+    "RLUSD",
+    "Inveo Kripto",
+    "Türkiye"
+   ],
+   "theme": "RLUSD / stablecoins",
+   "note": "Helps RLUSD reach (first bank-custodied Turkish platform); no XRP use stated, chain not named"
+  },
+  {
+   "d": "2026-10-20T08:12",
+   "acct": "@reece_merrick",
+   "url": "https://x.com/reece_merrick/status/2112517218928144812",
+   "title": "Ripple's Reece Merrick: Inveo partnership a key step for RLUSD global availability, momentum in Türkiye",
+   "status": "confirmed",
+   "entities": [
+    "Ripple",
+    "RLUSD",
+    "Inveo Kripto"
+   ],
+   "theme": "RLUSD / stablecoins",
+   "note": "Ripple exec amplifying; RLUSD expansion, XRP link indirect"
+  },
+  {
+   "d": "2026-10-19T04:31",
+   "acct": "DekaBank / Bloomberg",
+   "url": "https://de.finance.yahoo.com/nachrichten/dekabank-startet-kryptohandel-sparkassen-richtungsschwenk-083155669.html",
+   "title": "Germany's Sparkassen start crypto trading in the Sparkasse app: BTC, ETH, SOL, XRP, POL; EUR 0.99/order; 30-40 banks join per month",
+   "status": "confirmed",
+   "entities": [
+    "DekaBank",
+    "Sparkassen",
+    "XRP"
+   ],
+   "theme": "Banks",
+   "note": "Helps: XRP is one of 5 coins on a ~50M-customer bank network; custody at DekaBank, phased rollout"
+  },
+  {
+   "d": "2026-10-19T00:00",
+   "acct": "Bitquery",
+   "url": "https://bitquery.io/investigations/rlusd-xrpl-dust-bots",
+   "title": "Bitquery: 99.6% of 7.82M RLUSD payments on XRPL (Sep 19-Oct 18) were dust from a 110-wallet bot cluster; it shut off Oct 14-16",
+   "status": "confirmed",
+   "entities": [
+    "RLUSD",
+    "Bitquery",
+    "Binance"
+   ],
+   "theme": "RLUSD / stablecoins",
+   "note": "Hurts the 'XRPL activity boom' story; real flow = 14,600 payments of $1+ ($7.33B), 82% from 10 wallets"
+  },
+  {
+   "d": "2026-10-18T12:14",
+   "acct": "@bithomp",
+   "url": "https://x.com/bithomp/status/2111853363948376412",
+   "title": "Bithomp: Batch transactions were over 20% of all XRPL transactions last week (3.6M of 17.4M)",
+   "status": "confirmed",
+   "entities": [
+    "XRPL",
+    "Bithomp",
+    "Batch"
+   ],
+   "theme": "XRPL / EVM projects",
+   "note": "Real feature uptake, but mostly arbitrage bots; tiny XRP fee burn, not demand"
+  },
+  {
+   "d": "2026-10-20T00:00",
+   "acct": "CCN (vote data as of Oct 19)",
+   "url": "https://www.ccn.com/news/crypto/ripple-dtcc-tokenization-xrp-price-prediction-2-dollars/",
+   "title": "XRPL lending amendment at 19 validator votes, vault at 21 (29 needed for 2 weeks); fixCleanup3_4_0 still due ~Oct 23",
+   "status": "confirmed",
+   "entities": [
+    "XRPL",
+    "XLS-65",
+    "XLS-66",
+    "Clearpool"
+   ],
+   "theme": "XRPL / EVM projects",
+   "note": "Mild negative for timing: native RLUSD lending can't go live before November"
+  },
+  {
+   "d": "2026-10-20T12:12",
+   "acct": "@CCNCitizens",
+   "url": "https://x.com/CCNCitizens/status/2112577583439122724",
+   "title": "Recycled as news: Ripple Prime is one of 50+ firms in DTCC's tokenization working group (listed since May 4)",
+   "status": "confirmed",
+   "entities": [
+    "Ripple Prime",
+    "DTCC",
+    "Canton"
+   ],
+   "theme": "Tokenization / RWA",
+   "note": "Neutral: membership is real, but DTCC names Canton + Besu only, no XRP/XRPL role"
+  },
+  {
+   "d": "2026-10-20T10:15",
+   "acct": "@misscryptotutor",
+   "url": "https://x.com/misscryptotutor/status/2112548227874521545",
+   "title": "Viral copy-paste: \"Senate reportedly passed the CLARITY Act behind closed doors\"",
+   "status": "rumor",
+   "entities": [
+    "CLARITY",
+    "Senate"
+   ],
+   "theme": "Regulation",
+   "note": "False on the record: cloture failed 49-50 on Sep 15, no new vote set; 'Tillis-Alsobrooks compromise' posts are recycled spring news"
+  },
+  {
+   "d": "2026-10-20T10:00",
+   "acct": "@Patty_XRPL",
+   "url": "https://x.com/Patty_XRPL/status/2112544474945503563",
+   "title": "Claim: $FUZZY (XRPL memecoin) has an announcement with Evernorth at Swell, read from Evernorth's bear-emoji teaser",
+   "status": "speculation",
+   "entities": [
+    "Evernorth",
+    "FUZZY",
+    "Swell"
+   ],
+   "theme": "Community / teasers",
+   "note": "Memecoin pump on one emoji; Evernorth named no token. No XRP demand signal"
+  },
+  {
+   "d": "2026-10-20T13:02",
+   "acct": "@evernorthxrp",
+   "url": "https://x.com/evernorthxrp/status/2112590165189500991",
+   "title": "Evernorth lights Seoul's Namsan Tower blue during KBW / XRP Seoul 2026",
+   "status": "confirmed",
+   "entities": [
+    "Evernorth",
+    "XRPN",
+    "Korea"
+   ],
+   "theme": "Treasuries / ETFs",
+   "note": "Marketing push ahead of Swell; community reading colors as clues (unconfirmed)"
+  },
+  {
+   "d": "2026-10-20T13:00",
+   "acct": "@Steph_iscrypto",
+   "url": "https://x.com/Steph_iscrypto/status/2112589662447358366",
+   "title": "Claim (CryptoQuant data): XRP exchange reserves ~11.81B, near a 1-year high",
+   "status": "speculation",
+   "entities": [
+    "XRP",
+    "CryptoQuant",
+    "Binance"
+   ],
+   "theme": "Exchanges / whales",
+   "note": "If accurate, more XRP parked on exchanges = possible sell pressure; hurts short term"
+  },
+  {
+   "d": "2026-10-20T13:01",
+   "acct": "@GenXKrypto",
+   "url": "https://x.com/GenXKrypto/status/2112589950185283970",
+   "title": "Claim: US spot XRP ETFs took in $0.00 Monday while BTC ETFs drew $526.7M; 13-week inflow streak reported ended",
+   "status": "speculation",
+   "entities": [
+    "XRP ETF",
+    "BlackRock"
+   ],
+   "theme": "Treasuries / ETFs",
+   "note": "Hurts sentiment if confirmed by issuer data"
+  },
+  {
+   "d": "2026-10-19T11:00",
+   "acct": "Thunes / Coinbase",
+   "url": "https://www.thunes.com/news/thunes-and-coinbase-join-forces-to-drive-next-generation-global-payments/",
+   "title": "Thunes (a Ripple Payments partner) and Coinbase team up: Coinbase powers Thunes' stablecoin rails, Thunes adds fiat payouts",
+   "status": "confirmed",
+   "entities": [
+    "Thunes",
+    "Coinbase",
+    "Ripple"
+   ],
+   "theme": "Payments / ODL",
+   "note": "Slight negative: a Ripple payout partner deepens stablecoin rails with Coinbase (USDC), not RLUSD/XRP"
+  },
+  {
+   "d": "2026-10-20T12:46",
+   "acct": "@near_intents",
+   "url": "https://x.com/near_intents/status/2112586263845122527",
+   "title": "NEAR Intents replies to @XRP: deposit from the XRP Ledger, swap, pay, already live",
+   "status": "confirmed",
+   "entities": [
+    "NEAR Intents",
+    "XRP"
+   ],
+   "theme": "XRPL / EVM projects",
+   "note": "Minor: another cross-chain venue courting XRP liquidity"
+  },
+  {
+   "d": "2026-10-20T13:11",
+   "acct": "@claver602",
+   "url": "https://x.com/claver602/status/2112592489807053207",
+   "title": "Likely scam wave: 'Jake Claver' clones and 'PRIVATE' copies of Ripple staff names push 'move XRP off exchanges, DM me'",
+   "status": "speculation",
+   "entities": [
+    "XRP",
+    "scam"
+   ],
+   "theme": "Community / teasers",
+   "note": "Safety: never DM strangers or share a seed; only official handles are real"
   }
  ]
 }

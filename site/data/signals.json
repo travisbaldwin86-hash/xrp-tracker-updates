@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-20T14:04:29-04:00",
+ "updated": "2026-10-20T17:03:32-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -132,7 +132,13 @@
   "collateral mirroring",
   "bot cluster",
   "FUZZY",
-  "Swell"
+  "Swell",
+  "xrpl lending",
+  "Machine Payments Protocol",
+  "whale outflows",
+  "exchange inflows",
+  "Network Broker",
+  "closed-ended vault"
  ],
  "events": [
   {
@@ -910,6 +916,145 @@
    ],
    "theme": "Community / teasers",
    "note": "Safety: never DM strangers or share a seed; only official handles are real"
+  },
+  {
+   "d": "2026-10-20T10:00",
+   "acct": "@UpholdInc",
+   "url": "https://x.com/UpholdInc/status/2112544535569985569",
+   "title": "Uphold lists Evernorth's XRPN stock for trading (fractional, via Uphold Securities, custody Apex Clearing)",
+   "status": "confirmed",
+   "entities": [
+    "Uphold",
+    "Evernorth",
+    "XRPN"
+   ],
+   "theme": "Treasuries / ETFs",
+   "note": "Mild plus: easier retail access to the biggest corporate XRP treasury; 1.5K likes, 261 reposts"
+  },
+  {
+   "d": "2026-10-20T16:59",
+   "acct": "@XRP",
+   "url": "https://x.com/XRP/status/2112650041185964194",
+   "title": "@XRP publishes 'Your path into the XRP Community' guide: ETFs (Bitwise, Canary, Franklin, Grayscale, 21Shares), StanChart RLUSD custody, CSD BR, Aviva/Guggenheim/Ondo RWAs, x402 + Stripe/Tempo Machine Payments Protocol support, wXRP on Solana",
+   "status": "confirmed",
+   "entities": [
+    "XRP",
+    "Ripple",
+    "XRPLF",
+    "Stripe",
+    "Tempo",
+    "Standard Chartered",
+    "CSD BR"
+   ],
+   "theme": "XRPL / EVM projects",
+   "note": "Neutral-positive: no new deal, but first official nod to Stripe/Tempo MPP on XRPL and a scam warning ('if you are DM'd for funds, it's a scam')"
+  },
+  {
+   "d": "2026-10-20T12:52",
+   "acct": "@XRPLLendingNet",
+   "url": "https://x.com/XRPLLendingNet/status/2112587782111764551",
+   "title": "XRPL Lending Network opens access; its Network Broker runs ~$11M TVL in closed mode; says SingleAssetVault at 60.0% and LendingProtocolV1_1 at 54.3% validator support",
+   "status": "confirmed",
+   "entities": [
+    "XRPL Lending Network",
+    "XLS-65",
+    "XLS-66"
+   ],
+   "theme": "XRPL / EVM projects",
+   "note": "Plus long-term: lending infra is ready, but both amendments are still well short of the 80% needed (TVL is self-reported)"
+  },
+  {
+   "d": "2026-10-20T06:30",
+   "acct": "@cryptoquant_com",
+   "url": "https://x.com/cryptoquant_com/status/2112491626484646154",
+   "title": "CryptoQuant: XRP whale outflows (Binance) hit a 5-year low; 'XRP could lack buying volume without whale support'",
+   "status": "confirmed",
+   "entities": [
+    "CryptoQuant",
+    "Binance"
+   ],
+   "theme": "Exchanges / whales",
+   "note": "Hurts short-term: big buyers are absent; pairs with exchange reserves near a 1-year high"
+  },
+  {
+   "d": "2026-10-20T11:57",
+   "acct": "@Ripple_X",
+   "url": "https://x.com/Ripple_X/status/2112573926983483653",
+   "title": "Claim (CryptoQuant data): 6.05B XRP flowed onto exchanges in 30 days to Oct 19, most since March; 90-day Binance whale outflow average $49.7M, down 98.6% from Feb 2025",
+   "status": "speculation",
+   "entities": [
+    "CryptoQuant",
+    "Binance"
+   ],
+   "theme": "Exchanges / whales",
+   "note": "Hurts if true: more coins parked on exchanges usually means sell pressure (not a Ripple account despite the handle)"
+  },
+  {
+   "d": "2026-10-20T14:25",
+   "acct": "@UKMiller",
+   "url": "https://x.com/UKMiller/status/2112611252589523432",
+   "title": "Headline: XRPL lending proposal adds a closed-ended vault design to protocol plans",
+   "status": "speculation",
+   "entities": [
+    "XLS-65",
+    "XLS-66"
+   ],
+   "theme": "XRPL / EVM projects",
+   "note": "Neutral: design work, not activation; check the XLS spec before counting it"
+  },
+  {
+   "d": "2026-10-20T14:01",
+   "acct": "@Xfinancebull",
+   "url": "https://x.com/Xfinancebull/status/2112605015206662520",
+   "title": "High-engagement claim: XRP and Stellar 'already connected' to Mastercard's stablecoin push (Money20/20 example)",
+   "status": "speculation",
+   "entities": [
+    "Mastercard",
+    "Stellar"
+   ],
+   "theme": "Payments / ODL",
+   "note": "Neutral: no Mastercard source names XRP; ~170 likes"
+  },
+  {
+   "d": "2026-10-20T15:03",
+   "acct": "@RipBullWinkle",
+   "url": "https://x.com/RipBullWinkle/status/2112620860498477476",
+   "title": "Connect-the-dots: Swift building 24/7 cross-border tokenized deposits with DBS, and DBS already partners with Ripple",
+   "status": "speculation",
+   "entities": [
+    "Swift",
+    "DBS",
+    "Ripple"
+   ],
+   "theme": "Banks",
+   "note": "Neutral: the Swift/DBS work doesn't involve Ripple or XRP"
+  },
+  {
+   "d": "2026-10-20T15:21",
+   "acct": "@fuzzy_stranger",
+   "url": "https://x.com/fuzzy_stranger/status/2112625146401808664",
+   "title": "Calendar read of Schwartz's Grateful Dead tease: 'Ripple' B-side released Nov 1, Dia de los Muertos Nov 1-2, XRPL lending maybe early Nov",
+   "status": "speculation",
+   "entities": [
+    "David Schwartz",
+    "Grateful Dead"
+   ],
+   "theme": "Community / teasers",
+   "note": "Pure pattern-matching; no date given by Schwartz"
+  },
+  {
+   "d": "2026-10-20T15:45",
+   "acct": "@jake__claver09",
+   "url": "https://x.com/jake__claver09/status/2112631262833938470",
+   "title": "Clone-account wave keeps pushing 'Ripple Prime joins DTCC, launching this month, $114T' plus 'StanChart $28 XRP by 2030'",
+   "status": "rumor",
+   "entities": [
+    "DTCC",
+    "Ripple Prime",
+    "Standard Chartered"
+   ],
+   "theme": "Community / teasers",
+   "note": "Hurts credibility: same debunked DTCC claim, now from 'Jake Claver' clone handles; ignore"
   }
  ]
 }

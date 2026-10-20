@@ -1,5 +1,5 @@
 {
- "version": "20261020-140501",
+ "version": "20261020-170345",
  "files": [
   {
    "path": "site/everywhere.js",
@@ -71,7 +71,7 @@
   },
   {
    "path": "site/thesis.js",
-   "sha256": "be1677719bfe5dbb025b7a5d5ba8f1d336028137f0a9c7ba7f3daf4c373ac36a"
+   "sha256": "3213516aa18674dc70856987bc22664eb4126014f935e965023465da37ddaf08"
   },
   {
    "path": "site/hud.css",
@@ -119,11 +119,11 @@
   },
   {
    "path": "site/data/signals.json",
-   "sha256": "8a1afa679b6f1ce48b7726776f5ddca3ad3f6a4c2824a399c5ff116f4949fdf0"
+   "sha256": "85f41cab5b94506360794fcce7d2d428435c26011a44565e1f5ca18e2d631534"
   },
   {
    "path": "site/data/signals.js",
-   "sha256": "10ed50d6003a2f6d592b4eca0a220e1c3876727f0c44bed17f1db413bce336ad"
+   "sha256": "4fafccdc62351b6f05b5b84513295bf74accb349b41c9329cfdda468614665f3"
   },
   {
    "path": "Launch-XRPTracker.ps1",

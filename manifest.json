@@ -1,0 +1,145 @@
+{
+ "version": "20261020-135825",
+ "files": [
+  {
+   "path": "site/everywhere.js",
+   "sha256": "4c8f1db422f87ebd5996dc3dd7ab80bf87bfea3db405339be28635144e890d5c"
+  },
+  {
+   "path": "site/logo_rig.svg",
+   "sha256": "89d5af2a8b4f0dc3b168375d7b4a0f9aa8e413a406e39cf266d1223ca58486f8"
+  },
+  {
+   "path": "site/index.html",
+   "sha256": "d5b64d503bb54cfc250fbfc9ad72cfb0932c6d7ccf005b8ab2efa00f8de62df9"
+  },
+  {
+   "path": "site/app.js",
+   "sha256": "a73450a50904b61ac29c05a361be005655ee720cfacc78d9ff44a05b632a8bb0"
+  },
+  {
+   "path": "site/favicon.svg",
+   "sha256": "4596f794d79ce8257f7d9d7ce02321029e4360cade269b409be260bf207929a6"
+  },
+  {
+   "path": "site/memes.js",
+   "sha256": "1240b8f73fe4680a66b82294d887a2997c64205af7914d195964553ec69625a3"
+  },
+  {
+   "path": "site/holders.js",
+   "sha256": "41c56f0af5ef64168ccf098b4700c6df3604f2d05d68355ad4809893136519d5"
+  },
+  {
+   "path": "site/info.js",
+   "sha256": "91e06b66b62caa62f44edf6cc0bb899549bff75b8db89cf78c5c5bc2092dded2"
+  },
+  {
+   "path": "site/xrp_tracker_rig.ico",
+   "sha256": "8452b425e7346cedbc7ac98cbcbe95e07ecb021676f7306a6d0c679b04556d0b"
+  },
+  {
+   "path": "site/favicon.ico",
+   "sha256": "765a355e74e6fc711338c063130d25587dc37c45d0173b116de1a83f25f39e15"
+  },
+  {
+   "path": "site/styles.css",
+   "sha256": "b73fdd68c03c8d20cc85f91d4c3205659e41d8c7986ea5b05a7903431030cab3"
+  },
+  {
+   "path": "site/world.js",
+   "sha256": "f8625ebb6da799d93bf341af50d952191ac22ca0a4f52f4e27b5089b15ea2964"
+  },
+  {
+   "path": "site/rig.css",
+   "sha256": "6443d84b633f5d87c5205350b4c9bfad9e7ba66a60df9332d9a1850740222c92"
+  },
+  {
+   "path": "site/rig.js",
+   "sha256": "274dff576dd9427d64b477858f696f52f17a7e39eb0e4f4f8645e6d63a068edc"
+  },
+  {
+   "path": "site/hud.js",
+   "sha256": "11d5cb33d3c3433981ec4563061cefb5523b5d05d15f3b106ecb69d8095cb534"
+  },
+  {
+   "path": "site/sched.js",
+   "sha256": "4c4daada063a253b906e9a7f3b38ccc81754a22287091b18a91e5315cc01e786"
+  },
+  {
+   "path": "site/xrp_tracker.ico",
+   "sha256": "765a355e74e6fc711338c063130d25587dc37c45d0173b116de1a83f25f39e15"
+  },
+  {
+   "path": "site/thesis.js",
+   "sha256": "8707d8342378e34694f606d7c58da1114cf2ba42244f413fd64bb440308fd92f"
+  },
+  {
+   "path": "site/hud.css",
+   "sha256": "d39a637f31681a051f99da75cf12dd6c9ea308cb068cfa6b4a0213544f98de01"
+  },
+  {
+   "path": "site/worldwatch.js",
+   "sha256": "63c35f15f865b4a413250491ab4967aec26af192a63f0604f35fcee6406fc842"
+  },
+  {
+   "path": "site/sharedfetch.js",
+   "sha256": "cf7f6ba3fe667d90fdcf5663ac2b405e12e1e4eb50efaef8595ba44fd7260820"
+  },
+  {
+   "path": "site/extras.js",
+   "sha256": "c959a8e0a8d87bf2c67599f7156b26045582fa6583277ca5dbd27ed9be89475f"
+  },
+  {
+   "path": "site/ripplefam.js",
+   "sha256": "bba513e7e22a98cc4c20728567e453273aa46698052262f9405fb55a52615867"
+  },
+  {
+   "path": "site/paper.js",
+   "sha256": "478eca98b29e2738054004065200b3261aa88ae022689b8528afed1ab94f8375"
+  },
+  {
+   "path": "site/patterns.js",
+   "sha256": "fbc65a80f5e2ae7ea6d13e05139c09fe49b2aa5c10f074c8f9a804d3d4cac2cc"
+  },
+  {
+   "path": "site/xrp_tracker_floor.ico",
+   "sha256": "2f604181a85a2686e3a983f6f3a6c8c17ad2a034dc87fa886474c1230bc65921"
+  },
+  {
+   "path": "site/intro.js",
+   "sha256": "ae3a7e000ca39278ab7d6df2a4745409ad23a666f64f8dcec851b0d2b5276c2b"
+  },
+  {
+   "path": "site/geo.js",
+   "sha256": "bce90b255f8e67256484e9d25e4880ed8b894067d4906fc1028d328f25b0a24b"
+  },
+  {
+   "path": "site/tvchart.js",
+   "sha256": "aada545efb38b293624a53ac39ca5e412cb1d778f110c43cdee6e2efdb0d7285"
+  },
+  {
+   "path": "site/data/signals.json",
+   "sha256": "38753f69cbd0b52534e63e7f39488a773e59de15e7365580503ff4707d5fce9d"
+  },
+  {
+   "path": "site/data/signals.js",
+   "sha256": "08278651e54f5d1099d71509c3c9f68a3888170f1562ba7280b47975df559595"
+  },
+  {
+   "path": "Launch-XRPTracker.ps1",
+   "sha256": "44d576c898e7d7d0effc53ae91568bc9a73cbc914ebedc73b6c4dcb9b2b64f37"
+  },
+  {
+   "path": "XRPTrackerServer.ps1",
+   "sha256": "6644a2e5bd42dc0a47f9bcabc0f4434f1598423d91eec8e7068ae666ec08ec90"
+  },
+  {
+   "path": "Update-XRPTracker.ps1",
+   "sha256": "6e7c03c5131da738fcda9b74d4cb619c89d170670a25ff5b195b8da5df61dbb8"
+  },
+  {
+   "path": "README.txt",
+   "sha256": "327ad360705d72887d63a3601f78532b2cc0a07a18d1b92c6ab6050de72654d8"
+  }
+ ]
+}

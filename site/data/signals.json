@@ -1,0 +1,680 @@
+{
+ "version": 1,
+ "updated": "2026-10-20T13:20:00-04:00",
+ "watchlist": {
+  "ISO 20022 / SWIFT": [
+   "ISO 20022",
+   "SWIFT",
+   "Swift"
+  ],
+  "Escrow / supply": [
+   "escrow",
+   "unlock",
+   "relock",
+   "burn"
+  ],
+  "Payments / ODL": [
+   "ODL",
+   "Ripple Payments",
+   "corridor",
+   "cross-border",
+   "remittance"
+  ],
+  "RLUSD / stablecoins": [
+   "RLUSD",
+   "stablecoin",
+   "GENIUS"
+  ],
+  "ETFs / treasuries": [
+   "ETF",
+   "XRPN",
+   "Evernorth",
+   "treasury",
+   "BlackRock",
+   "warrant"
+  ],
+  "Regulation": [
+   "SEC",
+   "CFTC",
+   "CLARITY",
+   "GENIUS",
+   "OCC",
+   "charter",
+   "master account",
+   "Fed",
+   "Treasury"
+  ],
+  "Market infrastructure": [
+   "DTCC",
+   "tokeniz",
+   "RWA",
+   "collateral",
+   "Canton"
+  ],
+  "Banks": [
+   "bank",
+   "Standard Chartered",
+   "Cross River",
+   "Meritz",
+   "custody"
+  ],
+  "Big tech": [
+   "Google",
+   "Apple",
+   "Amazon",
+   "Microsoft",
+   "X Money",
+   "Visa",
+   "Mastercard",
+   "Meta"
+  ],
+  "XRPL tech": [
+   "XLS-65",
+   "XLS-66",
+   "amendment",
+   "vault",
+   "lending",
+   "EVM",
+   "sidechain",
+   "x402",
+   "AI agent"
+  ],
+  "Teasers": [
+   "big news",
+   "soon",
+   "stay tuned",
+   "something special",
+   "long time coming",
+   "about time",
+   "hello, world",
+   "👀",
+   "🔜",
+   "⏳",
+   "countdown",
+   "tomorrow"
+  ],
+  "Exchanges / whales": [
+   "whale",
+   "exchange",
+   "reserves",
+   "Kraken",
+   "Coinbase",
+   "Gemini",
+   "Uphold",
+   "Binance",
+   "MoonPay",
+   "listing"
+  ]
+ },
+ "discovered": [
+  "open channel",
+  "x402",
+  "RWA perps",
+  "collateral mirroring"
+ ],
+ "events": [
+  {
+   "d": "2026-10-20",
+   "name": "Swell registration closes",
+   "kind": "conference"
+  },
+  {
+   "d": "2026-10-23",
+   "name": "fixCleanup3_4_0 activates",
+   "kind": "ledger"
+  },
+  {
+   "d": "2026-10-28",
+   "name": "FOMC decision 2 PM ET",
+   "kind": "macro"
+  },
+  {
+   "d": "2026-11-01",
+   "name": "Monthly escrow unlock (1B XRP)",
+   "kind": "escrow"
+  },
+  {
+   "d": "2026-11-14",
+   "name": "Swift ISO 20022 date (deferred)",
+   "kind": "rule"
+  },
+  {
+   "d": "2027-01-18",
+   "name": "GENIUS Act effective (expected)",
+   "kind": "rule"
+  },
+  {
+   "d": "2027-03-18",
+   "name": "XRP Australia",
+   "kind": "conference"
+  }
+ ],
+ "teasers": [
+  {
+   "teaser": "Evernorth \"Something special is planned for Swell\" (Oct 19)",
+   "outcome": "pending",
+   "url": "https://x.com/evernorthxrp/status/2112304285908381828"
+  },
+  {
+   "teaser": "@XRP \"hello, world. It's about time.\" (Oct 19)",
+   "outcome": "was itself the reveal: an official account; no product/listing news followed yet",
+   "url": "https://x.com/XRP/status/2112214294188441742"
+  },
+  {
+   "teaser": "Laguna \"when our first vault will launch\" (Oct 16)",
+   "outcome": "pending; needs XLS-65 on mainnet",
+   "url": "https://x.com/uselaguna/status/2111124881727471826"
+  }
+ ],
+ "signals": [
+  {
+   "d": "2026-10-19T16:08",
+   "acct": "@XRP",
+   "url": "https://x.com/XRP/status/2112214294188441742",
+   "title": "New official @XRP account: \"hello, world. It's about time.\" (4.6M views)",
+   "status": "confirmed",
+   "entities": [
+    "XRP account",
+    "Ripple",
+    "XRPL Foundation"
+   ],
+   "theme": "Community / teasers",
+   "note": "Attention, not demand"
+  },
+  {
+   "d": "2026-10-19T16:14",
+   "acct": "@Ripple",
+   "url": "https://x.com/Ripple/status/2112215725318562163",
+   "title": "Ripple welcomes @XRP: \"Good to see you here\"",
+   "status": "confirmed",
+   "entities": [
+    "Ripple",
+    "XRP account"
+   ],
+   "theme": "Community / teasers",
+   "note": ""
+  },
+  {
+   "d": "2026-10-19T16:59",
+   "acct": "@bgarlinghouse",
+   "url": "https://x.com/bgarlinghouse/status/2112227152913719508",
+   "title": "Garlinghouse: \"This one has been a long time coming… Welcome @XRP!\"",
+   "status": "confirmed",
+   "entities": [
+    "Garlinghouse",
+    "XRP account"
+   ],
+   "theme": "Community / teasers",
+   "note": ""
+  },
+  {
+   "d": "2026-10-19T19:47",
+   "acct": "@MonicaLongSF",
+   "url": "https://x.com/MonicaLongSF/status/2112269450699554850",
+   "title": "Monica Long welcomes @xrp",
+   "status": "confirmed",
+   "entities": [
+    "Monica Long",
+    "XRP account"
+   ],
+   "theme": "Community / teasers",
+   "note": ""
+  },
+  {
+   "d": "2026-10-19T17:44",
+   "acct": "@JoelKatz",
+   "url": "https://x.com/JoelKatz/status/2112238528973435291",
+   "title": "Schwartz: \"Time for the Grateful Dead to create an @XRP song?\"",
+   "status": "confirmed",
+   "entities": [
+    "Schwartz",
+    "XRP account"
+   ],
+   "theme": "Community / teasers",
+   "note": ""
+  },
+  {
+   "d": "2026-10-19T17:38",
+   "acct": "@XRP",
+   "url": "https://x.com/XRP/status/2112236999180767729",
+   "title": "@XRP replies to exchanges: Gemini, Kraken, Uphold, MoonPay",
+   "status": "confirmed",
+   "entities": [
+    "XRP account",
+    "Gemini",
+    "Kraken",
+    "Uphold",
+    "MoonPay"
+   ],
+   "theme": "Exchanges / whales",
+   "note": "Engagement with exchanges, no listing news"
+  },
+  {
+   "d": "2026-10-19T17:43",
+   "acct": "@XRP",
+   "url": "https://x.com/XRP/status/2112238289977827452",
+   "title": "@XRP to Squid Router: \"we're here! thanks for waiting up\"",
+   "status": "confirmed",
+   "entities": [
+    "XRP account",
+    "Squid Router",
+    "XRPL EVM"
+   ],
+   "theme": "XRPL / EVM projects",
+   "note": ""
+  },
+  {
+   "d": "2026-10-19T17:39",
+   "acct": "@XRP",
+   "url": "https://x.com/XRP/status/2112237269692317855",
+   "title": "@XRP greets Evernorth",
+   "status": "confirmed",
+   "entities": [
+    "XRP account",
+    "Evernorth"
+   ],
+   "theme": "Treasuries / ETFs",
+   "note": ""
+  },
+  {
+   "d": "2026-10-20T09:08",
+   "acct": "@Yellow",
+   "url": "https://x.com/Yellow/status/2112471031214661775",
+   "title": "Yellow: \"hello, @XRP. We saved an open channel for you.\"",
+   "status": "speculation",
+   "entities": [
+    "Yellow",
+    "XRP account",
+    "XRPL EVM"
+   ],
+   "theme": "XRPL / EVM projects",
+   "note": "Marketing; no XRP settlement stated"
+  },
+  {
+   "d": "2026-10-20T15:11",
+   "acct": "@XRP",
+   "url": "https://x.com/XRP/status/2112562416198598782",
+   "title": "@XRP replies \"thanks @Yellow\"",
+   "status": "confirmed",
+   "entities": [
+    "XRP account",
+    "Yellow"
+   ],
+   "theme": "XRPL / EVM projects",
+   "note": "New account engaged by official @XRP"
+  },
+  {
+   "d": "2026-10-15T08:04",
+   "acct": "@Yellow",
+   "url": "https://x.com/Yellow/status/2110643025517158536",
+   "title": "Yellow: XRPL pioneered fast settlement; Yellow adds escrow layer for AI agents",
+   "status": "speculation",
+   "entities": [
+    "Yellow",
+    "XRPL"
+   ],
+   "theme": "XRPL / EVM projects",
+   "note": ""
+  },
+  {
+   "d": "2025-10-27T10:55",
+   "acct": "PR Newswire",
+   "url": "https://www.prnewswire.com/news-releases/yellow-network-integrates-with-xrpl-evm-sidechain-to-upgrade-rwa-trading-302595443.html",
+   "title": "Yellow Network integrates with XRPL EVM Sidechain",
+   "status": "confirmed",
+   "entities": [
+    "Yellow",
+    "XRPL EVM"
+   ],
+   "theme": "XRPL / EVM projects",
+   "note": ""
+  },
+  {
+   "d": "2026-10-15T14:31",
+   "acct": "@Ripple",
+   "url": "https://x.com/Ripple/status/2110740236749717712",
+   "title": "Ripple x Cross River: RLUSD on XRPL in core banking",
+   "status": "confirmed",
+   "entities": [
+    "Ripple",
+    "Cross River",
+    "RLUSD"
+   ],
+   "theme": "RLUSD / stablecoins",
+   "note": "RLUSD, not XRP"
+  },
+  {
+   "d": "2026-10-15T15:00",
+   "acct": "@XRPLF",
+   "url": "https://x.com/XRPLF/status/2110747714614866351",
+   "title": "XRPLF amplifies Cross River RLUSD integration",
+   "status": "confirmed",
+   "entities": [
+    "XRPL Foundation",
+    "Cross River",
+    "RLUSD"
+   ],
+   "theme": "RLUSD / stablecoins",
+   "note": ""
+  },
+  {
+   "d": "2026-10-20T13:00",
+   "acct": "Cross River",
+   "url": "https://www.crossriver.com/newsroom/cross-river-to-acquire-accrue-expanding-financial-infrastructure-with-integrated-wallet-capabilities",
+   "title": "Cross River agrees to acquire Accrue (branded wallets, loyalty)",
+   "status": "confirmed",
+   "entities": [
+    "Cross River",
+    "Accrue"
+   ],
+   "theme": "Banks",
+   "note": "No XRP/RLUSD mentioned"
+  },
+  {
+   "d": "2026-10-12T05:35",
+   "acct": "Standard Chartered",
+   "url": "https://www.sc.com/en/press-release/standard-chartered-launches-rlusd-custody-and-joins-planned-collateral-integration-with-ripple-and-lmax-group/",
+   "title": "Standard Chartered RLUSD-on-XRPL custody live (DIFC); LMAX collateral link planned",
+   "status": "confirmed",
+   "entities": [
+    "Standard Chartered",
+    "Ripple",
+    "LMAX",
+    "RLUSD"
+   ],
+   "theme": "Banks",
+   "note": ""
+  },
+  {
+   "d": "2026-10-14T13:08",
+   "acct": "@Ripple",
+   "url": "https://x.com/Ripple/status/2110357166787842516",
+   "title": "Ripple x DriveWealth: RLUSD settlement, payments, custody, prime",
+   "status": "confirmed",
+   "entities": [
+    "Ripple",
+    "DriveWealth",
+    "RLUSD",
+    "Ripple Prime"
+   ],
+   "theme": "RLUSD / stablecoins",
+   "note": ""
+  },
+  {
+   "d": "2026-10-15T13:01",
+   "acct": "@Ripple",
+   "url": "https://x.com/Ripple/status/2110717616490741894",
+   "title": "Ripple Prime launches RWA perpetual swaps (100+ markets)",
+   "status": "confirmed",
+   "entities": [
+    "Ripple Prime",
+    "Ripple"
+   ],
+   "theme": "Tokenization / RWA",
+   "note": ""
+  },
+  {
+   "d": "2026-10-14T02:05",
+   "acct": "@Ripple",
+   "url": "https://x.com/Ripple/status/2110190201888801060",
+   "title": "Meritz Securities x Ripple custody + tokenization (Korea)",
+   "status": "confirmed",
+   "entities": [
+    "Ripple",
+    "Meritz",
+    "Ripple Custody"
+   ],
+   "theme": "Banks",
+   "note": ""
+  },
+  {
+   "d": "2026-10-13T16:29",
+   "acct": "@privy_io",
+   "url": "https://x.com/privy_io/status/2110045210935951702",
+   "title": "Privy wallets on XRPL with Ripple (payments, AI agents, x402)",
+   "status": "confirmed",
+   "entities": [
+    "Privy",
+    "Ripple",
+    "XRPL Foundation"
+   ],
+   "theme": "XRPL / EVM projects",
+   "note": ""
+  },
+  {
+   "d": "2026-10-19T02:38",
+   "acct": "@ClearpoolFin",
+   "url": "https://x.com/ClearpoolFin/status/2112010347213447499",
+   "title": "Clearpool whitepaper: credit marketplace expanding to XRPL (XLS-65/66, RLUSD)",
+   "status": "confirmed",
+   "entities": [
+    "Clearpool",
+    "Ripple",
+    "Cicada",
+    "XLS-65/66",
+    "RLUSD"
+   ],
+   "theme": "XRPL / EVM projects",
+   "note": "Devnet only until amendments pass"
+  },
+  {
+   "d": "2026-10-16T15:59",
+   "acct": "@uselaguna",
+   "url": "https://x.com/uselaguna/status/2111124881727471826",
+   "title": "Laguna Protocol launches handle: \"when our first vault will launch\" (XRPL private credit)",
+   "status": "speculation",
+   "entities": [
+    "Laguna",
+    "XLS-65/66"
+   ],
+   "theme": "XRPL / EVM projects",
+   "note": "Teaser"
+  },
+  {
+   "d": "2026-10-20T07:30",
+   "acct": "community",
+   "url": "https://x.com/MrGangaSA/status/2112446368702775323",
+   "title": "fixCleanup3_4_0 amendment activates ~Oct 23 09:34 UTC",
+   "status": "confirmed",
+   "entities": [
+    "XRPL amendments"
+   ],
+   "theme": "XRPL / EVM projects",
+   "note": ""
+  },
+  {
+   "d": "2026-10-19T22:06",
+   "acct": "@evernorthxrp",
+   "url": "https://x.com/evernorthxrp/status/2112304285908381828",
+   "title": "Evernorth: \"Something special is planned for @RippleSwell 2026\"",
+   "status": "speculation",
+   "entities": [
+    "Evernorth",
+    "Swell"
+   ],
+   "theme": "Treasuries / ETFs",
+   "note": "Teaser before Swell"
+  },
+  {
+   "d": "2026-10-20T00:24",
+   "acct": "@ashgoblue",
+   "url": "https://x.com/ashgoblue/status/2112339260628218237",
+   "title": "Evernorth CEO Asheesh Birla quotes the Swell teaser: \"👀\"",
+   "status": "speculation",
+   "entities": [
+    "Evernorth",
+    "Swell"
+   ],
+   "theme": "Treasuries / ETFs",
+   "note": "Cryptic emoji teaser"
+  },
+  {
+   "d": "2026-10-14T21:31",
+   "acct": "@Ripple",
+   "url": "https://x.com/Ripple/status/2110483668124971087",
+   "title": "Ripple congratulates Evernorth on Nasdaq debut (XRPN)",
+   "status": "confirmed",
+   "entities": [
+    "Ripple",
+    "Evernorth"
+   ],
+   "theme": "Treasuries / ETFs",
+   "note": ""
+  },
+  {
+   "d": "2026-10-19T00:00",
+   "acct": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/2092592/000119312526425367/d184594d424b3.htm",
+   "title": "Evernorth 424B3: up to 11.5M warrant shares at $11.50 (~$132M max)",
+   "status": "confirmed",
+   "entities": [
+    "Evernorth",
+    "SEC"
+   ],
+   "theme": "Treasuries / ETFs",
+   "note": "No XRP purchase announced"
+  },
+  {
+   "d": "2026-10-20T17:11",
+   "acct": "viral copy-paste",
+   "url": "https://x.com/TRUMPVOICE_2030/status/2112592500967817342",
+   "title": "\"SEC has just approved Evernorth's filing to PURCHASE MORE XRP\"",
+   "status": "rumor",
+   "entities": [
+    "Evernorth",
+    "SEC"
+   ],
+   "theme": "Regulation",
+   "note": "Misread filing"
+  },
+  {
+   "d": "2026-10-20T17:09",
+   "acct": "@xrpmickle",
+   "url": "https://x.com/xrpmickle/status/2112592162462322958",
+   "title": "\"Ripple Joins the DTCC: This is Major News!\"",
+   "status": "rumor",
+   "entities": [
+    "Ripple",
+    "DTCC"
+   ],
+   "theme": "Tokenization / RWA",
+   "note": "DTCC lists Canton + Besu only"
+  },
+  {
+   "d": "2026-10-20T17:12",
+   "acct": "@cryptodylnews",
+   "url": "https://x.com/cryptodylnews/status/2112592733789458650",
+   "title": "\"$114 TRILLION DTCC TOKENIZATION LAUNCH OCTOBER 28\"",
+   "status": "rumor",
+   "entities": [
+    "DTCC"
+   ],
+   "theme": "Tokenization / RWA",
+   "note": ""
+  },
+  {
+   "d": "2026-10-20T17:11",
+   "acct": "@Erictrumpqrs",
+   "url": "https://x.com/Erictrumpqrs/status/2112592614952247661",
+   "title": "\"XRP will bridge every single RLUSD transaction\"",
+   "status": "rumor",
+   "entities": [
+    "RLUSD",
+    "XRP"
+   ],
+   "theme": "RLUSD / stablecoins",
+   "note": ""
+  },
+  {
+   "d": "2026-10-20T16:59",
+   "acct": "@TRUMPBELIVER",
+   "url": "https://x.com/TRUMPBELIVER/status/2112589582042644803",
+   "title": "\"BlackRock reportedly urged to file spot XRP ETF\"",
+   "status": "rumor",
+   "entities": [
+    "BlackRock"
+   ],
+   "theme": "Treasuries / ETFs",
+   "note": ""
+  },
+  {
+   "d": "2026-10-20T11:05",
+   "acct": "@HZK_Crypto",
+   "url": "https://x.com/HZK_Crypto/status/2112500350708027736",
+   "title": "Claim: RLUSD on XRPL -14% w/w to ~$954M, Ethereum share 60%",
+   "status": "speculation",
+   "entities": [
+    "RLUSD"
+   ],
+   "theme": "RLUSD / stablecoins",
+   "note": ""
+  },
+  {
+   "d": "2026-10-20T17:04",
+   "acct": "@Zoeatav",
+   "url": "https://x.com/Zoeatav/status/2112590799728967878",
+   "title": "Claim: XRP exchange reserves at 1-year high, ETF demand cooling",
+   "status": "speculation",
+   "entities": [
+    "Exchanges"
+   ],
+   "theme": "Exchanges / whales",
+   "note": ""
+  },
+  {
+   "d": "2026-10-19T23:16",
+   "acct": "@s_alderoty",
+   "url": "https://x.com/s_alderoty/status/2112322134081245298",
+   "title": "Alderoty on Treasury GENIUS Act rules (self-custody, recovery)",
+   "status": "confirmed",
+   "entities": [
+    "Alderoty",
+    "GENIUS Act",
+    "Treasury"
+   ],
+   "theme": "Regulation",
+   "note": ""
+  },
+  {
+   "d": "2026-10-19T04:41",
+   "acct": "@JoelKatz",
+   "url": "https://x.com/JoelKatz/status/2112041329798844565",
+   "title": "Schwartz: \"CAUTION: compromised or scam account\" (fake Xaman airdrop)",
+   "status": "confirmed",
+   "entities": [
+    "Schwartz",
+    "Xaman"
+   ],
+   "theme": "Community / teasers",
+   "note": "Safety"
+  },
+  {
+   "d": "2026-10-14T07:00",
+   "acct": "@wave_of_innov",
+   "url": "https://x.com/wave_of_innov/status/2110264345632686264",
+   "title": "XRP Australia (Mar 18-19 2027) + XRP London (Jun 2-4 2027) announced",
+   "status": "confirmed",
+   "entities": [
+    "XRPL Foundation",
+    "Conferences"
+   ],
+   "theme": "Community / teasers",
+   "note": ""
+  },
+  {
+   "d": "2026-10-16T16:51",
+   "acct": "@RippleSwell",
+   "url": "https://x.com/RippleSwell/status/2111137992148468091",
+   "title": "Swell 2026 partners: Evernorth, Ondo, RedotPay, XRPLF, XRPL Commons; registration closes Oct 20",
+   "status": "confirmed",
+   "entities": [
+    "Swell",
+    "Evernorth",
+    "Ondo",
+    "XRPL Foundation"
+   ],
+   "theme": "Community / teasers",
+   "note": ""
+  }
+ ]
+}

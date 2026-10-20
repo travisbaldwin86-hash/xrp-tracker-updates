@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>XRP Adoption Tracker</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="rig.css">
+<link rel="stylesheet" href="hud.css">
+</head>
+<body>
+<div id="app">
+  <!-- Every section carries data-rig (screen) for the Sim Rig layout -->
+  <header id="topbar" data-rig="center" data-order="1">
+    <div class="brand"><img src="favicon.svg" alt="" class="logo"><div><h1 data-info="topbar"><span class="codename">DEMAND RADAR</span> XRP Adoption Tracker</h1><div class="sub">Built for the owner &middot; a partnership isn't demand, so watch the mechanics</div></div></div>
+    <div class="controls">
+      <span class="refresh" id="refreshInfo" data-info="refreshInfo">Loading&hellip;</span>
+      <button id="btnRefresh" data-info="btnRefresh" title="Refresh now">&#x21bb; Refresh</button>
+      <button id="btnSerious" data-info="btnSerious" title="Hide memes and jokes">Serious mode: off</button>
+      <button id="btnSound" data-info="btnSound" title="Alarm beeps">Sound: off</button>
+      <button id="btnInfo" data-info="btnInfo" title="Show every explanation inline">Show all info: off</button>
+      <button id="btnLayout" data-info="btnLayout" title="Switch layout">Sim Rig layout</button>
+    </div>
+  </header>
+
+  <section id="verdict" class="panel verdict" data-rig="center" data-order="2">
+    <div class="v-gauge" id="vGauge" data-info="v_gauge"></div>
+    <div class="v-body"><div class="v-kicker" data-info="verdict">THE VERDICT &middot; Partnership vs. Mechanics</div><div class="v-title" id="vTitle">Reading the ledger&hellip;</div><div class="v-text" id="vText"></div><div class="v-chips" id="vChips"></div></div>
+  </section>
+
+  <section id="alarm" class="alarm stage-0" data-rig="center" data-order="3">
+    <div class="alarm-meme" id="alarmMeme"></div>
+    <div class="alarm-text"><div class="alarm-stage-wrap" data-info="alarm"></div><div class="alarm-stage" id="alarmStage">Checking signals&hellip;</div><div class="alarm-title" id="alarmTitle"></div><div class="alarm-caption" id="alarmCaption"></div></div>
+  </section>
+
+  <section id="market" class="panel" data-rig="left" data-order="1">
+    <div class="panel-head"><h2 data-info="market">XRP price</h2><div class="seg" id="rangeSeg" data-info="rangeSeg"><button data-r="7" class="on">7D</button><button data-r="30">30D</button><button data-r="90">90D</button><button data-r="365">1Y</button></div></div>
+    <div class="price-row">
+      <div class="m" id="m-price"></div><div class="m" id="m-mcap"></div><div class="m" id="m-vol"></div><div class="m" id="m-rlusdpx"></div>
+    </div>
+    <div class="chart-wrap" data-info="priceChart"><canvas id="priceChart"></canvas></div>
+    <div class="src" id="src-chart"></div>
+  </section>
+
+  <section id="xrpn" class="panel" data-rig="left" data-order="2">
+    <div class="panel-head"><h2 data-info="xrpn">XRPN &middot; Evernorth XRP treasury</h2><span class="hint">Treasury buying is a direct XRP demand mechanic. Stock quotes may be delayed 15 min.</span></div>
+    <div class="xrpn-body"><div class="xrpn-stats" id="xrpnStats"></div><div class="xrpn-chart" data-info="xrpnChart"><canvas id="xrpnChart"></canvas></div></div>
+    <div class="src" id="src-xrpn"></div>
+  </section>
+
+  <section id="signals" class="panel" data-rig="left" data-order="3">
+    <div class="panel-head"><h2 data-info="signals">Trader Signals</h2><span class="hint">Informational only. No signal works on its own.</span></div>
+    <div class="sig-grid" id="sigGrid"></div>
+  </section>
+
+  <section id="xmoney" class="panel" data-rig="center" data-order="4">
+    <div class="panel-head"><h2 data-info="xmoney">X Money link watch</h2><span class="hint">Never shown as integrated until an official announcement exists</span></div>
+    <div class="xm-map" id="xmMap"></div>
+    <div class="xm-foot" id="xmFoot"></div>
+  </section>
+
+  <section id="happening" class="panel" data-rig="center" data-order="5">
+    <div class="panel-head"><h2 data-info="happening">What's happening</h2><span class="hint" id="memeLinks"></span></div>
+    <div class="meme-grid" id="memeGrid"></div>
+  </section>
+
+  <section id="scorecard" class="panel" data-rig="center" data-order="6">
+    <div class="panel-head"><h2 data-info="scorecard">Adoption signal scorecard</h2><span class="hint">Each metric vs its own history. Not a buy/sell call.</span></div>
+    <div class="score-grid" id="scoreGrid"></div>
+  </section>
+
+  <section id="adoption" class="panel" data-rig="right" data-order="1">
+    <div class="panel-head"><h2 data-info="adoption">XRPL adoption checks</h2><span class="hint">The 6 checks from the Cross River / RLUSD video</span></div>
+    <div class="card-grid" id="adoptGrid"></div>
+  </section>
+
+  <section id="network" class="panel" data-rig="right" data-order="2">
+    <div class="panel-head"><h2 data-info="network">Network settings &amp; activity</h2></div>
+    <div class="card-grid small" id="netGrid"></div>
+  </section>
+
+  <section id="whales" class="panel" data-rig="rightrow" data-order="3">
+    <div class="panel-head"><h2 data-info="whales">Live whale &amp; RLUSD feed</h2><span class="hint" id="streamInfo">connecting&hellip;</span></div>
+    <div class="feed" id="whaleFeed"></div>
+  </section>
+
+  <section id="news" class="panel" data-rig="rightrow" data-order="4">
+    <div class="panel-head"><h2 data-info="news">Newswire</h2><div class="seg" id="newsSeg"></div><span data-info="newsSeg" class="infoanchor"></span></div>
+    <div class="feed news" id="newsFeed"></div>
+    <div class="src" id="src-news"></div>
+  </section>
+
+  <section id="alarmlog" class="panel" data-rig="rightrow" data-order="5">
+    <div class="panel-head"><h2 data-info="alarmlog">Alarm log</h2><button class="tiny" id="btnClearLog" data-info="btnClearLog">clear</button></div>
+    <div class="feed" id="alarmLog"></div>
+  </section>
+
+  <section id="everywhere" class="panel" data-rig="left" data-order="4">
+    <div class="panel-head"><h2 data-info="everywhere">XRP Everywhere</h2><span class="hint">XRP and RLUSD on every network · hover a row for source and time</span></div>
+    <div id="everyBody"><div class="hint">Loading chains&hellip;</div></div>
+  </section>
+
+  <section id="holders" class="panel" data-rig="left" data-order="5">
+    <div class="panel-head"><h2 data-info="holders">Who holds XRP</h2><span class="hint">verified disclosures only · hover for source</span></div>
+    <div id="holdBody"><div class="hint">Loading&hellip;</div></div>
+  </section>
+
+  <section id="links" class="panel" data-rig="center" data-order="6">
+    <div class="panel-head"><h2 data-info="links">Links</h2></div>
+    <div class="links" id="linksBox"></div>
+  </section>
+
+  <footer id="footer" data-rig="center" data-order="7">
+    <p>Not financial advice. Data from XRP Ledger public servers (xrplcluster.com, s1.ripple.com, xrpl.ws), XRPSCAN, CoinGecko, Coinbase Exchange, Ethereum public RPC (PublicNode, dRPC), OKX, Bitget and Alternative.me, Yahoo Finance (stock quotes, may be delayed 15 min), SEC EDGAR, Google News RSS (headlines and links only); may be delayed. Snapshots are stored only in this browser (localStorage). Mascot and meme art are original.</p>
+  </footer>
+</div>
+<div id="rig" hidden><div class="screen" id="scr-left"></div><div class="screen" id="scr-center"></div><div class="screen" id="scr-right"></div></div>
+<script src="sharedfetch.js"></script>
+<script src="memes.js"></script>
+<script src="app.js"></script>
+<script src="tvchart.js"></script>
+<script src="sched.js"></script>
+<script src="info.js"></script>
+<script src="everywhere.js"></script>
+<script src="holders.js"></script>
+<script src="world.js"></script>
+<script src="rig.js"></script>
+<script src="geo.js"></script>
+<script src="ripplefam.js"></script>
+<script src="worldwatch.js"></script>
+<script src="extras.js"></script>
+<script src="thesis.js"></script>
+<script src="update-config.js"></script>
+<script src="data/signals.js"></script>
+<script src="patterns.js"></script>
+<script src="paper.js"></script>
+<script src="hud.js"></script>
+<script src="intro.js"></script>
+</body>
+</html>

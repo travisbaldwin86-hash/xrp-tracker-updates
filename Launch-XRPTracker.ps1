@@ -41,7 +41,7 @@ Add-Type @"
 using System; using System.Runtime.InteropServices;
 public static class XrpTop { [DllImport("user32.dll")] public static extern bool SetWindowPos(IntPtr h, IntPtr after, int x, int y, int cx, int cy, uint f); }
 "@
-# Put OUR window's client area exactly on X,Y,W,H (covers the taskbar: topmost), verify by reading it back, correct up to 4 times, log the result.
+# Put OUR window on X,Y,W,H as a normal (minimizable, resizable) window with its title bar visible, verify by reading it back, correct up to 4 times, log the result.
 function Set-Place($hw, $X, $Y, $W, $Ht, $name) {
   $ok = $false
   for ($k = 0; $k -lt 4 -and -not $ok; $k++) {
@@ -50,11 +50,11 @@ function Set-Place($hw, $X, $Y, $W, $Ht, $name) {
     $wr = New-Object XrpWin+RECT; $cr = New-Object XrpWin+RECT; $pt = New-Object XrpWin+POINT
     [void][XrpWin]::GetWindowRect($hw, [ref]$wr); [void][XrpWin]::GetClientRect($hw, [ref]$cr); [void][XrpWin]::ClientToScreen($hw, [ref]$pt)
     $left = $pt.X - $wr.L; $top = $pt.Y - $wr.T; $right = ($wr.R - $wr.L) - $left - $cr.R; $bottom = ($wr.B - $wr.T) - $top - $cr.B
-    [void][XrpTop]::SetWindowPos($hw, [IntPtr](-1), $X - $left, $Y - $top, $W + $left + $right, $Ht + $top + $bottom, 0x0040)
+    [void][XrpTop]::SetWindowPos($hw, [IntPtr](-2), $X - $left, $Y, $W + $left + $right, $Ht + $bottom, 0x0040)   # normal window: title bar visible (minimize/maximize/resize), not topmost
     Start-Sleep -Milliseconds 450
     $wr = New-Object XrpWin+RECT; $cr = New-Object XrpWin+RECT; $pt = New-Object XrpWin+POINT
     [void][XrpWin]::GetWindowRect($hw, [ref]$wr); [void][XrpWin]::GetClientRect($hw, [ref]$cr); [void][XrpWin]::ClientToScreen($hw, [ref]$pt)
-    $dx = $pt.X - $X; $dy = $pt.Y - $Y; $dw = $cr.R - $W; $dh = $cr.B - $Ht
+    $dx = $pt.X - $X; $dy = $wr.T - $Y; $dw = $cr.R - $W; $dh = 0   # window top edge at screen top; client height = screen height minus title bar
     $ok = ([math]::Abs($dx) -le 2 -and [math]::Abs($dy) -le 2 -and [math]::Abs($dw) -le 2 -and [math]::Abs($dh) -le 2)
     Write-Place ("{0} try {1}: wanted client {2},{3} {4}x{5}; got client {6},{7} {8}x{9}; window {10},{11}-{12},{13}; {14}" -f $name, ($k + 1), $X, $Y, $W, $Ht, $pt.X, $pt.Y, $cr.R, $cr.B, $wr.L, $wr.T, $wr.R, $wr.B, $(if ($ok) { 'OK' } else { 'retry' }))
   }

@@ -1,5 +1,5 @@
 {
- "version": "20261020-200648",
+ "version": "20261020-225244",
  "files": [
   {
    "path": "site/everywhere.js",
@@ -11,7 +11,7 @@
   },
   {
    "path": "site/index.html",
-   "sha256": "d5b64d503bb54cfc250fbfc9ad72cfb0932c6d7ccf005b8ab2efa00f8de62df9"
+   "sha256": "fada14e2b699b3330544beeeb3d6141654341edbd48300ea0f5df9a9d3527165"
   },
   {
    "path": "site/app.js",
@@ -51,11 +51,11 @@
   },
   {
    "path": "site/rig.css",
-   "sha256": "6443d84b633f5d87c5205350b4c9bfad9e7ba66a60df9332d9a1850740222c92"
+   "sha256": "54338b2ac33086bb7ff31208c7dded7731aa9714f0ef7a976b737827d4277c56"
   },
   {
    "path": "site/rig.js",
-   "sha256": "274dff576dd9427d64b477858f696f52f17a7e39eb0e4f4f8645e6d63a068edc"
+   "sha256": "71182faaec4d611bc8cb4b2370c6889bc9a4a5dbdfac1fb8845c6d5115a415a1"
   },
   {
    "path": "site/hud.js",
@@ -118,6 +118,10 @@
    "sha256": "aada545efb38b293624a53ac39ca5e412cb1d778f110c43cdee6e2efdb0d7285"
   },
   {
+   "path": "site/goal.js",
+   "sha256": "640152352016e0dfa3b4af62a89b561b0e65611e840512dc444404dc92868c18"
+  },
+  {
    "path": "site/data/signals.json",
    "sha256": "155878e089c388cc073ba69bee866787167d544fbe821cd033d2ecb81a34555e"
   },
@@ -127,7 +131,7 @@
   },
   {
    "path": "Launch-XRPTracker.ps1",
-   "sha256": "44d576c898e7d7d0effc53ae91568bc9a73cbc914ebedc73b6c4dcb9b2b64f37"
+   "sha256": "5a6ab133d27ecf21c2e9083261e05bca7c1c1705fc384bfad2b4cf282317ab8f"
   },
   {
    "path": "XRPTrackerServer.ps1",

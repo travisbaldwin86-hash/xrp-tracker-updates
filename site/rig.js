@@ -68,8 +68,9 @@ window.RigMode=()=>R.mode; window.renderDemand=(...a)=>renderDemand(...a);
 /* ---------- 4. auto-fit each 1920×1080 screen (then per-column scroll as fallback) ---------- */
 let fitBusy=false, fitT=0;
 function fitAll(){ if(fitBusy) return; fitBusy=true;
-  const z0=innerWidth/5760; /* width-driven so the 3 panels always land on the 3 physical screens (x=0/1920/3840); height follows the real window */
-  const padTop=parseFloat(getComputedStyle(document.body).paddingTop)||0, hh=Math.max(600,(innerHeight-padTop)/z0); Q('#rig').style.zoom=String(z0); Q('#rig').style.height=hh+'px'; QA('#rig .screen').forEach(e=>e.style.height=hh+'px'); let changed=false; const out=[];
+  const stack=innerWidth<2600; document.body.classList.toggle('rig-stack',stack); /* narrow/restored window: stack the 3 screens vertically and scroll */
+  const z0=stack?innerWidth/1920:innerWidth/5760; /* width-driven so the 3 panels always land on the 3 physical screens (x=0/1920/3840); height follows the real window */
+  const padTop=parseFloat(getComputedStyle(document.body).paddingTop)||0, hh=stack?1080:Math.max(600,(innerHeight-padTop)/z0); Q('#rig').style.zoom=String(z0); Q('#rig').style.height=stack?(3*hh)+'px':hh+'px'; QA('#rig .screen').forEach(e=>e.style.height=hh+'px'); let changed=false; const out=[];
   QA('#rig .scr-fit').forEach(f=>{ const sc=f.parentElement, prev=parseFloat(f.style.zoom||'1'); f.style.zoom='1'; const avail=sc.clientHeight-2; let z=1;
     for(let i=0;i<5;i++){ const h=f.scrollHeight*z; if(h<=avail) break; z=Math.max(0.6,z*avail/h*0.995); f.style.zoom=String(z); if(z<=0.6) break; }
     if(Math.abs(z-prev)>0.004) changed=true; out.push(Math.round(z*100)+'%'+(f.scrollHeight*z>avail+1?' scroll':'')); });

@@ -1,5 +1,5 @@
 {
- "version": "20261020-235349",
+ "version": "20261020-235657",
  "files": [
   {
    "path": "site/everywhere.js",
@@ -183,7 +183,7 @@
   },
   {
    "path": "Launch-XRPTracker.ps1",
-   "sha256": "ed178f9a36eee5e0da31f1daec07e25a9a37181391d5563f18afb547cedf2c8f"
+   "sha256": "5979c0b7fd3668ab69275573f5d1f7fe29eea4b9ce03e4770a3963cf78ffcf02"
   },
   {
    "path": "XRPTrackerServer.ps1",

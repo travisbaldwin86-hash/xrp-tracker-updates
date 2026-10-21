@@ -133,20 +133,25 @@ if ($hwnd -ne [IntPtr]::Zero) { Set-Place $hwnd $X $Y $W $H 'rig' } else { Write
 # ONE app: keep the floor window in step with the main window (minimize / restore / close together). Ends when the main window closes.
 if ($All -and $hwnd -ne [IntPtr]::Zero -and $floorHwnd -ne [IntPtr]::Zero) {
   Add-Type @"
-using System; using System.Runtime.InteropServices;
-public static class XrpSync { [DllImport("user32.dll")] public static extern bool IsIconic(IntPtr h); [DllImport("user32.dll")] public static extern bool IsWindow(IntPtr h);
-  [DllImport("user32.dll")] public static extern bool ShowWindow(IntPtr h, int c); [DllImport("user32.dll")] public static extern IntPtr PostMessage(IntPtr h, uint m, IntPtr w, IntPtr l); }
+using System; using System.Text; using System.Runtime.InteropServices;
+public static class XrpSync { public delegate bool P(IntPtr h, IntPtr l);
+  [DllImport("user32.dll")] public static extern bool EnumWindows(P p, IntPtr l); [DllImport("user32.dll")] public static extern int GetWindowText(IntPtr h, StringBuilder s, int n);
+  [DllImport("user32.dll")] public static extern bool IsIconic(IntPtr h); [DllImport("user32.dll")] public static extern bool IsWindow(IntPtr h);
+  [DllImport("user32.dll")] public static extern bool ShowWindow(IntPtr h, int c); [DllImport("user32.dll")] public static extern IntPtr PostMessage(IntPtr h, uint m, IntPtr w, IntPtr l);
+  public static IntPtr Find(string prefix) { IntPtr f = IntPtr.Zero; EnumWindows((h, l) => { var s = new StringBuilder(256); GetWindowText(h, s, 256); if (s.ToString().StartsWith(prefix)) { f = h; return false; } return true; }, IntPtr.Zero); return f; } }
 "@
   Write-Place 'all: linked rig + floor windows'
-  $wasMin = $false
-  while ([XrpSync]::IsWindow($hwnd)) {
+  $wasMin = $false; $gone = 0
+  while ($gone -lt 4) {
     Start-Sleep -Milliseconds 700
-    if (-not [XrpSync]::IsWindow($floorHwnd)) { continue }
-    $m = [XrpSync]::IsIconic($hwnd)
-    if ($m -and -not $wasMin) { [void][XrpSync]::ShowWindow($floorHwnd, 6) }
-    if (-not $m -and $wasMin) { [void][XrpSync]::ShowWindow($floorHwnd, 4) }
+    $main = [XrpSync]::Find('XRP Adoption Tracker'); $fl = [XrpSync]::Find('XRP Floor Detail')
+    if ($main -eq [IntPtr]::Zero) { $gone++; continue } else { $gone = 0 }
+    if ($fl -eq [IntPtr]::Zero) { continue }
+    $m = [XrpSync]::IsIconic($main)
+    if ($m -and -not $wasMin) { [void][XrpSync]::ShowWindow($fl, 6) }
+    if (-not $m -and $wasMin) { [void][XrpSync]::ShowWindow($fl, 4) }
     $wasMin = $m
   }
-  if ([XrpSync]::IsWindow($floorHwnd)) { [void][XrpSync]::PostMessage($floorHwnd, 0x0010, [IntPtr]::Zero, [IntPtr]::Zero) }
+  $fl = [XrpSync]::Find('XRP Floor Detail'); if ($fl -ne [IntPtr]::Zero) { [void][XrpSync]::PostMessage($fl, 0x0010, [IntPtr]::Zero, [IntPtr]::Zero) }
   Write-Place 'all: main window closed; floor closed too'
 }

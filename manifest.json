@@ -1,165 +1,157 @@
 {
- "version": "20261021-000350",
+ "version": "20261021-081138",
  "files": [
-  {
-   "path": "site/everywhere.js",
-   "sha256": "4c8f1db422f87ebd5996dc3dd7ab80bf87bfea3db405339be28635144e890d5c"
-  },
-  {
-   "path": "site/logo_rig.svg",
-   "sha256": "a9df04802e9f8538c9903cd20bd3b418d833f26b56eb9ff9deb5372adb3c5f97"
-  },
-  {
-   "path": "site/index.html",
-   "sha256": "4cb0881b937d8d886e90817bdd21f4c7bbb8df906c1f2cf060c210f3fe5fd2fa"
-  },
-  {
-   "path": "site/app.js",
-   "sha256": "66ef5efb2c71564d97f84d3ee95a71892a77fb61912f4800b73f7c0689f231af"
-  },
-  {
-   "path": "site/favicon.svg",
-   "sha256": "a9df04802e9f8538c9903cd20bd3b418d833f26b56eb9ff9deb5372adb3c5f97"
-  },
-  {
-   "path": "site/memes.js",
-   "sha256": "7230fc880d9f912086e72b4f49b11c3a76bcd243d147fce1ba42e87bd721035f"
-  },
-  {
-   "path": "site/holders.js",
-   "sha256": "41c56f0af5ef64168ccf098b4700c6df3604f2d05d68355ad4809893136519d5"
-  },
-  {
-   "path": "site/info.js",
-   "sha256": "91e06b66b62caa62f44edf6cc0bb899549bff75b8db89cf78c5c5bc2092dded2"
-  },
-  {
-   "path": "site/xrp_tracker_rig.ico",
-   "sha256": "a36187a096120ece423cb0f817e93c10799dfe2bdbf2329c88bc28c6ab5ba20a"
-  },
-  {
-   "path": "site/favicon.ico",
-   "sha256": "a36187a096120ece423cb0f817e93c10799dfe2bdbf2329c88bc28c6ab5ba20a"
-  },
-  {
-   "path": "site/styles.css",
-   "sha256": "8a5c3b3880cb5d566f180fcec6652005aca31aa4a68010d0ae81ab50c29cf7f5"
-  },
-  {
-   "path": "site/world.js",
-   "sha256": "f8625ebb6da799d93bf341af50d952191ac22ca0a4f52f4e27b5089b15ea2964"
-  },
-  {
-   "path": "site/rig.css",
-   "sha256": "99946ce9eb577e12ff2d9d51cea0b55673449a72634364b36235764ac23ce5b9"
-  },
-  {
-   "path": "site/rig.js",
-   "sha256": "c719c6ef12133f490de661be063032376dcce823326655869ebfc3db173d232f"
-  },
-  {
-   "path": "site/hud.js",
-   "sha256": "11d5cb33d3c3433981ec4563061cefb5523b5d05d15f3b106ecb69d8095cb534"
-  },
-  {
-   "path": "site/sched.js",
-   "sha256": "4c4daada063a253b906e9a7f3b38ccc81754a22287091b18a91e5315cc01e786"
-  },
-  {
-   "path": "site/xrp_tracker.ico",
-   "sha256": "a36187a096120ece423cb0f817e93c10799dfe2bdbf2329c88bc28c6ab5ba20a"
-  },
-  {
-   "path": "site/thesis.js",
-   "sha256": "b83133b2cdf0c6b1f11f36b98452216c7a0d0d071b6945444a20a0768eda7563"
-  },
-  {
-   "path": "site/hud.css",
-   "sha256": "2dad762279b0758857d3de465a700b451cd0f58c633b8bb4be4fb07e058207f6"
-  },
-  {
-   "path": "site/worldwatch.js",
-   "sha256": "59906e70d761c51c5aff3c5f01b45ca5e2f05beaff26e353da0fdfc9a4cdbf1b"
-  },
-  {
-   "path": "site/sharedfetch.js",
-   "sha256": "cf7f6ba3fe667d90fdcf5663ac2b405e12e1e4eb50efaef8595ba44fd7260820"
-  },
-  {
-   "path": "site/extras.js",
-   "sha256": "c959a8e0a8d87bf2c67599f7156b26045582fa6583277ca5dbd27ed9be89475f"
-  },
-  {
-   "path": "site/ripplefam.js",
-   "sha256": "bba513e7e22a98cc4c20728567e453273aa46698052262f9405fb55a52615867"
-  },
   {
    "path": "site/paper.js",
    "sha256": "478eca98b29e2738054004065200b3261aa88ae022689b8528afed1ab94f8375"
-  },
-  {
-   "path": "site/patterns.js",
-   "sha256": "e3576d0794fb5bc3c05ea2e32e8b206580857d1d8f4144c98f2166b1bbfc66b0"
-  },
-  {
-   "path": "site/xrp_tracker_floor.ico",
-   "sha256": "a36187a096120ece423cb0f817e93c10799dfe2bdbf2329c88bc28c6ab5ba20a"
-  },
-  {
-   "path": "site/intro.js",
-   "sha256": "4c1d5cb4025e9b5568c7eb3d25a56583775c536e58b1f43531bf32b17585001e"
-  },
-  {
-   "path": "site/geo.js",
-   "sha256": "076d9f5069185581f52e82a6b5ec3e1e6a8571f135e8542223d084fbeff6e9f1"
   },
   {
    "path": "site/tvchart.js",
    "sha256": "6a0dff19c0a4c5b0a70d3ae0716609e7dce092a4c33d25ee2c7ee704324d9565"
   },
   {
-   "path": "site/goal.js",
-   "sha256": "3e47b94b7b9d06884b7326675de7ab8c38b4c54e1624670cba1e53070dd3bd5a"
+   "path": "site/cyber.js",
+   "sha256": "f5820829ff243612ba275315ae17b7d0c3095e15c89493f0451fc248641e321b"
+  },
+  {
+   "path": "site/app.js",
+   "sha256": "66ef5efb2c71564d97f84d3ee95a71892a77fb61912f4800b73f7c0689f231af"
+  },
+  {
+   "path": "site/thesis.js",
+   "sha256": "9cc28beedf1851db3edc81a87df0be77db95b85f18944938bc7349b015f7e2df"
+  },
+  {
+   "path": "site/rig.js",
+   "sha256": "c719c6ef12133f490de661be063032376dcce823326655869ebfc3db173d232f"
+  },
+  {
+   "path": "site/xrp_tracker.ico",
+   "sha256": "a36187a096120ece423cb0f817e93c10799dfe2bdbf2329c88bc28c6ab5ba20a"
   },
   {
    "path": "site/cyber.css",
    "sha256": "91f226d21d6aed64d3a9de8134ed2408a4c2313cbf84c27666e7800549f1b436"
   },
   {
-   "path": "site/cyber.js",
-   "sha256": "f5820829ff243612ba275315ae17b7d0c3095e15c89493f0451fc248641e321b"
+   "path": "site/hud.css",
+   "sha256": "2dad762279b0758857d3de465a700b451cd0f58c633b8bb4be4fb07e058207f6"
+  },
+  {
+   "path": "site/extras.js",
+   "sha256": "c959a8e0a8d87bf2c67599f7156b26045582fa6583277ca5dbd27ed9be89475f"
+  },
+  {
+   "path": "site/intro.js",
+   "sha256": "4c1d5cb4025e9b5568c7eb3d25a56583775c536e58b1f43531bf32b17585001e"
+  },
+  {
+   "path": "site/favicon.ico",
+   "sha256": "a36187a096120ece423cb0f817e93c10799dfe2bdbf2329c88bc28c6ab5ba20a"
+  },
+  {
+   "path": "site/sharedfetch.js",
+   "sha256": "cf7f6ba3fe667d90fdcf5663ac2b405e12e1e4eb50efaef8595ba44fd7260820"
+  },
+  {
+   "path": "site/rig.css",
+   "sha256": "99946ce9eb577e12ff2d9d51cea0b55673449a72634364b36235764ac23ce5b9"
+  },
+  {
+   "path": "site/xrp_tracker_rig.ico",
+   "sha256": "a36187a096120ece423cb0f817e93c10799dfe2bdbf2329c88bc28c6ab5ba20a"
+  },
+  {
+   "path": "site/info.js",
+   "sha256": "91e06b66b62caa62f44edf6cc0bb899549bff75b8db89cf78c5c5bc2092dded2"
+  },
+  {
+   "path": "site/everywhere.js",
+   "sha256": "4c8f1db422f87ebd5996dc3dd7ab80bf87bfea3db405339be28635144e890d5c"
   },
   {
    "path": "site/tv.html",
    "sha256": "f19c61e75038c9da68f3b93f7422beda0a39af687811f982c0a11df4befed081"
   },
   {
-   "path": "site/tv.js",
-   "sha256": "337fdc7ae8910eb6ef89991c6dc1c0adc98c94d39e9a4007d6ac94faa477ebd2"
+   "path": "site/sched.js",
+   "sha256": "4c4daada063a253b906e9a7f3b38ccc81754a22287091b18a91e5315cc01e786"
   },
   {
    "path": "site/eggs.js",
    "sha256": "6f83476b37693a6de2a849771870fcc8ed7f35fea4ef0530d083cd0e2ab1629e"
   },
   {
-   "path": "site/data/signals.json",
-   "sha256": "155878e089c388cc073ba69bee866787167d544fbe821cd033d2ecb81a34555e"
+   "path": "site/xrp_tracker_floor.ico",
+   "sha256": "a36187a096120ece423cb0f817e93c10799dfe2bdbf2329c88bc28c6ab5ba20a"
+  },
+  {
+   "path": "site/ripplefam.js",
+   "sha256": "bba513e7e22a98cc4c20728567e453273aa46698052262f9405fb55a52615867"
+  },
+  {
+   "path": "site/memes.js",
+   "sha256": "7230fc880d9f912086e72b4f49b11c3a76bcd243d147fce1ba42e87bd721035f"
+  },
+  {
+   "path": "site/index.html",
+   "sha256": "4cb0881b937d8d886e90817bdd21f4c7bbb8df906c1f2cf060c210f3fe5fd2fa"
+  },
+  {
+   "path": "site/world.js",
+   "sha256": "f8625ebb6da799d93bf341af50d952191ac22ca0a4f52f4e27b5089b15ea2964"
+  },
+  {
+   "path": "site/styles.css",
+   "sha256": "8a5c3b3880cb5d566f180fcec6652005aca31aa4a68010d0ae81ab50c29cf7f5"
+  },
+  {
+   "path": "site/logo_rig.svg",
+   "sha256": "a9df04802e9f8538c9903cd20bd3b418d833f26b56eb9ff9deb5372adb3c5f97"
+  },
+  {
+   "path": "site/worldwatch.js",
+   "sha256": "59906e70d761c51c5aff3c5f01b45ca5e2f05beaff26e353da0fdfc9a4cdbf1b"
+  },
+  {
+   "path": "site/favicon.svg",
+   "sha256": "a9df04802e9f8538c9903cd20bd3b418d833f26b56eb9ff9deb5372adb3c5f97"
+  },
+  {
+   "path": "site/patterns.js",
+   "sha256": "e3576d0794fb5bc3c05ea2e32e8b206580857d1d8f4144c98f2166b1bbfc66b0"
+  },
+  {
+   "path": "site/geo.js",
+   "sha256": "076d9f5069185581f52e82a6b5ec3e1e6a8571f135e8542223d084fbeff6e9f1"
+  },
+  {
+   "path": "site/goal.js",
+   "sha256": "3e47b94b7b9d06884b7326675de7ab8c38b4c54e1624670cba1e53070dd3bd5a"
+  },
+  {
+   "path": "site/holders.js",
+   "sha256": "41c56f0af5ef64168ccf098b4700c6df3604f2d05d68355ad4809893136519d5"
+  },
+  {
+   "path": "site/hud.js",
+   "sha256": "11d5cb33d3c3433981ec4563061cefb5523b5d05d15f3b106ecb69d8095cb534"
+  },
+  {
+   "path": "site/tv.js",
+   "sha256": "337fdc7ae8910eb6ef89991c6dc1c0adc98c94d39e9a4007d6ac94faa477ebd2"
   },
   {
    "path": "site/data/signals.js",
-   "sha256": "0a2f81c39f5ffcedd826d2bdddf8c6861d6763e781008584b20e129e16410d4d"
+   "sha256": "5bf32cc6ad01b2351856336538592b38d4e9cd58b15e18db4577740b80e747a1"
   },
   {
-   "path": "site/fonts/Orbitron-500.woff2",
-   "sha256": "c25a9f9da5d9f3db1bf2a01474722dc9b377675b7bbab6d0dfda6902794fd1ed"
+   "path": "site/data/signals.json",
+   "sha256": "3dc714cd0792099c66880bb00c94faa760a0d65d8d12cc19a479f9c13c02aebe"
   },
   {
-   "path": "site/fonts/Orbitron-700.woff2",
-   "sha256": "c25a9f9da5d9f3db1bf2a01474722dc9b377675b7bbab6d0dfda6902794fd1ed"
-  },
-  {
-   "path": "site/fonts/Orbitron-900.woff2",
-   "sha256": "c25a9f9da5d9f3db1bf2a01474722dc9b377675b7bbab6d0dfda6902794fd1ed"
+   "path": "site/fonts/fonts.css",
+   "sha256": "a5d70f58b07247839ce050efc0a513e879673017f72a33d96a663fe262c14b17"
   },
   {
    "path": "site/fonts/Rajdhani-500.woff2",
@@ -170,16 +162,24 @@
    "sha256": "433a7007e4747a02a790167a6efa2625855f013970ba49b9b739a5d3db8b2601"
   },
   {
-   "path": "site/fonts/Rajdhani-700.woff2",
-   "sha256": "5b7e4a6f97163c2636724d4de90304fc895653dcfe64c67a7a22f26331ca5c5f"
-  },
-  {
    "path": "site/fonts/ShareTechMono-400.woff2",
    "sha256": "41e6b9f297f7d9a2df2aaa274092f76d2f72711a15ca455f7f4f4f92caf16b72"
   },
   {
-   "path": "site/fonts/fonts.css",
-   "sha256": "a5d70f58b07247839ce050efc0a513e879673017f72a33d96a663fe262c14b17"
+   "path": "site/fonts/Orbitron-700.woff2",
+   "sha256": "c25a9f9da5d9f3db1bf2a01474722dc9b377675b7bbab6d0dfda6902794fd1ed"
+  },
+  {
+   "path": "site/fonts/Orbitron-900.woff2",
+   "sha256": "c25a9f9da5d9f3db1bf2a01474722dc9b377675b7bbab6d0dfda6902794fd1ed"
+  },
+  {
+   "path": "site/fonts/Orbitron-500.woff2",
+   "sha256": "c25a9f9da5d9f3db1bf2a01474722dc9b377675b7bbab6d0dfda6902794fd1ed"
+  },
+  {
+   "path": "site/fonts/Rajdhani-700.woff2",
+   "sha256": "5b7e4a6f97163c2636724d4de90304fc895653dcfe64c67a7a22f26331ca5c5f"
   },
   {
    "path": "Launch-XRPTracker.ps1",

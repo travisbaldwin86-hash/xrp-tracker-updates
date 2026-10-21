@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-20T20:06:46-04:00",
+ "updated": "2026-10-21T08:11:29-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -57,7 +57,9 @@
    "collateral",
    "Canton",
    "Ripple Prime",
-   "working group"
+   "working group",
+   "Virtu",
+   "24/7"
   ],
   "Banks": [
    "bank",
@@ -90,7 +92,8 @@
    "AI agent",
    "Batch",
    "x402-Secure",
-   "Peersyst"
+   "Peersyst",
+   "ledger close"
   ],
   "Teasers": [
    "big news",
@@ -126,7 +129,9 @@
    "DM me",
    "seed phrase",
    "airdrop",
-   "clone"
+   "clone",
+   "system reset",
+   "QFS"
   ]
  },
  "discovered": [
@@ -1162,6 +1167,61 @@
    ],
    "theme": "ETFs / treasuries",
    "note": "Mild hurt: ETF demand cooling into Swell; the whale move's purpose is unknown"
+  },
+  {
+   "d": "2026-10-20T22:33",
+   "acct": "@XRPLOperations",
+   "url": "https://x.com/XRPLOperations/status/2112733899558371703",
+   "title": "XRPL Operations: some XRP Ledger closes are slower than usual; team investigating and working on a fix since earlier in the day",
+   "status": "confirmed",
+   "entities": [
+    "XRPL Foundation",
+    "XRPL"
+   ],
+   "theme": "XRPL tech",
+   "note": "Mild short-term hurt (reliability optics); Schwartz says hub outages don't affect the ledger itself, and transparent ops comms help trust"
+  },
+  {
+   "d": "2026-10-21T05:42",
+   "acct": "X News (CoinDesk report)",
+   "url": "https://x.com/i/trending/2112840786371047886",
+   "title": "Ripple Prime runs 24/7 institutional swaps on 100+ stock, index, ETF, metal, energy and FX markets with RLUSD as collateral; Virtu already trading; HSBC calls it 'evolutionary, not revolutionary' on thin liquidity",
+   "status": "confirmed",
+   "entities": [
+    "Ripple Prime",
+    "RLUSD",
+    "Virtu",
+    "HSBC",
+    "Hyperliquid"
+   ],
+   "theme": "Market infrastructure",
+   "note": "Helps RLUSD utility and Ripple's TradFi reach; XRP itself isn't the settlement asset, so direct XRP demand isn't established"
+  },
+  {
+   "d": "2026-10-20T21:55",
+   "acct": "X News / @FuzzybearBTC",
+   "url": "https://x.com/i/trending/2112547756204011522",
+   "title": "Fuzzybear (the 2014 XRPL DEX order wallet) acknowledges the $FUZZY memecoin tribute but says he has no role; token reported up ~50% in a day (~$25M cap)",
+   "status": "speculation",
+   "entities": [
+    "FUZZY",
+    "First Ledger"
+   ],
+   "theme": "XRPL tech",
+   "note": "Neutral for XRP: memecoin hype feeds the $FUZZY-Evernorth-Swell rumor, which no one official has confirmed"
+  },
+  {
+   "d": "2026-10-21T06:59",
+   "acct": "@TrumpAccount47 (and copies)",
+   "url": "https://x.com/TrumpAccount47/status/2112861361214562630",
+   "title": "Copy-paste wave from politician-named accounts: 'SYSTEM RESET IS LIVE, ISO 20022 is ON, quantum ledger unlocked', with DM links",
+   "status": "rumor",
+   "entities": [
+    "ISO 20022",
+    "QFS"
+   ],
+   "theme": "Scams / safety",
+   "note": "Hurts: impersonator QFS scam bait; ISO 20022 is a messaging standard and says nothing about XRP"
   }
  ]
 }

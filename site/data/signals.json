@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-20T17:03:32-04:00",
+ "updated": "2026-10-20T20:06:46-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -46,7 +46,9 @@
    "charter",
    "master account",
    "Fed",
-   "Treasury"
+   "Treasury",
+   "Regulation Crypto Assets",
+   "comment letter"
   ],
   "Market infrastructure": [
    "DTCC",
@@ -86,7 +88,9 @@
    "sidechain",
    "x402",
    "AI agent",
-   "Batch"
+   "Batch",
+   "x402-Secure",
+   "Peersyst"
   ],
   "Teasers": [
    "big news",
@@ -138,7 +142,10 @@
   "whale outflows",
   "exchange inflows",
   "Network Broker",
-  "closed-ended vault"
+  "closed-ended vault",
+  "spot xrp",
+  "Fed master account",
+  "RWA inflows"
  ],
  "events": [
   {
@@ -183,6 +190,11 @@
   }
  ],
  "teasers": [
+  {
+   "teaser": "Peersyst \"advancements on XRPL EVM, XRPL Monitoring, institutional projects ... to announce soon\" (Oct 19)",
+   "outcome": "pending",
+   "url": "https://x.com/Peersyst/status/2112231046418972795"
+  },
   {
    "teaser": "Evernorth \"Something special is planned for Swell\" (Oct 19)",
    "outcome": "pending",
@@ -1055,6 +1067,101 @@
    ],
    "theme": "Community / teasers",
    "note": "Hurts credibility: same debunked DTCC claim, now from 'Jake Claver' clone handles; ignore"
+  },
+  {
+   "d": "2026-10-20T18:32",
+   "acct": "@s_alderoty",
+   "url": "https://x.com/s_alderoty/status/2112673463416795466",
+   "title": "Ripple files comment letter backing the SEC's proposed Regulation Crypto Assets; says SEC has clear authority to adopt it",
+   "status": "confirmed",
+   "entities": [
+    "Ripple",
+    "SEC"
+   ],
+   "theme": "Regulation",
+   "note": "Helps: Ripple pushing for holistic token rules instead of coin-by-coin enforcement; final rule still pending"
+  },
+  {
+   "d": "2026-10-20T17:15",
+   "acct": "@Ripple_X",
+   "url": "https://x.com/Ripple_X/status/2112653843481919830",
+   "title": "Claim (RWA data site): XRPL took $1.9B net real-world-asset inflows in 6 months, 2nd to BNB Chain ($2.2B); Ethereum -$2.7B; $2.5B incl. stablecoins",
+   "status": "speculation",
+   "entities": [
+    "XRPL",
+    "BNB Chain",
+    "Ethereum",
+    "RWA"
+   ],
+   "theme": "Market infrastructure",
+   "note": "Helps the XRPL-usage story if the data holds; RWA tokens are not XRP demand by themselves"
+  },
+  {
+   "d": "2026-10-20T15:19",
+   "acct": "@crossriverbank",
+   "url": "https://x.com/crossriverbank/status/2112624798261989430",
+   "title": "Cross River co-hosted a Money20/20 event with Ripple (Oct 19 night)",
+   "status": "confirmed",
+   "entities": [
+    "Cross River",
+    "Ripple"
+   ],
+   "theme": "Banks",
+   "note": "Mild help: the RLUSD/XRPL bank partner is publicly deepening ties with Ripple"
+  },
+  {
+   "d": "2026-10-19T13:14",
+   "acct": "@Peersyst",
+   "url": "https://x.com/Peersyst/status/2112231046418972795",
+   "title": "Peersyst (XRPL EVM builder) to @XRP: advancements on XRPL EVM, XRPL Monitoring, institutional projects 'to announce soon' 😉",
+   "status": "speculation",
+   "entities": [
+    "Peersyst",
+    "XRPL EVM"
+   ],
+   "theme": "XRPL tech",
+   "note": "Teaser: possible XRPL EVM / institutional news, likely around Swell; nothing named yet"
+  },
+  {
+   "d": "2026-10-19T12:25",
+   "acct": "@t54ai",
+   "url": "https://x.com/t54ai/status/2112218578380616053",
+   "title": "t54 shows x402-Secure: risk check (Trustline engine) before an AI agent's RLUSD payment settles on XRPL",
+   "status": "confirmed",
+   "entities": [
+    "t54",
+    "RLUSD",
+    "x402"
+   ],
+   "theme": "XRPL tech",
+   "note": "Small help: AI-agent payments tooling on XRPL; settles in RLUSD, XRP only as fees"
+  },
+  {
+   "d": "2026-10-20T18:50",
+   "acct": "@unknowDLT",
+   "url": "https://x.com/unknowDLT/status/2112677990580576299",
+   "title": "Viral cryptic post 'Fed master account / BlackRock XRP ETF / DTCC' (340 likes, copied by several accounts)",
+   "status": "speculation",
+   "entities": [
+    "Fed",
+    "BlackRock",
+    "DTCC"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Pure hype list; no BlackRock XRP ETF filing or Fed master account exists for Ripple as of now"
+  },
+  {
+   "d": "2026-10-20T19:12",
+   "acct": "@Stockmanking",
+   "url": "https://x.com/Stockmanking/status/2112683424733622486",
+   "title": "Claim: US spot XRP ETFs had a $1.84M net outflow last week, ending a 13-week inflow streak; Whale Alert flagged 82.3M XRP to a new address",
+   "status": "speculation",
+   "entities": [
+    "XRP ETF",
+    "Whale Alert"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Mild hurt: ETF demand cooling into Swell; the whale move's purpose is unknown"
   }
  ]
 }

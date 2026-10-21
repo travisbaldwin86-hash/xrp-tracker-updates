@@ -1,5 +1,5 @@
 {
- "version": "20261020-225244",
+ "version": "20261020-230857",
  "files": [
   {
    "path": "site/everywhere.js",
@@ -71,7 +71,7 @@
   },
   {
    "path": "site/thesis.js",
-   "sha256": "2cdbed3a7220f4a001fff9e2d4980e10aac5dbdb5f1a5a5b2cbff303efc33fe1"
+   "sha256": "b83133b2cdf0c6b1f11f36b98452216c7a0d0d071b6945444a20a0768eda7563"
   },
   {
    "path": "site/hud.css",

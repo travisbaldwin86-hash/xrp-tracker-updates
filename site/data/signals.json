@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-21T08:11:29-04:00",
+ "updated": "2026-10-21T11:06:24-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -59,7 +59,8 @@
    "Ripple Prime",
    "working group",
    "Virtu",
-   "24/7"
+   "24/7",
+   "Nasdaq"
   ],
   "Banks": [
    "bank",
@@ -68,7 +69,8 @@
    "Meritz",
    "custody",
    "Sparkasse",
-   "DekaBank"
+   "DekaBank",
+   "Zodia"
   ],
   "Big tech": [
    "Google",
@@ -93,7 +95,8 @@
    "Batch",
    "x402-Secure",
    "Peersyst",
-   "ledger close"
+   "ledger close",
+   "fix release"
   ],
   "Teasers": [
    "big news",
@@ -1222,6 +1225,101 @@
    ],
    "theme": "Scams / safety",
    "note": "Hurts: impersonator QFS scam bait; ISO 20022 is a messaging standard and says nothing about XRP"
+  },
+  {
+   "d": "2026-10-21T10:10",
+   "acct": "@XRPLOperations",
+   "url": "https://x.com/XRPLOperations/status/2112909423110922597",
+   "title": "XRPL Operations: slower-than-usual ledger closes still happening; team finalizing a fix release to ship as soon as possible",
+   "status": "confirmed",
+   "entities": [
+    "XRPL Operations",
+    "XRP Ledger"
+   ],
+   "theme": "XRPL tech",
+   "note": "Short-term reliability knock, but a fix is close; watch for the release and validators updating"
+  },
+  {
+   "d": "2026-10-21T10:03",
+   "acct": "X News (OCC)",
+   "url": "https://x.com/i/trending/2112871174527238563",
+   "title": "OCC finalizes first GENIUS Act rules for payment stablecoin issuers (reserves, redemptions, custody); effective Jan 18 2027",
+   "status": "confirmed",
+   "entities": [
+    "OCC",
+    "GENIUS Act",
+    "RLUSD"
+   ],
+   "theme": "Regulation",
+   "note": "Helps RLUSD and Ripple's trust-bank plans with a clear federal rulebook; direct XRP demand not established"
+  },
+  {
+   "d": "2026-10-21T10:15",
+   "acct": "X News (SEC comment letters)",
+   "url": "https://x.com/i/trending/2112859560524288427",
+   "title": "Coalition (Chainlink, Hedera, Stellar, Ava Labs, Aptos, Cardano Foundation) files SEC comment letters asking to write 'digital commodity' status into Regulation Crypto Assets, alongside Ripple's support letter",
+   "status": "confirmed",
+   "entities": [
+    "SEC",
+    "Ripple",
+    "Regulation Crypto Assets"
+   ],
+   "theme": "Regulation",
+   "note": "Industry-wide push for clear token rules; a tailwind for XRP's regulatory standing"
+  },
+  {
+   "d": "2026-10-21T09:53",
+   "acct": "X News (Standard Chartered)",
+   "url": "https://x.com/i/trending/2112903878060499012",
+   "title": "Standard Chartered signs definitive deal to acquire 100% of Zodia Custody, folding it into Securities Services (pending approvals)",
+   "status": "confirmed",
+   "entities": [
+    "Standard Chartered",
+    "Zodia"
+   ],
+   "theme": "Banks",
+   "note": "StanChart already custodies RLUSD on XRPL; bigger in-house crypto custody is a mild positive, no XRP use stated"
+  },
+  {
+   "d": "2026-10-21T08:27",
+   "acct": "@Xrplogy",
+   "url": "https://x.com/Xrplogy/status/2112883355108962417",
+   "title": "Speculation: Nasdaq CEO Adena Friedman and ICE's Michael Blaugrund on the Swell speaker list read as 'Nasdaq + NYSE connected to Ripple/XRP'",
+   "status": "speculation",
+   "entities": [
+    "Swell",
+    "Nasdaq",
+    "ICE",
+    "Ripple"
+   ],
+   "theme": "Teasers",
+   "note": "Speaker slots are not partnerships; exchange-chief attention at Swell is a mild positive at most"
+  },
+  {
+   "d": "2026-10-21T08:32",
+   "acct": "@xrp_seer",
+   "url": "https://x.com/xrp_seer/status/2112884626230526344",
+   "title": "High-engagement claim: 'DTCC tokenization service goes live on the 28th' plus @XRP account = explosive move",
+   "status": "rumor",
+   "entities": [
+    "DTCC",
+    "Ripple Prime"
+   ],
+   "theme": "Market infrastructure",
+   "note": "DTCC's service lists Canton and Besu, not XRPL; the Oct 28 DTCC date keeps resurfacing"
+  },
+  {
+   "d": "2026-10-21T10:31",
+   "acct": "@JakeClaverxrr (clone)",
+   "url": "https://x.com/JakeClaverxrr/status/2112914700748898556",
+   "title": "'Jake Claver' clone-account wave continues: recycled 'Ripple puts 126.8M XRP into Evernorth' and '$100 XRP / SWIFT' bait posts",
+   "status": "rumor",
+   "entities": [
+    "Evernorth",
+    "scam"
+   ],
+   "theme": "Scams / safety",
+   "note": "Impersonation wave still active; old Evernorth funding news repackaged as new"
   }
  ]
 }

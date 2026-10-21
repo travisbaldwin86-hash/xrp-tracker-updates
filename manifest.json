@@ -1,5 +1,5 @@
 {
- "version": "20261020-230857",
+ "version": "20261020-235349",
  "files": [
   {
    "path": "site/everywhere.js",
@@ -7,23 +7,23 @@
   },
   {
    "path": "site/logo_rig.svg",
-   "sha256": "89d5af2a8b4f0dc3b168375d7b4a0f9aa8e413a406e39cf266d1223ca58486f8"
+   "sha256": "a9df04802e9f8538c9903cd20bd3b418d833f26b56eb9ff9deb5372adb3c5f97"
   },
   {
    "path": "site/index.html",
-   "sha256": "fada14e2b699b3330544beeeb3d6141654341edbd48300ea0f5df9a9d3527165"
+   "sha256": "4cb0881b937d8d886e90817bdd21f4c7bbb8df906c1f2cf060c210f3fe5fd2fa"
   },
   {
    "path": "site/app.js",
-   "sha256": "a73450a50904b61ac29c05a361be005655ee720cfacc78d9ff44a05b632a8bb0"
+   "sha256": "66ef5efb2c71564d97f84d3ee95a71892a77fb61912f4800b73f7c0689f231af"
   },
   {
    "path": "site/favicon.svg",
-   "sha256": "4596f794d79ce8257f7d9d7ce02321029e4360cade269b409be260bf207929a6"
+   "sha256": "a9df04802e9f8538c9903cd20bd3b418d833f26b56eb9ff9deb5372adb3c5f97"
   },
   {
    "path": "site/memes.js",
-   "sha256": "1240b8f73fe4680a66b82294d887a2997c64205af7914d195964553ec69625a3"
+   "sha256": "7230fc880d9f912086e72b4f49b11c3a76bcd243d147fce1ba42e87bd721035f"
   },
   {
    "path": "site/holders.js",
@@ -35,15 +35,15 @@
   },
   {
    "path": "site/xrp_tracker_rig.ico",
-   "sha256": "8452b425e7346cedbc7ac98cbcbe95e07ecb021676f7306a6d0c679b04556d0b"
+   "sha256": "a36187a096120ece423cb0f817e93c10799dfe2bdbf2329c88bc28c6ab5ba20a"
   },
   {
    "path": "site/favicon.ico",
-   "sha256": "765a355e74e6fc711338c063130d25587dc37c45d0173b116de1a83f25f39e15"
+   "sha256": "a36187a096120ece423cb0f817e93c10799dfe2bdbf2329c88bc28c6ab5ba20a"
   },
   {
    "path": "site/styles.css",
-   "sha256": "b73fdd68c03c8d20cc85f91d4c3205659e41d8c7986ea5b05a7903431030cab3"
+   "sha256": "8a5c3b3880cb5d566f180fcec6652005aca31aa4a68010d0ae81ab50c29cf7f5"
   },
   {
    "path": "site/world.js",
@@ -51,11 +51,11 @@
   },
   {
    "path": "site/rig.css",
-   "sha256": "54338b2ac33086bb7ff31208c7dded7731aa9714f0ef7a976b737827d4277c56"
+   "sha256": "99946ce9eb577e12ff2d9d51cea0b55673449a72634364b36235764ac23ce5b9"
   },
   {
    "path": "site/rig.js",
-   "sha256": "71182faaec4d611bc8cb4b2370c6889bc9a4a5dbdfac1fb8845c6d5115a415a1"
+   "sha256": "c719c6ef12133f490de661be063032376dcce823326655869ebfc3db173d232f"
   },
   {
    "path": "site/hud.js",
@@ -67,7 +67,7 @@
   },
   {
    "path": "site/xrp_tracker.ico",
-   "sha256": "765a355e74e6fc711338c063130d25587dc37c45d0173b116de1a83f25f39e15"
+   "sha256": "a36187a096120ece423cb0f817e93c10799dfe2bdbf2329c88bc28c6ab5ba20a"
   },
   {
    "path": "site/thesis.js",
@@ -75,11 +75,11 @@
   },
   {
    "path": "site/hud.css",
-   "sha256": "d39a637f31681a051f99da75cf12dd6c9ea308cb068cfa6b4a0213544f98de01"
+   "sha256": "2dad762279b0758857d3de465a700b451cd0f58c633b8bb4be4fb07e058207f6"
   },
   {
    "path": "site/worldwatch.js",
-   "sha256": "63c35f15f865b4a413250491ab4967aec26af192a63f0604f35fcee6406fc842"
+   "sha256": "59906e70d761c51c5aff3c5f01b45ca5e2f05beaff26e353da0fdfc9a4cdbf1b"
   },
   {
    "path": "site/sharedfetch.js",
@@ -99,27 +99,47 @@
   },
   {
    "path": "site/patterns.js",
-   "sha256": "fbc65a80f5e2ae7ea6d13e05139c09fe49b2aa5c10f074c8f9a804d3d4cac2cc"
+   "sha256": "e3576d0794fb5bc3c05ea2e32e8b206580857d1d8f4144c98f2166b1bbfc66b0"
   },
   {
    "path": "site/xrp_tracker_floor.ico",
-   "sha256": "2f604181a85a2686e3a983f6f3a6c8c17ad2a034dc87fa886474c1230bc65921"
+   "sha256": "a36187a096120ece423cb0f817e93c10799dfe2bdbf2329c88bc28c6ab5ba20a"
   },
   {
    "path": "site/intro.js",
-   "sha256": "ae3a7e000ca39278ab7d6df2a4745409ad23a666f64f8dcec851b0d2b5276c2b"
+   "sha256": "4c1d5cb4025e9b5568c7eb3d25a56583775c536e58b1f43531bf32b17585001e"
   },
   {
    "path": "site/geo.js",
-   "sha256": "bce90b255f8e67256484e9d25e4880ed8b894067d4906fc1028d328f25b0a24b"
+   "sha256": "076d9f5069185581f52e82a6b5ec3e1e6a8571f135e8542223d084fbeff6e9f1"
   },
   {
    "path": "site/tvchart.js",
-   "sha256": "aada545efb38b293624a53ac39ca5e412cb1d778f110c43cdee6e2efdb0d7285"
+   "sha256": "6a0dff19c0a4c5b0a70d3ae0716609e7dce092a4c33d25ee2c7ee704324d9565"
   },
   {
    "path": "site/goal.js",
-   "sha256": "640152352016e0dfa3b4af62a89b561b0e65611e840512dc444404dc92868c18"
+   "sha256": "3e47b94b7b9d06884b7326675de7ab8c38b4c54e1624670cba1e53070dd3bd5a"
+  },
+  {
+   "path": "site/cyber.css",
+   "sha256": "91f226d21d6aed64d3a9de8134ed2408a4c2313cbf84c27666e7800549f1b436"
+  },
+  {
+   "path": "site/cyber.js",
+   "sha256": "f5820829ff243612ba275315ae17b7d0c3095e15c89493f0451fc248641e321b"
+  },
+  {
+   "path": "site/tv.html",
+   "sha256": "f19c61e75038c9da68f3b93f7422beda0a39af687811f982c0a11df4befed081"
+  },
+  {
+   "path": "site/tv.js",
+   "sha256": "337fdc7ae8910eb6ef89991c6dc1c0adc98c94d39e9a4007d6ac94faa477ebd2"
+  },
+  {
+   "path": "site/eggs.js",
+   "sha256": "6f83476b37693a6de2a849771870fcc8ed7f35fea4ef0530d083cd0e2ab1629e"
   },
   {
    "path": "site/data/signals.json",
@@ -130,8 +150,40 @@
    "sha256": "0a2f81c39f5ffcedd826d2bdddf8c6861d6763e781008584b20e129e16410d4d"
   },
   {
+   "path": "site/fonts/Orbitron-500.woff2",
+   "sha256": "c25a9f9da5d9f3db1bf2a01474722dc9b377675b7bbab6d0dfda6902794fd1ed"
+  },
+  {
+   "path": "site/fonts/Orbitron-700.woff2",
+   "sha256": "c25a9f9da5d9f3db1bf2a01474722dc9b377675b7bbab6d0dfda6902794fd1ed"
+  },
+  {
+   "path": "site/fonts/Orbitron-900.woff2",
+   "sha256": "c25a9f9da5d9f3db1bf2a01474722dc9b377675b7bbab6d0dfda6902794fd1ed"
+  },
+  {
+   "path": "site/fonts/Rajdhani-500.woff2",
+   "sha256": "23afdb9b5b89b878fab04d80cc30bf41bb4f3f7e8be88e5f16a7cc7671cdb2dc"
+  },
+  {
+   "path": "site/fonts/Rajdhani-600.woff2",
+   "sha256": "433a7007e4747a02a790167a6efa2625855f013970ba49b9b739a5d3db8b2601"
+  },
+  {
+   "path": "site/fonts/Rajdhani-700.woff2",
+   "sha256": "5b7e4a6f97163c2636724d4de90304fc895653dcfe64c67a7a22f26331ca5c5f"
+  },
+  {
+   "path": "site/fonts/ShareTechMono-400.woff2",
+   "sha256": "41e6b9f297f7d9a2df2aaa274092f76d2f72711a15ca455f7f4f4f92caf16b72"
+  },
+  {
+   "path": "site/fonts/fonts.css",
+   "sha256": "a5d70f58b07247839ce050efc0a513e879673017f72a33d96a663fe262c14b17"
+  },
+  {
    "path": "Launch-XRPTracker.ps1",
-   "sha256": "5a6ab133d27ecf21c2e9083261e05bca7c1c1705fc384bfad2b4cf282317ab8f"
+   "sha256": "ed178f9a36eee5e0da31f1daec07e25a9a37181391d5563f18afb547cedf2c8f"
   },
   {
    "path": "XRPTrackerServer.ps1",

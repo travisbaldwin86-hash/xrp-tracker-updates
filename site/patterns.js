@@ -50,9 +50,9 @@ function row(s){ return `<a class="pt-sig" href="${E(s.url)}" target="_blank" re
 function filterSel(S){ if(!sel) return S; if(sel.k==='theme') return S.filter(s=>s.theme===sel.v); if(sel.k==='entity') return S.filter(s=>(s.entities||[]).includes(sel.v)); if(sel.k==='ids') return S.filter(s=>sel.v.includes(s.i)); return S; }
 function timeline(S){ const now=Math.max(Date.now(),...S.map(s=>s.t)), t0=now-14*864e5, t1=now+12*864e5, w=1000, x=t=>((t-t0)/(t1-t0))*w;
   const evs=(DATA.events||[]).map(e=>({...e,t:Date.parse(e.d+'T12:00')})).filter(e=>e.t>=t0&&e.t<=t1);
-  const col={confirmed:'#4fe08c',speculation:'#ffb547',rumor:'#ff4d6d'};
-  return `<svg class="pt-tl" viewBox="0 0 ${w} 90" preserveAspectRatio="none"><line x1="0" y1="45" x2="${w}" y2="45" stroke="#2a4466"/><line x1="${x(now)}" y1="5" x2="${x(now)}" y2="85" stroke="#36e2cf" stroke-dasharray="3 3"/><text x="${x(now)+3}" y="12" fill="#36e2cf" font-size="10">now</text>`+
-   evs.map(e=>`<g><line x1="${x(e.t)}" y1="20" x2="${x(e.t)}" y2="70" stroke="#9b8cff"/><text x="${x(e.t)+2}" y="82" fill="#9b8cff" font-size="9">${E(e.name.slice(0,22))}</text><title>${E(e.name+' · '+e.d)}</title></g>`).join('')+
+  const col={confirmed:'#39ff88',speculation:'#fcee0a',rumor:'#ff2a6d'};
+  return `<svg class="pt-tl" viewBox="0 0 ${w} 90" preserveAspectRatio="none"><line x1="0" y1="45" x2="${w}" y2="45" stroke="#2a4466"/><line x1="${x(now)}" y1="5" x2="${x(now)}" y2="85" stroke="#00f0ff" stroke-dasharray="3 3"/><text x="${x(now)+3}" y="12" fill="#00f0ff" font-size="10">now</text>`+
+   evs.map(e=>`<g><line x1="${x(e.t)}" y1="20" x2="${x(e.t)}" y2="70" stroke="#c86bff"/><text x="${x(e.t)+2}" y="82" fill="#c86bff" font-size="9">${E(e.name.slice(0,22))}</text><title>${E(e.name+' · '+e.d)}</title></g>`).join('')+
    S.filter(s=>s.t>=t0).map((s,k)=>`<a href="${E(s.url)}" target="_blank"><circle cx="${x(s.t)}" cy="${30+(k%4)*6}" r="4" fill="${col[s.status]||'#aaa'}"><title>${E(s.title)} (${E(s.acct)})</title></circle></a>`).join('')+'</svg>'; }
 function render(){ const el=Q('#ptBody'); if(!el) return; const S=enrich(); const H=heat(S), P=detect(S), C=pairs(S); const F=filterSel(S);
   const top=H.slice(0,4).map(h=>`<button class="pt-hot" data-th="${E(h.k)}"><span class="pt-h" style="--h:${h.h}">${h.h}</span><b>${E(h.k)}</b><em>${E(h.why)}</em></button>`).join('');

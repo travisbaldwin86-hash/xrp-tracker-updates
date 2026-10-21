@@ -202,7 +202,7 @@ function chart(canvas,series,opt={}){
   if(opt.spark){ g.textAlign='left'; g.fillStyle='#56708f'; g.fillText((opt.yfmt||fN)(y1-yp),W-pad.r+4,pad.t+4); g.fillText((opt.yfmt||fN)(y0+yp),W-pad.r+4,H-pad.b-4); }
   else for(let i=0;i<=4;i++){ const v=y0+(y1-y0)*i/4, y=Y(v); g.strokeStyle='#1b2a3f'; g.lineWidth=1; g.beginPath(); g.moveTo(pad.l,y); g.lineTo(W-pad.r,y); g.stroke(); g.fillStyle='#56708f'; g.textAlign='right'; g.fillText((opt.yfmt||fN)(v),pad.l-6,y); }
   g.textAlign='center'; const span=x1-x0; if(!opt.spark) for(let i=0;i<=4;i++){ const t=x0+span*i/4; g.fillStyle='#56708f'; g.fillText(span<3*864e5?fTime(t):fD(t),X(t),H-9); }
-  (opt.markers||[]).forEach(m=>{ if(m.t<x0||m.t>x1) return; const x=X(m.t); g.strokeStyle=m.color||'#ffb547'; g.setLineDash([3,3]); g.beginPath(); g.moveTo(x,pad.t); g.lineTo(x,H-pad.b); g.stroke(); g.setLineDash([]); g.fillStyle=m.color||'#ffb547'; g.textAlign='left'; g.fillText(m.label,x+4,pad.t+8); });
+  (opt.markers||[]).forEach(m=>{ if(m.t<x0||m.t>x1) return; const x=X(m.t); g.strokeStyle=m.color||'#fcee0a'; g.setLineDash([3,3]); g.beginPath(); g.moveTo(x,pad.t); g.lineTo(x,H-pad.b); g.stroke(); g.setLineDash([]); g.fillStyle=m.color||'#fcee0a'; g.textAlign='left'; g.fillText(m.label,x+4,pad.t+8); });
   series.forEach(s=>{ const pts=s.data.filter(p=>p[1]!=null); if(!pts.length) return;
     if(s.fill){ const grd=g.createLinearGradient(0,pad.t,0,H-pad.b); grd.addColorStop(0,s.fill); grd.addColorStop(1,'transparent'); g.fillStyle=grd; g.beginPath(); g.moveTo(X(pts[0][0]),H-pad.b); pts.forEach(p=>g.lineTo(X(p[0]),Y(p[1]))); g.lineTo(X(pts[pts.length-1][0]),H-pad.b); g.closePath(); g.fill(); }
     g.strokeStyle=s.color; g.lineWidth=s.width||1.6; if(s.dash) g.setLineDash(s.dash); g.beginPath(); pts.forEach((p,i)=>i?g.lineTo(X(p[0]),Y(p[1])):g.moveTo(X(p[0]),Y(p[1]))); g.stroke(); g.setLineDash([]); });
@@ -214,7 +214,7 @@ function chart(canvas,series,opt={}){
       let best=pts[0]; pts.forEach(p=>{ if(Math.abs(p[0]-t)<Math.abs(best[0]-t)) best=p; }); const gg=canvas.getContext('2d'); const x=h.X(best[0]), y=h.Y(best[1]);
       gg.strokeStyle='#ffffff40'; gg.beginPath(); gg.moveTo(x,h.pad.t); gg.lineTo(x,h.H-h.pad.b); gg.stroke(); const label=(h.opt.tip||((p)=>fN(p[1],4)))(best)+'  '+fT(best[0]);
       gg.font='12px Cascadia Mono,Consolas,monospace'; const w=gg.measureText(label).width+12; const bx=Math.min(Math.max(x-w/2,h.pad.l),h.W-w-4);
-      gg.fillStyle='#0b1422ee'; gg.fillRect(bx,h.pad.t+14,w,20); gg.strokeStyle='#36e2cf'; gg.strokeRect(bx,h.pad.t+14,w,20); gg.fillStyle='#e6eef8'; gg.textAlign='left'; gg.fillText(label,bx+6,h.pad.t+24); gg.fillStyle='#36e2cf'; gg.beginPath(); gg.arc(x,y,4,0,7); gg.fill(); });
+      gg.fillStyle='#0b1422ee'; gg.fillRect(bx,h.pad.t+14,w,20); gg.strokeStyle='#00f0ff'; gg.strokeRect(bx,h.pad.t+14,w,20); gg.fillStyle='#e6eef8'; gg.textAlign='left'; gg.fillText(label,bx+6,h.pad.t+24); gg.fillStyle='#00f0ff'; gg.beginPath(); gg.arc(x,y,4,0,7); gg.fill(); });
     canvas.addEventListener('mouseleave',()=>{ const h=canvas._hover; if(h) chart(canvas,h.series,h.opt); }); }
 }
 
@@ -345,7 +345,7 @@ function renderAdoption(){
     what:'<b>What this means:</b> The day Cross River publishes RLUSD payment volumes, or says payments settle through XRP, is the day the partnership becomes measurable. Until then it is a headline.',
     src:'Manual watch (no keyless data feed exists)',t:null});
   g.innerHTML=h;
-  if(dd){ const tail=dd.slice(-90); chart($('#spNewAcc'),[{data:tail.map(x=>[x.t,x.accounts_created]),color:'#36e2cf',fill:'#36e2cf33'}],{spark:1,yfmt:v=>fN(v,0),tip:p=>fN(p[1],0)+' accounts'}); chart($('#spBurn'),[{data:tail.map(x=>[x.t,x.fee_total]),color:'#ff7a3d',fill:'#ff7a3d33'}],{spark:1,yfmt:v=>fN(v,0),tip:p=>fN(p[1],1)+' XRP'}); }
+  if(dd){ const tail=dd.slice(-90); chart($('#spNewAcc'),[{data:tail.map(x=>[x.t,x.accounts_created]),color:'#00f0ff',fill:'#00f0ff33'}],{spark:1,yfmt:v=>fN(v,0),tip:p=>fN(p[1],0)+' accounts'}); chart($('#spBurn'),[{data:tail.map(x=>[x.t,x.fee_total]),color:'#ff7a3d',fill:'#ff7a3d33'}],{spark:1,yfmt:v=>fN(v,0),tip:p=>fN(p[1],1)+' XRP'}); }
   const add=$('#watchAdd'); if(add) add.onclick=()=>{ const a=$('#watchAddr').value.trim(); if(!/^r[1-9A-HJ-NP-Za-km-z]{24,34}$/.test(a)){ $('#watchAddr').style.borderColor='var(--red)'; return; }
     const l=LS.get('watch',[]); if(!l.find(x=>x.addr===a)) l.push({addr:a,label:$('#watchLabel').value.trim()}); LS.set('watch',l); loadWatch().then(renderAdoption); };
   g.querySelectorAll('[data-rm]').forEach(el=>el.onclick=e=>{e.preventDefault(); LS.set('watch',LS.get('watch',[]).filter(x=>x.addr!==el.dataset.rm)); renderAdoption();});
@@ -380,8 +380,8 @@ function renderXRPN(){
     kv('Latest 8-K',last8k?`<a href="https://www.sec.gov/Archives/edgar/data/2092592/${last8k.acc.replace(/-/g,'')}/${last8k.doc}" target="_blank" rel="noopener">${last8k.date}</a>`:UNAV(D.sec&&D.sec.err),`<a href="https://www.sec.gov/edgar/browse/?CIK=2092592" target="_blank" rel="noopener">All SEC filings</a>`,'x_8k');
   const xd=val('dailyPx'); const series=[];
   if(q&&q.bars.length){ const b0=q.bars[0]; series.push({data:q.bars.map(b=>[b.t,(b.c/b0.c-1)*100]),color:'#ffd34d',width:2,label:'XRPN %'});
-    if(xd){ const x0=xd.find(x=>x.t>=b0.t-864e5); if(x0) series.push({data:xd.filter(x=>x.t>=x0.t).map(x=>[x.t,(x.c/x0.c-1)*100]),color:'#36e2cf',label:'XRP %'}); } }
-  chart($('#xrpnChart'),series.length?series:[{data:[],color:'#fff'}],{yfmt:v=>v.toFixed(0)+'%',tip:p=>fPct(p[1],1),empty:'XRPN chart unavailable'+(D.xrpn&&D.xrpn.err?' ('+D.xrpn.err+')':''),markers:[{t:E.listed,label:'Nasdaq debut',color:'#9b8cff'}]});
+    if(xd){ const x0=xd.find(x=>x.t>=b0.t-864e5); if(x0) series.push({data:xd.filter(x=>x.t>=x0.t).map(x=>[x.t,(x.c/x0.c-1)*100]),color:'#00f0ff',label:'XRP %'}); } }
+  chart($('#xrpnChart'),series.length?series:[{data:[],color:'#fff'}],{yfmt:v=>v.toFixed(0)+'%',tip:p=>fPct(p[1],1),empty:'XRPN chart unavailable'+(D.xrpn&&D.xrpn.err?' ('+D.xrpn.err+')':''),markers:[{t:E.listed,label:'Nasdaq debut',color:'#c86bff'}]});
   $('#src-xrpn').innerHTML=`Sources: ${(D.xrpn||{}).src||'Yahoo Finance'}${D.xrpn?' · '+fT(D.xrpn.t):''} · SEC EDGAR${D.sec?' · '+fT(D.sec.t):''} · chart = % change since Nasdaq debut (Oct 12 2026), XRP overlaid · not financial advice`;
 }
 function xrpnSignals(){ const out=[], q=val('xrpn'), c=calcXrpn(), xd=val('dailyPx');
@@ -459,13 +459,14 @@ function evaluateStates(){
   [['newAcc','New accounts','party','NEW ACCOUNTS UP','shrug'],['burn','Fee burn','fire','BURN SPIKE','shrug'],['ammLocked','XRP in AMMs','party','AMM XRP UP','shrug']].forEach(([k,n,mu,lu,md])=>{ const tr=T[k]; if(!tr) return;
     sig.push({key:'tr_'+k,name:n,state:tr.dir,level:tr.dir==='flat'?0:1,meme:tr.dir==='up'?mu:md,memeLabel:tr.dir==='up'?lu:(n+' '+(tr.dir==='down'?'cooling':'flat')).toUpperCase(),joke:`${n}: 7-day average ${fPct(tr.pct,0)} vs the prior 30 days.`,src:'XRPSCAN',t:(D.daily||{}).t}); });
   sig.forEach(s=>{ if(!s.state) return; const st=String(s.state).split(' · ')[0]; next[s.key]=st;
-    if(prev&&prev[s.key]&&prev[s.key]!==st&&s.level>=1) fireEvent(Object.assign({},s,{changed:prev[s.key]+' → '+st})); });
+    if(prev&&prev[s.key]&&prev[s.key]!==st){ const ev=Object.assign({},s,{changed:prev[s.key]+' → '+st}); if(s.level>=1) fireEvent(ev); else if(window.BreakingNews&&!fireEvent.seen(ev)) BreakingNews(ev); } });
   LS.set('prevStates',next);
   renderSignals(sig.filter(s=>s.how!==undefined)); renderHappening(sig); renderBanner();
 }
 function fireEvent(e){ const L=LS.get('log',[]); if(L.find(x=>x.key===e.key&&now()-x.t<6*3600e3)) return;
   L.unshift({key:e.key,t:now(),level:e.level||1,name:e.name,meme:e.meme,memeLabel:e.memeLabel,joke:e.joke,changed:e.changed||'',link:e.link||'',src:e.src||''}); LS.set('log',L.slice(0,150));
-  bannerEvent={...e,t:now()}; renderBanner(true); renderLog(); beep(e.level||1); }
+  bannerEvent={...e,t:now()}; renderBanner(true); renderLog(); beep(e.level||1); try{ window.BreakingNews&&BreakingNews(e); }catch(x){} }
+fireEvent.seen=e=>{ const k='bnr_'+e.key+e.changed; if(sessionStorage.getItem(k)) return true; sessionStorage.setItem(k,'1'); return false; };
 let bannerEvent=null;
 function renderBanner(flash){
   const L=LS.get('log',[]); let e=bannerEvent||(L[0]&&now()-L[0].t<3600e3?L[0]:null);
@@ -502,10 +503,10 @@ function renderScore(){
   $('#vChips').innerHTML=core.map(([n,tr])=>{ const d=tr&&!tr.building?DIRS[tr.dir]:null; return `<span class="chip ${d?d[1]:''}">${d?d[0]:'…'} ${n}</span>`; }).join('');
   const frac=known.length?up/known.length:0; const ang=Math.PI*(1-frac); const cx=95,cy=110,R=78; const nx=cx+Math.cos(ang)*(R-14), ny=cy-Math.sin(ang)*(R-14);
   const arc=(a0,a1,col)=>`<path d="M${cx+Math.cos(a0)*R} ${cy-Math.sin(a0)*R} A${R} ${R} 0 0 1 ${cx+Math.cos(a1)*R} ${cy-Math.sin(a1)*R}" stroke="${col}" stroke-width="12" fill="none" stroke-linecap="round"/>`;
-  $('#vGauge').innerHTML=`<svg viewBox="0 0 190 150">${arc(Math.PI,Math.PI*2/3,'#ff4d6d')}${arc(Math.PI*2/3-.05,Math.PI/3,'#ffb547')}${arc(Math.PI/3-.05,0,'#4fe08c')}
-    <line x1="${cx}" y1="${cy}" x2="${nx}" y2="${ny}" stroke="#e6eef8" stroke-width="3" stroke-linecap="round" style="transition:all 1s"/><circle cx="${cx}" cy="${cy}" r="7" fill="#36e2cf"/>
+  $('#vGauge').innerHTML=`<svg viewBox="0 0 190 150">${arc(Math.PI,Math.PI*2/3,'#ff2a6d')}${arc(Math.PI*2/3-.05,Math.PI/3,'#fcee0a')}${arc(Math.PI/3-.05,0,'#39ff88')}
+    <line x1="${cx}" y1="${cy}" x2="${nx}" y2="${ny}" stroke="#e6eef8" stroke-width="3" stroke-linecap="round" style="transition:all 1s"/><circle cx="${cx}" cy="${cy}" r="7" fill="#00f0ff"/>
     <text x="${cx}" y="140" text-anchor="middle" fill="#8197b3" font-size="11" font-family="Cascadia Mono,Consolas">${up}/${known.length||'—'} RISING</text>
-    <text x="14" y="128" fill="#ff4d6d" font-size="9" font-family="Bahnschrift,Arial">HEADLINES</text><text x="176" y="128" text-anchor="end" fill="#4fe08c" font-size="9" font-family="Bahnschrift,Arial">MECHANICS</text></svg>`;
+    <text x="14" y="128" fill="#ff2a6d" font-size="9" font-family="Bahnschrift,Arial">HEADLINES</text><text x="176" y="128" text-anchor="end" fill="#39ff88" font-size="9" font-family="Bahnschrift,Arial">MECHANICS</text></svg>`;
 }
 
 /* ---------- market panel ---------- */
@@ -521,10 +522,10 @@ function renderMarket(){
 function renderChart(){
   const r=settings.range; document.querySelectorAll('#rangeSeg button').forEach(b=>b.classList.toggle('on',+b.dataset.r===r));
   let series, src;
-  if(r<=7){ const h=val('hourlyPx'); series=[{data:h?h.map(x=>[x.t,x.c]):[],color:'#36e2cf',width:2,fill:'#36e2cf22',label:'XRP (hourly)'}]; src=D.hourlyPx; }
+  if(r<=7){ const h=val('hourlyPx'); series=[{data:h?h.map(x=>[x.t,x.c]):[],color:'#00f0ff',width:2,fill:'#00f0ff22',label:'XRP (hourly)'}]; src=D.hourlyPx; }
   else { const d=val('dailyPx'); const I=indicators(); const cut=now()-r*864e5; const idx=d?d.map((x,i)=>i).filter(i=>d[i].t>=cut):[];
-    series=[{data:idx.map(i=>[d[i].t,d[i].c]),color:'#36e2cf',width:2,fill:'#36e2cf22',label:'XRP (daily)'}];
-    if(I){ series.push({data:idx.map(i=>[d[i].t,I.ma50s[i]]),color:'#ffb547',width:1.2,label:'50-day MA'}); series.push({data:idx.map(i=>[d[i].t,I.ma200s[i]]),color:'#9b8cff',width:1.2,dash:[5,4],label:'200-day MA'}); }
+    series=[{data:idx.map(i=>[d[i].t,d[i].c]),color:'#00f0ff',width:2,fill:'#00f0ff22',label:'XRP (daily)'}];
+    if(I){ series.push({data:idx.map(i=>[d[i].t,I.ma50s[i]]),color:'#fcee0a',width:1.2,label:'50-day MA'}); series.push({data:idx.map(i=>[d[i].t,I.ma200s[i]]),color:'#c86bff',width:1.2,dash:[5,4],label:'200-day MA'}); }
     src=D.dailyPx; }
   chart($('#priceChart'),series,{yfmt:v=>'$'+v.toFixed(v<10?3:1),tip:p=>fPx(p[1]),empty:'Price history unavailable'+(src&&src.err?' ('+src.err+')':'')});
   $('#src-chart').innerHTML=src?`Source: ${src.src} · updated ${fT(src.t)} · 50/200-day MAs computed from 365 days of daily closes`:'';

@@ -54,7 +54,7 @@ function play(force){ if(!force&&(!cfg().on||sessionStorage.getItem('introPlayed
     g.globalAlpha=1; g.globalCompositeOperation='source-over';
     for(let i=A.length-1;i>=0;i--){ const a=A[i]; a.l+=dt; if(a.l>=a.L){ A.splice(i,1); continue; } a.x+=a.vx*dt+Math.sin(a.l*3)*0.3; a.y+=a.vy*dt; g.fillStyle=`rgba(150,140,130,${(1-a.l/a.L)*.7})`; g.fillRect(a.x,a.y,2.4*S,2.4*S); }
     // title
-    if(t>4.0){ const k=Math.min(1,(t-4.0)/0.9); g.globalAlpha=k; g.textAlign='center'; g.font=`600 ${Math.round(64*S)}px "JetBrains Mono",ui-monospace,monospace`; g.shadowColor='#3ee6d6'; g.shadowBlur=26*S; g.fillStyle='#e8f3ff'; g.fillText('XRP COMMAND // ONLINE',cx,H*0.075); g.shadowBlur=0;
+    if(t>4.0){ const k=Math.min(1,(t-4.0)/0.9); g.globalAlpha=k; g.textAlign='center'; g.font=`600 ${Math.round(64*S)}px "JetBrains Mono",ui-monospace,monospace`; g.shadowColor='#00f0ff'; g.shadowBlur=26*S; g.fillStyle='#e8f3ff'; g.fillText('XRP COMMAND // ONLINE',cx,H*0.075); g.shadowBlur=0;
       g.font=`${Math.round(24*S)}px ui-monospace,monospace`; g.fillStyle='#a9bdd6'; g.fillText('linking XRP Ledger · prices · filings · news …   (click or press any key to skip)',cx,H*0.075+44*S); g.globalAlpha=1; }
     if(t>6.4) return end(); raf=requestAnimationFrame(frame); }
   raf=requestAnimationFrame(frame); }

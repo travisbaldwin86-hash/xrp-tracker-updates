@@ -74,22 +74,22 @@ function frame(ts){ requestAnimationFrame(frame); if(document.hidden||!window.Ri
   if(lamT!=null){ let d=lamT-lam; d=((d+540)%360)-180; lam+=d*Math.min(1,dt*1.5); if(Math.abs(d)<0.5) lamT=null; } else lam+=4*dt;
   const R=Math.min(H*0.44,W*0.3), cx=W*0.5, cy=H*0.53; ctx.clearRect(0,0,W,H);
   const og=ctx.createRadialGradient(cx-R*0.3,cy-R*0.3,R*0.1,cx,cy,R); og.addColorStop(0,'#10324c'); og.addColorStop(1,'#061524'); ctx.fillStyle=og; ctx.beginPath(); ctx.arc(cx,cy,R,0,7); ctx.fill();
-  ctx.strokeStyle='#36e2cf55'; ctx.lineWidth=1.5; ctx.stroke();
+  ctx.strokeStyle='#00f0ff55'; ctx.lineWidth=1.5; ctx.stroke();
   // graticule
   ctx.strokeStyle='#1d3a5530'; ctx.lineWidth=1; for(let lo=-180;lo<180;lo+=30){ ctx.beginPath(); let on=false; for(let la=-90;la<=90;la+=6){ const [x,y,c]=proj(lo,la,R,cx,cy); if(c>0){ on?ctx.lineTo(x,y):ctx.moveTo(x,y); on=true; } else on=false; } ctx.stroke(); }
   for(let la=-60;la<=60;la+=30){ ctx.beginPath(); let on=false; for(let lo=-180;lo<=180;lo+=6){ const [x,y,c]=proj(lo,la,R,cx,cy); if(c>0){ on?ctx.lineTo(x,y):ctx.moveTo(x,y); on=true; } else on=false; } ctx.stroke(); }
   // land
-  ctx.fillStyle='#14324a'; ctx.strokeStyle='#36e2cf40'; ctx.lineWidth=0.8;
+  ctx.fillStyle='#14324a'; ctx.strokeStyle='#00f0ff40'; ctx.lineWidth=0.8;
   for(const poly of WORLD.p){ let any=false; ctx.beginPath(); for(let i=0;i<poly.length;i+=2){ let [x,y,c]=proj(poly[i],poly[i+1],R,cx,cy); if(c>0) any=true; else { const dx=x-cx, dy=y-cy, k=R/Math.max(1e-6,Math.hypot(dx,dy)); x=cx+dx*k; y=cy+dy*k; } i?ctx.lineTo(x,y):ctx.moveTo(x,y); } if(any){ ctx.closePath(); ctx.fill(); ctx.stroke(); } }
   // Ripple partner/licence + sanctions markers (worldwatch.js), glowing
   if(window.WorldMarks){ const tt=performance.now()/1000; for(const mk of WorldMarks()){ const p=mk.ll||ll(mk.cc); if(!p) continue; const [x,y,c]=proj(p[0],p[1],R,cx,cy); if(c<=0) continue; const r=mk.r||5, g=0.55+0.45*Math.sin(tt*2+(mk.ph||0));
     ctx.beginPath(); ctx.arc(x,y,r+6*g,0,7); ctx.fillStyle=mk.col+'22'; ctx.fill(); ctx.beginPath(); ctx.arc(x,y,r,0,7); ctx.fillStyle=mk.col; ctx.fill(); if(mk.ring){ ctx.beginPath(); ctx.arc(x,y,r+4,0,7); ctx.strokeStyle=mk.ring; ctx.lineWidth=2; ctx.stroke(); } } }
   // nodes
-  if(NODES) for(const [cc,n] of Object.entries(NODES.m)){ const p=ll(cc); const [x,y,c]=proj(p[0],p[1],R,cx,cy); if(c<=0) continue; ctx.beginPath(); ctx.arc(x,y,1.5+Math.sqrt(n)*0.7,0,7); ctx.fillStyle='#9b8cff88'; ctx.fill(); }
+  if(NODES) for(const [cc,n] of Object.entries(NODES.m)){ const p=ll(cc); const [x,y,c]=proj(p[0],p[1],R,cx,cy); if(c<=0) continue; ctx.beginPath(); ctx.arc(x,y,1.5+Math.sqrt(n)*0.7,0,7); ctx.fillStyle='#c86bff88'; ctx.fill(); }
   // 24h attributed regions (HQ markers)
   const A=agg(); const mx=Math.max(1,...A.cc.map(r=>r.i+r.o));
   A.cc.slice(0,25).forEach(r=>{ const p=ll(r.c); if(!p) return; const [x,y,c]=proj(p[0],p[1],R,cx,cy); if(c<=0) return; const s=3+9*Math.sqrt((r.i+r.o)/mx);
-    ctx.beginPath(); ctx.arc(x,y,s,0,7); ctx.fillStyle=r.i>=r.o?'#36e2cf55':'#ff7a3d55'; ctx.fill(); ctx.strokeStyle=r.i>=r.o?'#36e2cf':'#ff7a3d'; ctx.stroke();
+    ctx.beginPath(); ctx.arc(x,y,s,0,7); ctx.fillStyle=r.i>=r.o?'#00f0ff55':'#ff7a3d55'; ctx.fill(); ctx.strokeStyle=r.i>=r.o?'#00f0ff':'#ff7a3d'; ctx.stroke();
     ctx.fillStyle='#c9d6e6'; ctx.font='600 11px Bahnschrift,Segoe UI,sans-serif'; ctx.textAlign='left'; ctx.fillText(cname(r.c),x+s+3,y+4); });
   // faded arcs of the last 24h (most recent 60)
   const recent=G.flows.filter(f=>f.k==='arc'&&Date.now()-f.t<864e5).slice(-60);
@@ -98,7 +98,7 @@ function frame(ts){ requestAnimationFrame(frame); if(document.hidden||!window.Ri
   for(let i=live.length-1;i>=0;i--){ const f=live[i]; const age=(ts-f.born)/1000; if(age>9){ live.splice(i,1); continue; } drawArc(f,Math.min(1,age/2.5),age<2.5?1:Math.max(0.2,1-(age-2.5)/6.5),R,cx,cy,true); }
   // one-sided pulses
   for(let i=pulses.length-1;i>=0;i--){ const p=pulses[i]; const age=(ts-p.born)/1000; if(age>3){ pulses.splice(i,1); continue; } const q=ll(p.cc); if(!q) continue; const [x,y,c]=proj(q[0],q[1],R,cx,cy); if(c<=0) continue;
-    ctx.beginPath(); ctx.arc(x,y,6+age*18,0,7); ctx.strokeStyle=(p.dir==='in'?'#36e2cf':'#ff7a3d')+Math.round((1-age/3)*255).toString(16).padStart(2,'0'); ctx.lineWidth=2; ctx.stroke(); }
+    ctx.beginPath(); ctx.arc(x,y,6+age*18,0,7); ctx.strokeStyle=(p.dir==='in'?'#00f0ff':'#ff7a3d')+Math.round((1-age/3)*255).toString(16).padStart(2,'0'); ctx.lineWidth=2; ctx.stroke(); }
 }
 function drawArc(f,head,alpha,R,cx,cy,glow){ const A=ll(f.a), B=ll(f.b); if(!A||!B) return; const N=40, w=1+Math.max(0,Math.log10(f.amt/GEO_MIN))*1.6; let prev=null;
   for(let i=0;i<=N*head;i++){ const t=i/N; const p=slerp(A,B,t); const [x0,y0,c]=proj(p[0],p[1],R,cx,cy); const lift=1+0.22*Math.sin(Math.PI*t); const x=cx+(x0-cx)*lift, y=cy+(y0-cy)*lift;

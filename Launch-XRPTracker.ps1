@@ -1,6 +1,6 @@
 ﻿# Opens the XRP Adoption Tracker. -Rig spans the top three monitors as one borderless-looking app window.
 # -Floor opens the detail board on the portrait floor screen (4th monitor) as a second window; never changes display settings.
-param([switch]$Rig,[switch]$Floor)
+param([switch]$Rig,[switch]$Floor,[switch]$All)   # -All = ONE app: top 3 screens + floor screen, minimized/restored/closed together
 # auto-update first (quick; never blocks the launch for long)
 try { & (Join-Path $PSScriptRoot 'Update-XRPTracker.ps1') -TimeoutSec 8 } catch {}
 $Port = 8787; $Base = "http://localhost:$Port/"
@@ -15,7 +15,7 @@ if (-not (Test-Up) -and (Test-Path (Join-Path $PSScriptRoot 'XRPTrackerServer.ps
 $url = $Base
 if (-not (Test-Up)) { $url = ([Uri](Join-Path $PSScriptRoot 'site\index.html')).AbsoluteUri }  # fallback: works without news/XRPN
 
-if (-not $Rig -and -not $Floor) { Start-Process $url; exit }
+if (-not $Rig -and -not $Floor -and -not $All) { Start-Process $url; exit }
 
 # ---------- Sim Rig ----------
 Add-Type -AssemblyName System.Windows.Forms, PresentationFramework
@@ -73,14 +73,17 @@ if ($games -and -not $env:XRP_RIG_FORCE) {
 }
 
 
-if ($Floor) {
+$floorHwnd = [IntPtr]::Zero
+if ($Floor -or $All) {
   $fc = Join-Path $PSScriptRoot 'floor-config.json'   # optional: {"x":4152,"y":1080,"width":1080,"height":1920}
   if (Test-Path $fc) { $c = Get-Content $fc -Raw | ConvertFrom-Json; $X=[int]$c.x; $Y=[int]$c.y; $W=[int]$c.width; $H=[int]$c.height }
   else {
     $fs = [System.Windows.Forms.Screen]::AllScreens | ForEach-Object { $_.Bounds } | Where-Object { $_.Height -gt $_.Width } | Sort-Object Y -Descending | Select-Object -First 1
-    if (-not $fs) { [void][System.Windows.MessageBox]::Show('No portrait (floor) screen found. The detail panels stay on the top screens.', 'XRP Tracker - Floor Screen'); exit }
-    $X=$fs.X; $Y=$fs.Y; $W=$fs.Width; $H=$fs.Height
+    if (-not $fs -and $All) { $X = $null }
+    elseif (-not $fs) { [void][System.Windows.MessageBox]::Show('No portrait (floor) screen found. The detail panels stay on the top screens.', 'XRP Tracker - Floor Screen'); exit }
+    if ($fs) { $X=$fs.X; $Y=$fs.Y; $W=$fs.Width; $H=$fs.Height }
   }
+  if ($null -ne $X) {
   $exe = @("$env:ProgramFiles\Google\Chrome\Application\chrome.exe", "${env:ProgramFiles(x86)}\Google\Chrome\Application\chrome.exe", "$env:LOCALAPPDATA\Google\Chrome\Application\chrome.exe") | Where-Object { $_ -and (Test-Path $_) } | Select-Object -First 1
   if (-not $exe) { Start-Process ($url + '?layout=floor'); exit }
   $profileDir = Join-Path $env:LOCALAPPDATA 'XRPTrackerRig'   # same profile as the rig window so they share alarms/settings
@@ -88,8 +91,9 @@ if ($Floor) {
   $hwnd = [IntPtr]::Zero
   for ($i = 0; $i -lt 60 -and $hwnd -eq [IntPtr]::Zero; $i++) { Start-Sleep -Milliseconds 300
     $wp = Get-Process chrome -ErrorAction SilentlyContinue | Where-Object { $_.MainWindowTitle -like 'XRP Floor Detail*' } | Select-Object -First 1; if ($wp) { $hwnd = $wp.MainWindowHandle } }
-  if ($hwnd -ne [IntPtr]::Zero) { Set-Place $hwnd $X $Y $W $H 'floor' } else { Write-Place 'floor: window not found' }
-  exit
+  if ($hwnd -ne [IntPtr]::Zero) { Set-Place $hwnd $X $Y $W $H 'floor'; $floorHwnd = $hwnd } else { Write-Place 'floor: window not found' }
+  }
+  if (-not $All) { exit }
 }
 
 # Work out the top row of monitors (or use rig-config.json: {"x":0,"y":0,"width":5760,"height":1080})
@@ -126,3 +130,23 @@ for ($i = 0; $i -lt 60 -and $hwnd -eq [IntPtr]::Zero; $i++) {
   if ($wp) { $hwnd = $wp.MainWindowHandle }
 }
 if ($hwnd -ne [IntPtr]::Zero) { Set-Place $hwnd $X $Y $W $H 'rig' } else { Write-Place 'rig: window not found' }
+# ONE app: keep the floor window in step with the main window (minimize / restore / close together). Ends when the main window closes.
+if ($All -and $hwnd -ne [IntPtr]::Zero -and $floorHwnd -ne [IntPtr]::Zero) {
+  Add-Type @"
+using System; using System.Runtime.InteropServices;
+public static class XrpSync { [DllImport("user32.dll")] public static extern bool IsIconic(IntPtr h); [DllImport("user32.dll")] public static extern bool IsWindow(IntPtr h);
+  [DllImport("user32.dll")] public static extern bool ShowWindow(IntPtr h, int c); [DllImport("user32.dll")] public static extern IntPtr PostMessage(IntPtr h, uint m, IntPtr w, IntPtr l); }
+"@
+  Write-Place 'all: linked rig + floor windows'
+  $wasMin = $false
+  while ([XrpSync]::IsWindow($hwnd)) {
+    Start-Sleep -Milliseconds 700
+    if (-not [XrpSync]::IsWindow($floorHwnd)) { continue }
+    $m = [XrpSync]::IsIconic($hwnd)
+    if ($m -and -not $wasMin) { [void][XrpSync]::ShowWindow($floorHwnd, 6) }
+    if (-not $m -and $wasMin) { [void][XrpSync]::ShowWindow($floorHwnd, 4) }
+    $wasMin = $m
+  }
+  if ([XrpSync]::IsWindow($floorHwnd)) { [void][XrpSync]::PostMessage($floorHwnd, 0x0010, [IntPtr]::Zero, [IntPtr]::Zero) }
+  Write-Place 'all: main window closed; floor closed too'
+}

@@ -37,10 +37,10 @@ function build(){
   const dz=sec('demand','',`<canvas id="dzCanvas"></canvas>
     <div class="dz-verdict"><div class="dz-k" data-info="demand">IS ADOPTION CREATING XRP DEMAND?</div><div class="dz-title" id="dzTitle">Reading…</div><div class="dz-score" id="dzScore"></div></div>
     <div class="dz-live" id="dzLive"></div>
-    <div class="dz-legend"><i style="--c:#36e2cf"></i>RLUSD↔XRP <i style="--c:#4fe08c"></i>new accounts <i style="--c:#ff7a3d"></i>fees burned <i style="--c:#9b8cff"></i>RLUSD mint/redeem <i style="--c:#ffffff"></i>whale ≥1M</div>
+    <div class="dz-legend"><i style="--c:#00f0ff"></i>RLUSD↔XRP <i style="--c:#39ff88"></i>new accounts <i style="--c:#ff7a3d"></i>fees burned <i style="--c:#c86bff"></i>RLUSD mint/redeem <i style="--c:#ffffff"></i>whale ≥1M</div>
     <canvas id="geoCanvas"></canvas><div id="geoPanel"></div>
     <div class="dz-mode seg" id="dzMode"><button data-m="flow" class="on">FLOW</button><button data-m="globe">GLOBE</button><button data-m="auto">AUTO</button><span data-info="globe" class="infoanchor"></span></div>
-    <div class="geo-legend"><i style="--c:#ff7a3d"></i>outflow end <i style="--c:#36e2cf"></i>inflow end · arc width = XRP amount <i style="--c:#9b8cff"></i>XRPL nodes · unlabelled flows are counted, never placed</div>
+    <div class="geo-legend"><i style="--c:#ff7a3d"></i>outflow end <i style="--c:#00f0ff"></i>inflow end · arc width = XRP amount <i style="--c:#c86bff"></i>XRPL nodes · unlabelled flows are counted, never placed</div>
     <div class="dz-meme" id="dzMeme"><div class="dz-stage" id="dzStage"></div><div class="dz-art" id="dzArt"></div><div class="dz-cap" id="dzCap"></div></div>`);
   const ck=sec('checks','','<div id="chkGrid"></div>');
   const tl=sec('timeline','What changed','<canvas id="tlCanvas"></canvas><div id="tlTip"></div>');
@@ -141,7 +141,7 @@ function renderHealth(){ const h=Q('#healthDots'); if(!h) return; const nowT=Dat
 /* ---------- 8. signal dials (left) ---------- */
 const _rs=window.renderSignals; window.renderSignals=function(sig){ _rs(sig); const I=indicators(); const fg=val('fng'), f=val('fundOkx');
   const pos={rsi:I&&I.rsi/100, fng:fg&&fg[0]&&fg[0].v/100, bbw:I&&I.bbPct!=null?I.bbPct/100:null, volume:I&&I.volRatio!=null?Math.min(1,I.volRatio/3):null, funding:f!=null?Math.max(0,Math.min(1,.5+f/.002)):null, cross:I&&I.ma200?Math.max(0,Math.min(1,.5+(I.ma50/I.ma200-1)*5)):null, macd:I&&I.hist!=null?(I.hist>0?.75:.25):null};
-  const col=['#36e2cf','#4aa8ff','#ffb547','#ff4d6d'];
+  const col=['#00f0ff','#4aa8ff','#fcee0a','#ff2a6d'];
   Q('#sigGrid').innerHTML=sig.map(s=>{ const p=pos[s.key]; const c=col[s.level||0]; const r=26, C=2*Math.PI*r*0.75;
     const tip=[String(s.state||'').replace(/<[^>]+>/g,''),String(s.how||'').replace(/<[^>]+>/g,''),String(s.rel||'').replace(/<[^>]+>/g,''),'Source: '+(s.src||'')+(s.t?' · '+fT(s.t):''),'Signals show conditions, not certainties.'].filter(Boolean).join('\n');
     return `<div class="sig dial l${s.level||0}" title="${esc(tip)}"><svg viewBox="0 0 64 64" class="dl"><circle cx="32" cy="32" r="${r}" stroke="#1b2a3f" stroke-width="6" fill="none" stroke-dasharray="${C} 999" transform="rotate(135 32 32)" stroke-linecap="round"/>
@@ -152,14 +152,14 @@ const _rs=window.renderSignals; window.renderSignals=function(sig){ _rs(sig); co
 
 /* ---------- 9. ledger pulse (left) ---------- */
 function renderPulse(){ const dd=val('daily'), T=trends(); const g=Q('#pulseGrid'); if(!g) return;
-  const tiles=[['New accounts / day','accounts_created',T.newAcc,'#4fe08c'],['XRP burned / day','fee_total',T.burn,'#ff7a3d'],['Payments / day','payments_count',T.payments,'#36e2cf'],['Active accounts / day','active_accounts',T.active,'#4aa8ff']];
+  const tiles=[['New accounts / day','accounts_created',T.newAcc,'#39ff88'],['XRP burned / day','fee_total',T.burn,'#ff7a3d'],['Payments / day','payments_count',T.payments,'#00f0ff'],['Active accounts / day','active_accounts',T.active,'#4aa8ff']];
   const last=dd&&dd[dd.length-1];
   g.innerHTML=tiles.map(([n,k,tr,c],i)=>`<div class="pt" title="Source: XRPSCAN daily metrics${D.daily?' · fetched '+fT(D.daily.t):''}${last?' · last full day '+fD(last.t):''}"><div class="pk">${n} ${badge(tr)}</div><div class="pv" style="color:${c}">${last?fN(last[k],k==='fee_total'?1:0):'—'}</div><canvas id="pt${i}" class="spark"></canvas></div>`).join('');
   if(dd){ const tail=dd.slice(-90); tiles.forEach(([n,k,tr,c],i)=>chart(Q('#pt'+i),[{data:tail.map(x=>[x.t,x[k]]),color:c,fill:c+'33'}],{spark:1,yfmt:v=>fN(v,0),tip:p=>fN(p[1],1)})); } }
 function renderPulseLive(){ const el=Q('#pulseLive'); if(!el) return; const tx=rate(R.txs), b=rate(R.burn), a=rate(R.acct);
   const it=(n,v,u,c)=>`<div class="pl"><div class="plv" style="color:${c}">${v}</div><div class="plk">${n}<br><span>${u}</span></div></div>`;
-  el.innerHTML=it('transactions',tx!=null?(tx/60).toFixed(1):'—','per second','#e6eef8')+it('XRP burned',b!=null?b.toFixed(3):'—','per minute','#ff7a3d')+it('new accounts',a!=null?a.toFixed(1):'—','per minute','#4fe08c')+
-    it('ledger',R.ledger?'#'+R.ledger.idx.toLocaleString():'—',R.ledger&&R.ledger.close?R.ledger.close+'s close':'live','#36e2cf'); }
+  el.innerHTML=it('transactions',tx!=null?(tx/60).toFixed(1):'—','per second','#e6eef8')+it('XRP burned',b!=null?b.toFixed(3):'—','per minute','#ff7a3d')+it('new accounts',a!=null?a.toFixed(1):'—','per minute','#39ff88')+
+    it('ledger',R.ledger?'#'+R.ledger.idx.toLocaleString():'—',R.ledger&&R.ledger.close?R.ledger.close+'s close':'live','#00f0ff'); }
 
 /* ---------- 10. early warning: approaching thresholds ---------- */
 function approaching(){ const I=indicators(), out=[]; const add=(key,name,prox,now,target,unit,dir)=>{ if(prox==null||!isFinite(prox)) return; out.push({key,name,prox:Math.max(0,Math.min(1,prox)),now,target,unit,dir}); };
@@ -196,20 +196,20 @@ function tickRN(){ const c=R.rnCur; if(!c){ Q('#rnClock').textContent=fTime(Date
 function checkList(){ const T=trends(), dd=val('daily'), last=dd&&dd[dd.length-1], tok=val('rlusdTok'), flow=todayFlow(), rx=val('rlusdXrpl'), re=val('rlusdEth'), coins=val('coins'), amm=val('amm');
   const hits=(val('news_Cross River')||[]).filter(x=>Date.now()-x.t<7*864e5).length;
   return [
-    {n:'RLUSD → XRP routing',tr:T.rlDex,v:tok?fUSD(tok.vol24,1):'—',s:`24h RLUSD DEX volume · ${flow.viaXrp} XRP conversions seen today${amm?' · pool '+fN(amm.xrp)+' XRP':''}`,src:'XRPSCAN token stats + XRPL amm_info + live stream',t:(D.rlusdTok||{}).t,c:'#36e2cf'},
+    {n:'RLUSD → XRP routing',tr:T.rlDex,v:tok?fUSD(tok.vol24,1):'—',s:`24h RLUSD DEX volume · ${flow.viaXrp} XRP conversions seen today${amm?' · pool '+fN(amm.xrp)+' XRP':''}`,src:'XRPSCAN token stats + XRPL amm_info + live stream',t:(D.rlusdTok||{}).t,c:'#00f0ff'},
     {n:'Payment firms hold XRP',tr:null,v:'n/d',s:'Cross River XRP holdings: not disclosed',src:'No public source',t:null,c:'#56708f',none:1},
-    {n:'New accounts',tr:T.newAcc,v:last?fN(last.accounts_created,0):'—',s:'per day · each locks 1 XRP',src:'XRPSCAN daily metrics',t:(D.daily||{}).t,c:'#4fe08c',spark:'accounts_created'},
+    {n:'New accounts',tr:T.newAcc,v:last?fN(last.accounts_created,0):'—',s:'per day · each locks 1 XRP',src:'XRPSCAN daily metrics',t:(D.daily||{}).t,c:'#39ff88',spark:'accounts_created'},
     {n:'XRP burned',tr:T.burn,v:last?fN(last.fee_total,0):'—',s:`XRP/day · total ${coins?fN(coins.burned,0):'—'}`,src:'XRPSCAN + XRPL total_coins',t:(D.daily||{}).t,c:'#ff7a3d',spark:'fee_total'},
-    {n:'RLUSD on XRPL',tr:T.rlShare,v:(rx!=null&&re!=null)?(rx/(rx+re)*100).toFixed(1)+'%':'—',s:`${rx!=null?fN(rx):'—'} XRPL vs ${re!=null?fN(re):'—'} ETH`,src:'XRPL gateway_balances + Ethereum totalSupply',t:(D.rlusdXrpl||{}).t,c:'#9b8cff'},
+    {n:'RLUSD on XRPL',tr:T.rlShare,v:(rx!=null&&re!=null)?(rx/(rx+re)*100).toFixed(1)+'%':'—',s:`${rx!=null?fN(rx):'—'} XRPL vs ${re!=null?fN(re):'—'} ETH`,src:'XRPL gateway_balances + Ethereum totalSupply',t:(D.rlusdXrpl||{}).t,c:'#c86bff'},
     {n:'Cross River disclosures',tr:null,v:'none',s:`no volumes published · ${hits} headlines in 7d`,src:'Manual watch + Google News RSS',t:(D['news_Cross River']||{}).t,c:'#56708f',none:1}]; }
 function renderChecks(){ const L=checkList(); const g=Q('#chkGrid'); if(!g) return; const dd=val('daily');
   g.innerHTML=L.map((c,i)=>`<div class="ck ${c.none?'none':''}" title="${esc(c.n+' · '+c.s+'\nSource: '+c.src+(c.t?' · '+fT(c.t):''))}"><div class="ckn"><b>${i+1}</b>${esc(c.n)}</div><div class="ckv" style="color:${c.c}">${c.v}</div><div class="cks">${esc(c.s)}</div>${badge(c.tr===undefined?null:c.tr)}${c.spark?`<canvas class="spark" id="ck${i}"></canvas>`:''}</div>`).join('');
   if(dd) L.forEach((c,i)=>{ if(c.spark) chart(Q('#ck'+i),[{data:dd.slice(-60).map(x=>[x.t,x[c.spark]]),color:c.c,fill:c.c+'33'}],{spark:1,yfmt:v=>fN(v,0),tip:p=>fN(p[1],0)}); }); }
 function verdict(){ const T=trends(); const core=[T.rlDex,T.ammPool,T.newAcc,T.burn,T.rlXrpl,T.ammLocked]; const known=core.filter(t=>t&&!t.building), up=known.filter(t=>t.dir==='up').length, down=known.filter(t=>t.dir==='down').length;
   if(!known.length) return {w:'READING…',c:'#8197b3',s:'not enough history yet'};
-  if(up>=Math.ceil(known.length*0.6)) return {w:'YES · MECHANICS MOVING',c:'#4fe08c',s:`${up} of ${known.length} demand checks rising`};
-  if(up>=2) return {w:'MIXED',c:'#ffb547',s:`${up} rising · ${down} falling of ${known.length}`};
-  return {w:'NOT YET',c:'#ff4d6d',s:`${up} of ${known.length} demand checks rising · headlines, not mechanics`}; }
+  if(up>=Math.ceil(known.length*0.6)) return {w:'YES · MECHANICS MOVING',c:'#39ff88',s:`${up} of ${known.length} demand checks rising`};
+  if(up>=2) return {w:'MIXED',c:'#fcee0a',s:`${up} rising · ${down} falling of ${known.length}`};
+  return {w:'NOT YET',c:'#ff2a6d',s:`${up} of ${known.length} demand checks rising · headlines, not mechanics`}; }
 function renderDemand(){ const v=verdict(); const t=Q('#dzTitle'); if(!t) return; if(t.textContent!==v.w){ t.classList.remove('pop'); void t.offsetWidth; t.classList.add('pop'); }
   t.textContent=v.w; t.style.color=v.c; Q('#dzScore').textContent=v.s; Q('#dzTitle').title=Q('#vText')?Q('#vText').textContent:''; renderChecks(); }
 const _rb=window.renderBanner; window.renderBanner=function(flash){ _rb(flash); const st=Q('#alarmStage').textContent, ttl=Q('#alarmTitle').textContent;
@@ -222,7 +222,7 @@ const cv=()=>Q('#dzCanvas'); let ctx=null, W=0, H=0;
 function sizeCanvases(){ window.GeoSize&&GeoSize(); const c=cv(); if(!c) return; W=c.clientWidth; H=c.clientHeight; if(W&&H){ c.width=W; c.height=H; ctx=c.getContext('2d'); } drawTimeline(); }
 function nodes(){ const cx=W/2, cy=H*0.56, rx=Math.min(W*0.33,590), ry=H*0.33; const ang=[208,258,282,332,28,152].map(a=>a*Math.PI/180);
   return checkList().map((c,i)=>({...c,x:cx+Math.cos(ang[i])*rx,y:cy+Math.sin(ang[i])*ry})); }
-const KIND={conv:{c:'#36e2cf',node:0,dir:1},acct:{c:'#4fe08c',node:2,dir:1},burn:{c:'#ff7a3d',node:3,dir:-1},rl:{c:'#9b8cff',node:4,dir:1}};
+const KIND={conv:{c:'#00f0ff',node:0,dir:1},acct:{c:'#39ff88',node:2,dir:1},burn:{c:'#ff7a3d',node:3,dir:-1},rl:{c:'#c86bff',node:4,dir:1}};
 function emit(kind,n=1,sign=1){ if(R.particles.length>420) return; for(let i=0;i<n;i++) R.particles.push({kind,u:-Math.random()*0.3,sp:0.006+Math.random()*0.008,off:(Math.random()-.5)*26,sign}); }
 let lastF=0; const FPS=30;
 function frame(ts){ requestAnimationFrame(frame); if(document.hidden||R.mode!=='flow'||!ctx) return; if(ts-lastF<1000/(window.LITE?8:FPS)) return; lastF=ts;
@@ -242,9 +242,9 @@ function frame(ts){ requestAnimationFrame(frame); if(document.hidden||R.mode!=='
   const pulse=1+0.05*Math.sin(ts/400); const R0=Math.min(H*0.16,96)*pulse; const gl=ctx.createRadialGradient(cx,cy,R0*0.2,cx,cy,R0*2.4); gl.addColorStop(0,v.c+'88'); gl.addColorStop(1,'#00000000'); ctx.fillStyle=gl; ctx.beginPath(); ctx.arc(cx,cy,R0*2.4,0,7); ctx.fill();
   ctx.beginPath(); ctx.arc(cx,cy,R0,0,7); ctx.fillStyle='#07111d'; ctx.fill(); ctx.lineWidth=4; ctx.strokeStyle=v.c; ctx.stroke();
   ctx.fillStyle='#e6eef8'; ctx.font=`700 ${Math.round(R0*0.62)}px Bahnschrift,Segoe UI,sans-serif`; ctx.textAlign='center'; ctx.textBaseline='middle'; ctx.fillText('XRP',cx,cy-R0*0.12);
-  const px=val('px'); ctx.font=`600 ${Math.round(R0*0.26)}px Cascadia Mono,Consolas,monospace`; ctx.fillStyle='#36e2cf'; ctx.fillText(px&&px.xrp?fPx(px.xrp):'—',cx,cy+R0*0.42);
+  const px=val('px'); ctx.font=`600 ${Math.round(R0*0.26)}px Cascadia Mono,Consolas,monospace`; ctx.fillStyle='#00f0ff'; ctx.fillText(px&&px.xrp?fPx(px.xrp):'—',cx,cy+R0*0.42);
   // rings (the six checks)
-  N.forEach((n,i)=>{ const r=Math.min(46,H*0.09); const t=n.tr&&!n.tr.building?n.tr:null; const f=t?Math.max(.04,Math.min(1,.5+t.pct/60)):0; const col=!t?'#56708f':t.dir==='up'?'#4fe08c':t.dir==='down'?'#ff4d6d':'#ffb547';
+  N.forEach((n,i)=>{ const r=Math.min(46,H*0.09); const t=n.tr&&!n.tr.building?n.tr:null; const f=t?Math.max(.04,Math.min(1,.5+t.pct/60)):0; const col=!t?'#56708f':t.dir==='up'?'#39ff88':t.dir==='down'?'#ff2a6d':'#fcee0a';
     ctx.beginPath(); ctx.arc(n.x,n.y,r,0,7); ctx.fillStyle='#0a1422ee'; ctx.fill(); ctx.lineWidth=7; ctx.strokeStyle='#1b2a3f'; ctx.stroke();
     if(f){ ctx.beginPath(); ctx.arc(n.x,n.y,r,-Math.PI/2,-Math.PI/2+f*Math.PI*2); ctx.strokeStyle=col; ctx.lineCap='round'; ctx.stroke(); ctx.lineCap='butt'; }
     ctx.fillStyle=n.c==='#56708f'?'#8197b3':n.c; ctx.font=`700 ${Math.round(r*0.42)}px Cascadia Mono,Consolas,monospace`; ctx.fillText(n.v,n.x,n.y-2);
@@ -253,7 +253,7 @@ function frame(ts){ requestAnimationFrame(frame); if(document.hidden||R.mode!=='
 requestAnimationFrame(frame);
 
 /* ---------- 13. WHAT CHANGED timeline ---------- */
-const LANES=[['whale','Whales','#ffffff'],['alarm','Alarms','#ff4d6d'],['signal','Signal flips','#ffb547'],['rlusd','RLUSD','#9b8cff'],['xrpn','XRPN','#ffd34d'],['news','News','#4aa8ff'],['xmoney','X Money','#36e2cf']];
+const LANES=[['whale','Whales','#ffffff'],['alarm','Alarms','#ff2a6d'],['signal','Signal flips','#fcee0a'],['rlusd','RLUSD','#c86bff'],['xrpn','XRPN','#ffd34d'],['news','News','#4aa8ff'],['xmoney','X Money','#00f0ff']];
 function tlEvents(){ const ev=[]; const from=Date.now()-R.tlHours*3600e3;
   LS.get('whales',[]).forEach(w=>ev.push({lane:'whale',t:w.t,lv:w.xrp>=1e8?3:w.xrp>=1e7?2:1,label:`${fN(w.xrp)} XRP · ${nm(w.from)} → ${nm(w.to)}`,link:'https://xrpscan.com/tx/'+w.hash}));
   LS.get('log',[]).forEach(x=>{ if(/^whale_/.test(x.key)) return; const lane=/^xm_/.test(x.key)?'xmoney':/^dtcc_/.test(x.key)?'news':/^(8k_|xrpn_)/.test(x.key)?'xrpn':x.changed?'signal':'alarm'; ev.push({lane,t:x.t,lv:x.level||1,label:x.name+(x.changed?' · '+x.changed:''),link:x.link}); if(x.changed&&x.level>=2) ev.push({lane:'alarm',t:x.t,lv:x.level,label:x.name+' · '+x.changed}); });
@@ -271,9 +271,9 @@ function drawTimeline(){ const c=Q('#tlCanvas'); if(!c) return; const w=c.client
   const step=R.tlHours<=24?3:R.tlHours<=72?12:24; g.textAlign='center'; g.fillStyle='#56708f';
   for(let t=Math.ceil(start/(step*3600e3))*step*3600e3;t<=end;t+=step*3600e3){ const x=X(t); g.strokeStyle='#1b2a3f80'; g.beginPath(); g.moveTo(x,4); g.lineTo(x,h-18); g.stroke();
     g.fillText(new Date(t).toLocaleString('en-US',{timeZone:'America/New_York',...(step>=24?{month:'short',day:'numeric'}:{hour:'numeric'})}),x,h-8); }
-  g.strokeStyle='#36e2cf'; g.beginPath(); g.moveTo(X(end),2); g.lineTo(X(end),h-18); g.stroke();
+  g.strokeStyle='#00f0ff'; g.beginPath(); g.moveTo(X(end),2); g.lineTo(X(end),h-18); g.stroke();
   TLV=tlEvents().map(e=>{ const li=LANES.findIndex(l=>l[0]===e.lane); return {...e,x:X(e.t),y:6+lh*li+lh/2,r:3+e.lv*1.6,col:LANES[li][2]}; });
-  TLV.forEach(e=>{ g.beginPath(); g.arc(e.x,e.y,e.r,0,7); g.fillStyle=e.col; g.globalAlpha=e.lv>=2?1:.75; g.fill(); if(e.lv>=3){ g.strokeStyle='#ff4d6d'; g.lineWidth=2; g.stroke(); g.lineWidth=1; } g.globalAlpha=1; });
+  TLV.forEach(e=>{ g.beginPath(); g.arc(e.x,e.y,e.r,0,7); g.fillStyle=e.col; g.globalAlpha=e.lv>=2?1:.75; g.fill(); if(e.lv>=3){ g.strokeStyle='#ff2a6d'; g.lineWidth=2; g.stroke(); g.lineWidth=1; } g.globalAlpha=1; });
   Q('#tlLegend').textContent=`${TLV.length} events · last ${R.tlHours}h · ET`; }
 function renderTL(){ drawTimeline(); }
 function tlHit(ev){ const c=Q('#tlCanvas'); const r=c.getBoundingClientRect(); const s=r.width/c.width; const x=(ev.clientX-r.left)/s, y=(ev.clientY-r.top)/s; let best=null, bd=12;

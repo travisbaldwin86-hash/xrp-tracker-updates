@@ -1,5 +1,5 @@
 {
- "version": "20261021-081138",
+ "version": "20261021-132820",
  "files": [
   {
    "path": "site/paper.js",
@@ -186,16 +186,16 @@
    "sha256": "5979c0b7fd3668ab69275573f5d1f7fe29eea4b9ce03e4770a3963cf78ffcf02"
   },
   {
+   "path": "Update-XRPTracker.ps1",
+   "sha256": "4ae499fa321c05554f76000cb1be851e8cc4eb78b2457189affdf1487178ace5"
+  },
+  {
    "path": "XRPTrackerServer.ps1",
    "sha256": "6644a2e5bd42dc0a47f9bcabc0f4434f1598423d91eec8e7068ae666ec08ec90"
   },
   {
-   "path": "Update-XRPTracker.ps1",
-   "sha256": "6e7c03c5131da738fcda9b74d4cb619c89d170670a25ff5b195b8da5df61dbb8"
-  },
-  {
    "path": "README.txt",
-   "sha256": "327ad360705d72887d63a3601f78532b2cc0a07a18d1b92c6ab6050de72654d8"
+   "sha256": "53c5997d96d59c2b7f25a37a1cf65d1e73947c25b778ff1a55031d41bd847cf5"
   }
  ]
 }

@@ -36,8 +36,22 @@ AUTO-UPDATE (no manual steps after this install)
   - Update-XRPTracker.ps1 runs every time a shortcut is opened and every hour (task "XRP Tracker Update").
   - It reads update-config.json {"base":"https://<host>/"}, downloads <base>manifest.json and replaces only files whose
     SHA-256 changed (site\..., the tracker's own .ps1/.txt). Bad hashes or paths outside this folder are refused. Log: update.log.
+  - A file that cannot be read or written (locked, blocked, or quarantined) is logged as "warn:" and skipped. The other
+    files still update, and that file is tried again on the next run. The run then logs "ok:" or "partial-success:".
+    partial-success means the run finished; the skipped names are on that line. It does not stop the run at "error:".
+  - XRPTrackerServer.ps1 stays in the published list. Failing to write it does not cancel the rest of the update.
+  - Local-only files are left alone. The updater never deletes site\brand\ and never overwrites site\tv-config.js
+    (that file may have an extra loader line for the brand layer), even if a manifest names them. Anything not listed is not removed.
+  - The updater may replace itself. If Windows will not let it overwrite the running script, it finishes this run and
+    applies the new Update-XRPTracker.ps1 as soon as this process exits (or on the next run).
+  - Downloads are staged in .update-tmp and checked before they replace anything. A stuck XRPTrackerServer.ps1.new from an
+    older run is not required for the next run to finish.
   - The open dashboard also re-reads the signal log from the host every 10 minutes, so new scan results appear without a restart.
   - The box publishes with: python3 tools/publish.py   (env XRP_PUBLISH_REMOTE = git URL of the public hosting repo).
+    Keep Update-XRPTracker.ps1 ahead of XRPTrackerServer.ps1 in manifest.json until each PC has run this updater once,
+    so an older updater can save this script before a blocked helper would have stopped that run.
+  - To rehearse a locked file without the live task: pwsh -File .\Update-XRPTracker.ps1 -SourceRoot C:\path\to\a-folder-with-manifest.json
+    Tests: pwsh -NoProfile -Command "Import-Module Pester -MinimumVersion 5.0; Invoke-Pester -Path ./tests/Update-XRPTracker.Tests.ps1"
 
 SIGNAL LOG FORMAT (site\data\signals.json; site\data\signals.js is generated from it)
   { "version":1, "updated":"<ISO time>", "watchlist":{"<category>":["term",...]}, "discovered":["term",...],

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-21T14:10:36-04:00",
+ "updated": "2026-10-21T17:08:08-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -162,18 +162,22 @@
   "RWA inflows",
   "xrpl evm",
   "oct 23",
-  "xrpl operations"
+  "xrpl operations",
+  "fixcleanup3 4",
+  "4 0",
+  "xrp etfs",
+  "us spot",
+  "fixCleanup",
+  "Hidden Road",
+  "giveaway",
+  "livestream",
+  "Hong Kong"
  ],
  "events": [
   {
    "d": "2026-10-20",
    "name": "Swell registration closes",
    "kind": "conference"
-  },
-  {
-   "d": "2026-10-23",
-   "name": "fixCleanup3_4_0 activates",
-   "kind": "ledger"
   },
   {
    "d": "2026-10-27",
@@ -189,6 +193,11 @@
    "d": "2026-11-01",
    "name": "Monthly escrow unlock (1B XRP)",
    "kind": "escrow"
+  },
+  {
+   "d": "2026-11-04",
+   "name": "fixCleanup3_4_0 activates (earliest; clock reset Oct 21)",
+   "kind": "ledger"
   },
   {
    "d": "2026-11-14",
@@ -1409,6 +1418,88 @@
    ],
    "theme": "XRPL tech",
    "note": "Unverified; low engagement. Would be a modest positive for XRPL interoperability if confirmed"
+  },
+  {
+   "d": "2026-10-21T12:20",
+   "acct": "@Vet_X0",
+   "url": "https://x.com/Vet_X0/status/2112942047468687492",
+   "title": "fixCleanup3_4_0 lost its validator majority (one vote dropped, counter reset), then regained it with two new votes; Oct 23 activation is off, earliest now around Nov 4",
+   "status": "confirmed",
+   "entities": [
+    "XRPL",
+    "fixCleanup3_4_0",
+    "validators"
+   ],
+   "theme": "XRPL tech",
+   "note": "Neutral to slightly negative: a two-week delay to a cleanup amendment the lending/vault rollout depends on; no price impact by itself"
+  },
+  {
+   "d": "2026-10-21T10:57",
+   "acct": "@TheBlockCo",
+   "url": "https://x.com/TheBlockCo/status/2112921186548220331",
+   "title": "The Block clip: Garlinghouse says CLARITY may have failed but 'the SEC and CFTC have already leaned into rulemaking to fill the void'; notes a judge ruled XRP isn't a security",
+   "status": "confirmed",
+   "entities": [
+    "Garlinghouse",
+    "Ripple",
+    "SEC",
+    "CFTC",
+    "CLARITY"
+   ],
+   "theme": "Regulation",
+   "note": "Mixed: confirms the CLARITY bill stalled (kills the 'Senate passed CLARITY' rumor) but Ripple frames agency rulemaking as the path forward"
+  },
+  {
+   "d": "2026-10-21T15:28",
+   "acct": "@TheCryptoSquire (and copies)",
+   "url": "https://x.com/TheCryptoSquire/status/2112989295804055688",
+   "title": "Copy-paste wave: 'Ripple Prime has tripled its revenue, secured $200M in financing' since the Hidden Road deal (no Ripple or news-wire source found)",
+   "status": "speculation",
+   "entities": [
+    "Ripple Prime",
+    "Hidden Road"
+   ],
+   "theme": "Market infrastructure",
+   "note": "Would be a positive for Ripple's business if sourced; benefit to XRP itself is not established"
+  },
+  {
+   "d": "2026-10-21T14:30",
+   "acct": "@mrcauliman",
+   "url": "https://x.com/mrcauliman/status/2112974797303157032",
+   "title": "Claim: US spot XRP ETFs flat on Oct 20; cumulative net inflows still about $1.80B with about $1.50B in the funds",
+   "status": "speculation",
+   "entities": [
+    "XRP ETFs"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Neutral: inflow streak has cooled but no outflow wave; watch whether flows restart ahead of Swell"
+  },
+  {
+   "d": "2026-10-21T14:11",
+   "acct": "@Xfinancebull",
+   "url": "https://x.com/Xfinancebull/status/2112970164056830239",
+   "title": "Speculation: Hong Kong moving HK$1.3T+ in Exchange Fund Bills toward a tokenization test framed as an XRP/XLM opportunity",
+   "status": "speculation",
+   "entities": [
+    "Hong Kong",
+    "HKMA",
+    "tokenization"
+   ],
+   "theme": "Market infrastructure",
+   "note": "Tokenization tailwind is real, but no link to XRPL or XRP is shown; treat as narrative"
+  },
+  {
+   "d": "2026-10-21T17:00",
+   "acct": "@thexrpguy",
+   "url": "https://x.com/thexrpguy/status/2113012467060359309",
+   "title": "Scam warning: expect fake 'Ripple giveaway' livestreams splicing real Swell footage with a QR code or wallet address in the week before Swell",
+   "status": "speculation",
+   "entities": [
+    "Swell",
+    "scam"
+   ],
+   "theme": "Scams / safety",
+   "note": "Safety only: Ripple never asks you to send XRP to get XRP; no price effect"
   }
  ]
 }

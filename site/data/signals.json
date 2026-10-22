@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-22T11:09:42-04:00",
+ "updated": "2026-10-22T14:04:20-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -69,7 +69,9 @@
    "Nasdaq",
    "broker code",
    "NSCC",
-   "Meridian"
+   "Meridian",
+   "FICC",
+   "Treasury market"
   ],
   "Banks": [
    "bank",
@@ -110,7 +112,11 @@
    "point release",
    "Wormhole",
    "TPS",
-   "Single Asset Vault"
+   "Single Asset Vault",
+   "hotpatch",
+   "emergency config",
+   "XRPLA",
+   "full history"
   ],
   "Teasers": [
    "big news",
@@ -128,7 +134,9 @@
    "Mr Pool",
    "watch the water",
    "Nov 7",
-   "Oct 31"
+   "Oct 31",
+   "IMF",
+   "Tobias Adrian"
   ],
   "Exchanges / whales": [
    "whale",
@@ -158,7 +166,11 @@
    "banking lockout",
    "RealToken",
    "pumpkin",
-   "DM for help"
+   "DM for help",
+   "XRP Points",
+   "doubling program",
+   "lending is live",
+   "bradgarlinhousx"
   ]
  },
  "discovered": [
@@ -192,7 +204,12 @@
   "Hong Kong",
   "dtcc tokenization",
   "claim us",
-  "ledger closes"
+  "ledger closes",
+  "xrp ledger",
+  "high-engagement claim",
+  "wave from",
+  "copy-paste wave",
+  "scam bait"
  ],
  "events": [
   {
@@ -1788,6 +1805,144 @@
    ],
    "theme": "Scams / safety",
    "note": "Hurts only those who buy: fake ticker, never connect a wallet or buy from a reply"
+  },
+  {
+   "d": "2026-10-22T12:28",
+   "acct": "@WietseWind",
+   "url": "https://x.com/WietseWind/status/2113306515159253401",
+   "title": "Xaman founder Wietse Wind says he will not vote on amendments until 100% confident, citing a coordinated emergency config change by all validators, a coordinated closed-source hotpatch and recent instability",
+   "status": "confirmed",
+   "entities": [
+    "Xaman",
+    "XRPL",
+    "validators"
+   ],
+   "theme": "XRPL tech",
+   "note": "Mild hurt: a top builder questioning validator process; no action needed for blkhawknode, just context on amendment voting"
+  },
+  {
+   "d": "2026-10-22T11:46",
+   "acct": "@First_Ledger",
+   "url": "https://x.com/First_Ledger/status/2113295907760525423",
+   "title": "XRPLA: full XRPL history since 2013 stored in ~1.3 TB, claimed up to 3x faster",
+   "status": "confirmed",
+   "entities": [
+    "First Ledger",
+    "XRPLA",
+    "full history"
+   ],
+   "theme": "XRPL tech",
+   "note": "Helps node operators and infra (project claim, not independently benchmarked); neutral for price"
+  },
+  {
+   "d": "2026-10-22T14:00",
+   "acct": "@cryptorover",
+   "url": "https://x.com/cryptorover/status/2113329537928831145",
+   "title": "RUMOR from a 1.6M-follower account: 'BlackRock is planning to file for XRP spot ETF very soon'",
+   "status": "rumor",
+   "entities": [
+    "BlackRock",
+    "ETF"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "UNCONFIRMED: no filing exists; same recycled rumor, short-term hype only"
+  },
+  {
+   "d": "2026-10-22T11:20",
+   "acct": "@xrp_seer",
+   "url": "https://x.com/xrp_seer/status/2113289359604543909",
+   "title": "Claim (also @ChartNerdTA 'Ripple Swell + IMF + BlackRock', 95 likes): BlackRock, IMF and Visa speakers at Swell 2026, lining up with the DTCC tokenization launch Oct 28",
+   "status": "speculation",
+   "entities": [
+    "Swell",
+    "BlackRock",
+    "IMF",
+    "Visa",
+    "DTCC"
+   ],
+   "theme": "Community / teasers",
+   "note": "UNCONFIRMED: speaker slots are not partnerships; official agenda not verified this run; DTCC service runs on Canton/Besu, not XRPL"
+  },
+  {
+   "d": "2026-10-22T12:47",
+   "acct": "@heythereRich",
+   "url": "https://x.com/heythereRich/status/2113311167066120556",
+   "title": "Thesis: the US Treasury market (FICC central clearing + GENIUS stablecoin reserves + Ripple Prime) is the place to watch; next real signal would be Ripple Prime documented in FICC's Government Securities Division",
+   "status": "speculation",
+   "entities": [
+    "FICC",
+    "Ripple Prime",
+    "RLUSD",
+    "GENIUS Act"
+   ],
+   "theme": "Market infrastructure",
+   "note": "Speculation, but names a checkable trigger (Ripple Prime in FICC GSD membership list)"
+  },
+  {
+   "d": "2026-10-22T10:46",
+   "acct": "@ViPsPoko",
+   "url": "https://x.com/ViPsPoko/status/2113280758240669808",
+   "title": "Viral ChatGPT-written theory (132 likes): US government buys Ripple's XRP escrow at $10,000 per token with T-bills",
+   "status": "rumor",
+   "entities": [
+    "escrow",
+    "T-bills"
+   ],
+   "theme": "Community / teasers",
+   "note": "Fantasy, no source; ignore"
+  },
+  {
+   "d": "2026-10-22T06:30",
+   "acct": "@Wealthmanager",
+   "url": "https://x.com/Wealthmanager/status/2113216294585769991",
+   "title": "CryptoQuant (analyst Darkfost) data: XRP whale inflows to Binance hit a 7-month high of $112.4M during the rally; inflows have since cooled",
+   "status": "speculation",
+   "entities": [
+    "CryptoQuant",
+    "Binance",
+    "whales"
+   ],
+   "theme": "Exchanges / whales",
+   "note": "Mild hurt (profit-taking/sell pressure) if accurate; secondhand repost of CryptoQuant data, UNCONFIRMED here"
+  },
+  {
+   "d": "2026-10-22T12:52",
+   "acct": "@bradgarlinhousx",
+   "url": "https://x.com/bradgarlinhousx/status/2113312455904346364",
+   "title": "Impersonator alert: unverified 'BRAD' account @bradgarlinhousx (104K followers) reposts Garlinghouse's old news (NYDFS RLUSD approval, Hidden Road deal) as if new",
+   "status": "rumor",
+   "entities": [
+    "Garlinghouse",
+    "impersonator"
+   ],
+   "theme": "Scams / safety",
+   "note": "Hurts: classic setup for a giveaway/DM scam; the real account is @bgarlinghouse"
+  },
+  {
+   "d": "2026-10-22T13:02",
+   "acct": "@jaracoxmbq",
+   "url": "https://x.com/jaracoxmbq/status/2113314974886146074",
+   "title": "Scam bait: 'XRP Rewards Collective' (account created Sep 2026) pushes 'XRP Points': check eligibility, claim points, redeem for XRP",
+   "status": "rumor",
+   "entities": [
+    "XRP Points",
+    "airdrop"
+   ],
+   "theme": "Scams / safety",
+   "note": "Hurts only those who connect a wallet; no official XRP points program exists"
+  },
+  {
+   "d": "2026-10-22T12:20",
+   "acct": "@Marktheffinsha1",
+   "url": "https://x.com/Marktheffinsha1/status/2113304464765636797",
+   "title": "Scam bait: 'Lending is now live on the XRP Ledger... go check your eligibility' with a link (XLS-66 lending is NOT activated on mainnet)",
+   "status": "rumor",
+   "entities": [
+    "XLS-66",
+    "lending"
+   ],
+   "theme": "Scams / safety",
+   "note": "Hurts: abuses real amendment news; also seen today: 'Ripple XRP doubling program' (@XRPDaily1)"
   }
  ]
 }

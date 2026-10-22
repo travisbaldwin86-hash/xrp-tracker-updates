@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-22T08:15:13-04:00",
+ "updated": "2026-10-22T11:09:42-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -29,7 +29,10 @@
    "GENIUS",
    "Inveo",
    "Türkiye",
-   "dust"
+   "dust",
+   "Arf",
+   "settlement liquidity",
+   "working capital"
   ],
   "ETFs / treasuries": [
    "ETF",
@@ -106,7 +109,8 @@
    "config change",
    "point release",
    "Wormhole",
-   "TPS"
+   "TPS",
+   "Single Asset Vault"
   ],
   "Teasers": [
    "big news",
@@ -186,7 +190,9 @@
   "giveaway",
   "livestream",
   "Hong Kong",
-  "dtcc tokenization"
+  "dtcc tokenization",
+  "claim us",
+  "ledger closes"
  ],
  "events": [
   {
@@ -1725,6 +1731,63 @@
    ],
    "theme": "Market infrastructure",
    "note": "Neutral to slight negative: if DTCC is on stage with Stellar, that's a competitor's venue; DTCC still names Canton/Besu, not XRPL"
+  },
+  {
+   "d": "2026-10-22T09:26",
+   "acct": "@Ripple (with @arf_one)",
+   "url": "https://x.com/Ripple/status/2113260588574843090",
+   "title": "Ripple + Arf partnership: Arf (Swiss-regulated PayFi platform, ~$10B annual settlement volume) brings RLUSD-powered settlement liquidity to the XRP Ledger, short-term working capital (1-5 day revolving) for licensed cross-border payment companies; later phases tie into XRPL vaults/lending",
+   "status": "confirmed",
+   "entities": [
+    "Ripple",
+    "Arf",
+    "RLUSD",
+    "XRPL"
+   ],
+   "theme": "RLUSD / stablecoins",
+   "note": "Helps XRPL usage and RLUSD supply; direct XRP demand not established (credit is in RLUSD, not XRP)"
+  },
+  {
+   "d": "2026-10-22T09:47",
+   "acct": "@Vet_X0",
+   "url": "https://x.com/Vet_X0/status/2113265950048813208",
+   "title": "Validator operator thread (360+ likes): Arf settlement liquidity is the on-chain credit use case XLS-66 lending and Single Asset Vaults were built for; 'pay attention'",
+   "status": "speculation",
+   "entities": [
+    "Arf",
+    "XLS-66",
+    "XRPL"
+   ],
+   "theme": "XRPL tech",
+   "note": "Mildly helpful narrative; XLS-66 lending still needs validator votes, and fixCleanup3_4_0 slipped to about Nov 4"
+  },
+  {
+   "d": "2026-10-22T09:28",
+   "acct": "@WietseWind",
+   "url": "https://x.com/WietseWind/status/2113261124967875039",
+   "title": "Xaman founder Wietse Wind: XRPL 'looks super stable again' after quick, coordinated validator/hub config action (thanks RippleX, XRPLF and operators); Vet reports no ~10s ledger closes since the config went out",
+   "status": "confirmed",
+   "entities": [
+    "XRPL",
+    "Xaman",
+    "XRPLF",
+    "RippleX"
+   ],
+   "theme": "XRPL tech",
+   "note": "Helps: the slow-ledger issue looks resolved; validators running the new config should be stable"
+  },
+  {
+   "d": "2026-10-22T10:36",
+   "acct": "@lidiadi64875376",
+   "url": "https://x.com/lidiadi64875376/status/2113278310020968735",
+   "title": "Scam bait: 'Ripple USD airdrop' pushing a Solana memecoin named $RLUSD with a contract address; real RLUSD is issued by Ripple on XRPL and Ethereum only",
+   "status": "rumor",
+   "entities": [
+    "RLUSD",
+    "Solana"
+   ],
+   "theme": "Scams / safety",
+   "note": "Hurts only those who buy: fake ticker, never connect a wallet or buy from a reply"
   }
  ]
 }

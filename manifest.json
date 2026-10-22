@@ -1,5 +1,5 @@
 {
- "version": "20261021-170822",
+ "version": "20261021-200935",
  "files": [
   {
    "path": "site/paper.js",
@@ -19,7 +19,7 @@
   },
   {
    "path": "site/thesis.js",
-   "sha256": "fb60a7081c9bc77adcd048207264b408090d4913924b272c4635ee81f1e0a661"
+   "sha256": "51e4aebfbf4d535c61957783ea93dc7801b40d7973c1ebbe45cf080feed71884"
   },
   {
    "path": "site/rig.js",
@@ -143,11 +143,11 @@
   },
   {
    "path": "site/data/signals.js",
-   "sha256": "5540aa4943489a35dbf64ddb05eef04d210de100c5482f40d0d5f7308cd30801"
+   "sha256": "55b2852df3c0d229171e0f02af62d91f3b75d201f6ae08e00ae3d4c36dd0665d"
   },
   {
    "path": "site/data/signals.json",
-   "sha256": "600f3e0abf0d41ba62ed6745d102da339d42592a935e123805849d25770d9f42"
+   "sha256": "b8358a38043f60c168e85e9e414b5c8da01c08a31120d987d0b12be670524629"
   },
   {
    "path": "site/fonts/fonts.css",

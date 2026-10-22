@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-21T17:08:08-04:00",
+ "updated": "2026-10-21T20:09:34-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -140,7 +140,9 @@
    "airdrop",
    "clone",
    "system reset",
-   "QFS"
+   "QFS",
+   "Xaman airdrop",
+   "claim your allocation"
   ]
  },
  "discovered": [
@@ -171,7 +173,9 @@
   "Hidden Road",
   "giveaway",
   "livestream",
-  "Hong Kong"
+  "Hong Kong",
+  "claim us",
+  "high-engagement claim"
  ],
  "events": [
   {
@@ -1500,6 +1504,61 @@
    ],
    "theme": "Scams / safety",
    "note": "Safety only: Ripple never asks you to send XRP to get XRP; no price effect"
+  },
+  {
+   "d": "2026-10-21T15:22",
+   "acct": "@XRP",
+   "url": "https://x.com/XRP/status/2112987808390598805",
+   "title": "Official @XRP account's 'Crypto Responsibly' video ('Some people follow trends. Some people do their research.', points to xrp.org) hits 6.2K likes and 210K views",
+   "status": "confirmed",
+   "entities": [
+    "XRP",
+    "Ripple",
+    "XRPL Foundation"
+   ],
+   "theme": "Teasers",
+   "note": "Mild help: polished brand push from the new official account keeps XRP in front of a mainstream audience; no product news"
+  },
+  {
+   "d": "2026-10-21T18:56",
+   "acct": "@Ripple",
+   "url": "https://x.com/Ripple/status/2113041683273183251",
+   "title": "Ripple promotes a BCG report on institutional custody ('custody is no longer just a vault, it's the operating layer beneath digital finance'), with 20+ financial-institution leaders",
+   "status": "confirmed",
+   "entities": [
+    "Ripple",
+    "BCG"
+   ],
+   "theme": "Banks",
+   "note": "Mild help for Ripple Custody positioning with banks; indirect for XRP demand"
+  },
+  {
+   "d": "2026-10-21T18:06",
+   "acct": "@XamanFnds (and copies)",
+   "url": "https://x.com/XamanFnds/status/2113029291021869272",
+   "title": "Scam wave: 'The XAMAN Airdrop is live on XRPL' from an unverified 'Xaman Foundation' account (misspelled bio, 9 posts) plus a string of brand-new accounts posting the same claim link; the real @XamanWallet has no token",
+   "status": "rumor",
+   "entities": [
+    "Xaman",
+    "XRPL"
+   ],
+   "theme": "Scams / safety",
+   "note": "Hurts: wallet-drainer risk for XRPL users; never connect a wallet to an 'airdrop' link"
+  },
+  {
+   "d": "2026-10-21T19:40",
+   "acct": "@alkhadji",
+   "url": "https://x.com/alkhadji/status/2113052912830288173",
+   "title": "Connect-the-dots: Cross River Bank holds X Money deposits and just integrated RLUSD on XRPL, so 'X Money, Cross River, Ripple, RLUSD, XRP connected through one bank' (~100 likes)",
+   "status": "speculation",
+   "entities": [
+    "X Money",
+    "Cross River",
+    "Ripple",
+    "RLUSD"
+   ],
+   "theme": "Big tech",
+   "note": "Neutral until X or Cross River says RLUSD touches X Money; the bank link is real, the X Money angle isn't"
   }
  ]
 }

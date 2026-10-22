@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-21T20:09:34-04:00",
+ "updated": "2026-10-22T08:15:13-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -19,7 +19,9 @@
    "corridor",
    "cross-border",
    "remittance",
-   "Thunes"
+   "Thunes",
+   "Water.org",
+   "Get Blue"
   ],
   "RLUSD / stablecoins": [
    "RLUSD",
@@ -63,7 +65,8 @@
    "24/7",
    "Nasdaq",
    "broker code",
-   "NSCC"
+   "NSCC",
+   "Meridian"
   ],
   "Banks": [
    "bank",
@@ -102,7 +105,8 @@
    "fix release",
    "config change",
    "point release",
-   "Wormhole"
+   "Wormhole",
+   "TPS"
   ],
   "Teasers": [
    "big news",
@@ -116,7 +120,11 @@
    "🔜",
    "⏳",
    "countdown",
-   "tomorrow"
+   "tomorrow",
+   "Mr Pool",
+   "watch the water",
+   "Nov 7",
+   "Oct 31"
   ],
   "Exchanges / whales": [
    "whale",
@@ -142,7 +150,11 @@
    "system reset",
    "QFS",
    "Xaman airdrop",
-   "claim your allocation"
+   "claim your allocation",
+   "banking lockout",
+   "RealToken",
+   "pumpkin",
+   "DM for help"
   ]
  },
  "discovered": [
@@ -173,7 +185,8 @@
   "Hidden Road",
   "giveaway",
   "livestream",
-  "Hong Kong"
+  "Hong Kong",
+  "dtcc tokenization"
  ],
  "events": [
   {
@@ -237,6 +250,11 @@
    "teaser": "Laguna \"when our first vault will launch\" (Oct 16)",
    "outcome": "pending; needs XLS-65 on mainnet",
    "url": "https://x.com/uselaguna/status/2111124881727471826"
+  },
+  {
+   "teaser": "Mr Pool \"WATCH THE WATER\" (2022) re-read as Water.org / Matt Damon at Swell; handle decode points to Nov 7 2026 (community riddle, Oct 22)",
+   "outcome": "pending (Damon slot was announced Jun 17, so not a new reveal)",
+   "url": "https://x.com/Archie_XRPL/status/2113189709815926925"
   }
  ],
  "signals": [
@@ -1557,6 +1575,156 @@
    ],
    "theme": "Big tech",
    "note": "Neutral until X or Cross River says RLUSD touches X Money; the bank link is real, the X Money angle isn't"
+  },
+  {
+   "d": "2026-10-22T03:43",
+   "acct": "@RippleSwell (resurfaced by @JoelKatz)",
+   "url": "https://x.com/RippleSwell/status/2067315897963094242",
+   "title": "Matt Damon, co-founder of Water.org, speaks at Swell (Oct 27-29) on how Water.org uses Ripple Payments and RLUSD to move money across Asia, Africa and Latin America. Announced Jun 17; went viral again after Schwartz's 'Matt Damon goes someplace he won't need to be rescued from' quote (2.2K likes)",
+   "status": "confirmed",
+   "entities": [
+    "Ripple",
+    "Water.org",
+    "Matt Damon",
+    "RLUSD",
+    "Swell"
+   ],
+   "theme": "Payments / ODL",
+   "note": "Mild positive for awareness: a real Ripple Payments + RLUSD customer on stage; it's an old announcement and RLUSD flows don't need XRP"
+  },
+  {
+   "d": "2026-10-22T04:00",
+   "acct": "@JoelKatz",
+   "url": "https://x.com/JoelKatz/status/2113178612484686276",
+   "title": "Schwartz on the xrpld config change: he restarted his hub with it; the slow-ledger issue came from servers trying to cram too many transactions into each ledger. Follow-up: ledgers can't close faster than every ~4 s, so a per-ledger cap does set a TPS ceiling",
+   "status": "confirmed",
+   "entities": [
+    "XRPL",
+    "David Schwartz",
+    "XRPL Operations"
+   ],
+   "theme": "XRPL tech",
+   "note": "Neutral to mildly positive: confirms the fix is a sensible throttle; slower-close episode looks contained"
+  },
+  {
+   "d": "2026-10-22T04:44",
+   "acct": "@Archie_XRPL",
+   "url": "https://x.com/Archie_XRPL/status/2113189709815926925",
+   "title": "Riddle thread (320+ likes): Mr Pool's 2022 'WATCH THE WATER' read as pointing to Water.org / Matt Damon at Swell; @GnosticWatcher and others echo 'WATCH THE WATER'",
+   "status": "speculation",
+   "entities": [
+    "Mr Pool",
+    "Water.org",
+    "Swell",
+    "Ripple"
+   ],
+   "theme": "Teasers",
+   "note": "Neutral: fun pattern-match, but Water.org was announced in June and Ripple never referenced Mr Pool"
+  },
+  {
+   "d": "2026-10-22T07:42",
+   "acct": "@from_the_dunes",
+   "url": "https://x.com/from_the_dunes/status/2113234629725696008",
+   "title": "Gematria decode of Mr Pool's handle @looP_rM311_7211 as a 'loop' from Jul 13 2023 (XRP-not-a-security ruling) closing Sat Nov 7 2026",
+   "status": "speculation",
+   "entities": [
+    "Mr Pool"
+   ],
+   "theme": "Teasers",
+   "note": "Neutral: numerology, no source; date to watch only for crowd sentiment"
+  },
+  {
+   "d": "2026-10-22T05:25",
+   "acct": "@MRKingXRP",
+   "url": "https://x.com/MRKingXRP/status/2113200029728903184",
+   "title": "Claim (50+ likes): 'all stablecoins except RLUSD will be banned and delisted' and 'US Treasury will hold massive XRP reserves', bundled with a RealToken 'Oct 31, $650 trillion real-estate unlock' buy link",
+   "status": "rumor",
+   "entities": [
+    "RLUSD",
+    "US Treasury",
+    "RealToken"
+   ],
+   "theme": "RLUSD / stablecoins",
+   "note": "Hurts credibility: GENIUS Act rules (OCC, Oct 21) license many issuers; nothing bans USDC/USDT. Reads as a paid token promo"
+  },
+  {
+   "d": "2026-10-22T04:04",
+   "acct": "@BIGDADDY_west71 (and copies)",
+   "url": "https://x.com/BIGDADDY_west71/status/2113179627103383825",
+   "title": "Copy-paste wave from fresh accounts: 'XRP glitches to $21,312 on live TV' + '10 days to Oct 31, RealToken eyes a $650T real-estate market' (10+ identical quotes in minutes); @CryptoGeekNews version pushes '$2,500, then $10,000, then $35,000'",
+   "status": "rumor",
+   "entities": [
+    "RealToken"
+   ],
+   "theme": "Scams / safety",
+   "note": "Hurts: coordinated promo for a third-party token, not XRP adoption; treat Oct 31 as marketing"
+  },
+  {
+   "d": "2026-10-22T05:54",
+   "acct": "@Decentralreser1 (and copies)",
+   "url": "https://x.com/Decentralreser1/status/2113207355743863084",
+   "title": "QFS copy-paste wave from politician-named accounts: 'THE BANKING LOCKOUT HAS BEGUN' and 'gold-backed ISO 20022 compliant XRP ... DM for help' with links",
+   "status": "rumor",
+   "entities": [
+    "QFS",
+    "ISO 20022"
+   ],
+   "theme": "Scams / safety",
+   "note": "Scam pattern (DM-for-help + link); no effect on XRP, just a safety flag"
+  },
+  {
+   "d": "2026-10-21T23:08",
+   "acct": "@XRPMoonWalkK",
+   "url": "https://x.com/XRPMoonWalkK/status/2113105114458165440",
+   "title": "'Ripple Halloween Pumpkin Challenge: win 500 XRP + Ripple T-shirt' posted by a non-Ripple account (no matching @Ripple or @XRP post found)",
+   "status": "rumor",
+   "entities": [
+    "Ripple",
+    "giveaway"
+   ],
+   "theme": "Scams / safety",
+   "note": "Treat as unofficial; giveaway-style posts are a common lead-in to scams"
+  },
+  {
+   "d": "2026-10-22T03:30",
+   "acct": "@Cointelegraph",
+   "url": "https://x.com/Cointelegraph/status/2113171222347272238",
+   "title": "Spot ETF flows Oct 21: XRP +$708.5K net (Franklin XRPZ +$2.25M, Bitwise -$1.55M per SoSoValue); BTC +$528.4M, ETH +$15M, SOL +$585K",
+   "status": "confirmed",
+   "entities": [
+    "XRP ETF",
+    "Franklin Templeton",
+    "Bitwise",
+    "SoSoValue"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Neutral: second flat day for XRP ETFs while BTC ETFs pull in $500M+"
+  },
+  {
+   "d": "2026-10-22T01:59",
+   "acct": "@mrcauliman",
+   "url": "https://x.com/mrcauliman/status/2113148281144688863",
+   "title": "Rumor check: '$4 billion flowed into XRP in one day' is wrong; a ~4% price rise added ~$4.1B of market cap, which is not inflow",
+   "status": "rumor",
+   "entities": [
+    "XRP"
+   ],
+   "theme": "Exchanges / whales",
+   "note": "Neutral: debunks an inflated bullish claim"
+  },
+  {
+   "d": "2026-10-22T05:26",
+   "acct": "@Siurprizas",
+   "url": "https://x.com/Siurprizas/status/2113200392632750529",
+   "title": "Connect-the-dots: Swell (NYC, Oct 27-29), DTCC tokenization 'live Oct 28' and DTCC + Stellar co-presenting at Meridian Lisbon on Oct 28, 'coincidence or 3D chess?'",
+   "status": "speculation",
+   "entities": [
+    "DTCC",
+    "Stellar",
+    "Swell"
+   ],
+   "theme": "Market infrastructure",
+   "note": "Neutral to slight negative: if DTCC is on stage with Stellar, that's a competitor's venue; DTCC still names Canton/Besu, not XRPL"
   }
  ]
 }

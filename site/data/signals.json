@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-22T14:04:20-04:00",
+ "updated": "2026-10-22T17:08:09-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -209,7 +209,10 @@
   "high-engagement claim",
   "wave from",
   "copy-paste wave",
-  "scam bait"
+  "scam bait",
+  "genius act",
+  "act rules",
+  "wietse wind"
  ],
  "events": [
   {
@@ -1943,6 +1946,91 @@
    ],
    "theme": "Scams / safety",
    "note": "Hurts: abuses real amendment news; also seen today: 'Ripple XRP doubling program' (@XRPDaily1)"
+  },
+  {
+   "d": "2026-10-22T14:31",
+   "acct": "@WietseWind",
+   "url": "https://x.com/WietseWind/status/2113337399694766570",
+   "title": "Wietse Wind answers critics accusing him of holding back 15 amendment votes over lost funding: Ripple funded Xaman plenty and it no longer needs the money; UNL publisher @XRPLF decides who stays on the UNL and he would abstain on his own seat",
+   "status": "confirmed",
+   "entities": [
+    "Xaman",
+    "XRPLF",
+    "UNL",
+    "amendment"
+   ],
+   "theme": "XRPL tech",
+   "note": "Mild hurt: public validator-governance friction during amendment votes; no change to the ledger itself"
+  },
+  {
+   "d": "2026-10-22T16:38",
+   "acct": "@JoelKatz",
+   "url": "https://x.com/JoelKatz/status/2113369370244346172",
+   "title": "Schwartz on node databases: NuDB's memory use does not grow with the data stored; RocksDB works well with lots of RAM or small history",
+   "status": "confirmed",
+   "entities": [
+    "NuDB",
+    "RocksDB",
+    "node operators"
+   ],
+   "theme": "XRPL tech",
+   "note": "Neutral for price; useful operator guidance for running xrpld (NuDB is the safer default)"
+  },
+  {
+   "d": "2026-10-22T12:50",
+   "acct": "@krisdangerfield",
+   "url": "https://x.com/krisdangerfield/status/2113312012130218219",
+   "title": "XRPL 365 expands: developers Andy (@handy4ndy) and Lathan (@ShortTheFOMO) join; Wietse Wind calls it a dream team",
+   "status": "confirmed",
+   "entities": [
+    "XRPL 365",
+    "builders"
+   ],
+   "theme": "XRPL tech",
+   "note": "Small help: more builder capacity in the XRPL ecosystem; no XRP-demand link"
+  },
+  {
+   "d": "2026-10-22T16:10",
+   "acct": "X News",
+   "url": "https://x.com/i/trending/2113316457568211039",
+   "title": "XRP tagged $1.40 then pulled back to ~$1.33 (range $1.25-$1.43 for two weeks); story cites a record 8.24M non-empty wallets and long-term holders at ~56% of supply",
+   "status": "speculation",
+   "entities": [
+    "price",
+    "wallets",
+    "Swell"
+   ],
+   "theme": "Exchanges / whales",
+   "note": "Mixed: $1.40 is acting as a wall (heavy volume cluster there); wallet figures are an X summary, UNCONFIRMED here"
+  },
+  {
+   "d": "2026-10-22T16:10",
+   "acct": "@pumpius",
+   "url": "https://x.com/pumpius/status/2113362253747781807",
+   "title": "Shill thread (50+ likes) ties the OCC's final GENIUS Act rules to Ripple's trust bank, BNY custody, Ripple Prime and RLUSD, then pitches DNA Protocol (XDNA, ZK identity on XRPL) as 'the next piece'",
+   "status": "speculation",
+   "entities": [
+    "DNA Protocol",
+    "GENIUS Act",
+    "OCC",
+    "RLUSD"
+   ],
+   "theme": "Community / teasers",
+   "note": "UNCONFIRMED: real facts used to sell a small token; no Ripple link to DNA Protocol shown"
+  },
+  {
+   "d": "2026-10-22T16:48",
+   "acct": "@MelaniaTrumpsu",
+   "url": "https://x.com/MelaniaTrumpsu/status/2113372041277833636",
+   "title": "'XRP Rewards Collective / XRP Points' scam spreads to a politician-named account; same afternoon the QFS 'register your quantum wallet' wave posts from a fake @SenLummisRV",
+   "status": "rumor",
+   "entities": [
+    "XRP Points",
+    "QFS",
+    "impersonator"
+   ],
+   "theme": "Scams / safety",
+   "note": "Hurts only those who click or connect a wallet; no official XRP points program or QFS exists"
   }
  ]
 }

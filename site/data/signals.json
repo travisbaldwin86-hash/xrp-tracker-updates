@@ -1,11 +1,12 @@
 {
  "version": 1,
- "updated": "2026-10-23T14:04:23-04:00",
+ "updated": "2026-10-23T17:12:34-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
    "SWIFT",
-   "Swift"
+   "Swift",
+   "Sibos"
   ],
   "Escrow / supply": [
    "escrow",
@@ -84,7 +85,9 @@
    "FICC",
    "Treasury market",
    "Securitize",
-   "Securitize Stocks"
+   "Securitize Stocks",
+   "Hyperliquid",
+   "LMAX"
   ],
   "Banks": [
    "bank",
@@ -95,7 +98,10 @@
    "Sparkasse",
    "DekaBank",
    "Zodia",
-   "BIS"
+   "BIS",
+   "WebBank",
+   "BBVA",
+   "OKX card"
   ],
   "Big tech": [
    "Google",
@@ -105,7 +111,8 @@
    "X Money",
    "Visa",
    "Mastercard",
-   "Meta"
+   "Meta",
+   "future of money"
   ],
   "XRPL tech": [
    "XLS-65",
@@ -134,7 +141,9 @@
    "CLOSE_WAIT",
    "YELLOW",
    "Clearpool",
-   "CLEAR"
+   "CLEAR",
+   "Clearnet",
+   "single ledger record"
   ],
   "Teasers": [
    "big news",
@@ -156,7 +165,8 @@
    "IMF",
    "Tobias Adrian",
    "So it begins",
-   "PERSEVERE"
+   "PERSEVERE",
+   "Great Blackout"
   ],
   "Exchanges / whales": [
    "whale",
@@ -194,7 +204,24 @@
    "XamanWalletX",
    "Eligibility Checker",
    "Trustpad",
-   "Genesis Airdrop"
+   "Genesis Airdrop",
+   "CryptEscrow",
+   "LLC cold wallet",
+   "former Barclays"
+  ],
+  "Energy / carbon": [
+   "energy-backed",
+   "energy backed currency",
+   "watt-based",
+   "kilowatt-hour",
+   "tokenized energy",
+   "energy token",
+   "energy trading",
+   "carbon credit",
+   "carbon credits",
+   "tokenized carbon",
+   "carbon tonnes",
+   "renewable energy credit"
   ]
  },
  "discovered": [
@@ -247,7 +274,8 @@
   "oct 20",
   "cryptoquant data",
   "regulation crypto",
-  "crypto assets"
+  "crypto assets",
+  "000 xrp"
  ],
  "events": [
   {
@@ -2409,6 +2437,209 @@
    ],
    "theme": "Exchanges / whales",
    "note": "Hurts short term if accurate: heavy exchange inflows usually mean sell pressure; number not checked at CryptoQuant."
+  },
+  {
+   "d": "2026-10-23T14:19",
+   "acct": "@JoelKatz",
+   "url": "https://x.com/JoelKatz/status/2113696870866493856",
+   "title": "David Schwartz value-capture thread (2,082 likes): a world where XRPL succeeds in finance but XRP has little demand is 'very unlikely'; follow-up says XRP captures value bridging assets like wrapped BTC",
+   "status": "confirmed",
+   "entities": [
+    "David Schwartz",
+    "XRPL"
+   ],
+   "theme": "XRPL tech",
+   "note": "Ripple CTO emeritus's own posts; opinion, not news. Follow-up: https://x.com/JoelKatz/status/2113697488750412287 . Mildly positive for the XRP narrative."
+  },
+  {
+   "d": "2026-10-23T12:41",
+   "acct": "@XRP",
+   "url": "https://x.com/XRP/status/2113672076628484210",
+   "title": "@XRP brand video 'The future of money. Made for the real world. Crypto Responsibly.' (4,892 likes, 868 reposts)",
+   "status": "confirmed",
+   "entities": [
+    "XRP"
+   ],
+   "theme": "Community / teasers",
+   "note": "Official marketing post; no product news inside it. Community is reading it as a pre-Swell campaign (speculation)."
+  },
+  {
+   "d": "2026-10-23T15:21",
+   "acct": "@TokenRelations",
+   "url": "https://x.com/TokenRelations/status/2113712560583094352",
+   "title": "Reposted by @XRP: RLUSD market cap on XRPL hit an all-time high of $1.24B on Oct 1 (+956.5% YoY), but XRPL supply has since slipped to about $924.8M",
+   "status": "confirmed",
+   "entities": [
+    "RLUSD",
+    "XRPL",
+    "TokenRelations"
+   ],
+   "theme": "RLUSD / stablecoins",
+   "note": "Data account post that @XRP officially reposted (https://x.com/XRP/status/2113719742372466819). Mixed: big yearly growth, but October supply on XRPL is down about 25% from the peak. A community recap the same day put XRPL RLUSD at 962.6M (+30.8M intraday)."
+  },
+  {
+   "d": "2026-10-23T12:00",
+   "acct": "@bgarlinghouse",
+   "url": "https://x.com/bgarlinghouse/status/2113661923296190551",
+   "title": "Brad Garlinghouse shares that his father passed away earlier this week (16.9K likes); a few posts spin it into 'leadership succession concerns' and possible XRP volatility",
+   "status": "confirmed",
+   "entities": [
+    "Brad Garlinghouse"
+   ],
+   "theme": "Community / teasers",
+   "note": "Personal news, not business news. The succession/volatility angle (e.g. https://x.com/javedahmedhere/status/2113737696116121782) has no basis; ignore it."
+  },
+  {
+   "d": "2026-10-23T15:55",
+   "acct": "@bradgarlinhousx",
+   "url": "https://x.com/bradgarlinhousx/status/2113720981529198665",
+   "title": "SCAM: Garlinghouse look-alike account @bradgarlinhousx (misspelled) copies his post about his father's death word for word to farm engagement",
+   "status": "rumor",
+   "entities": [
+    "Brad Garlinghouse"
+   ],
+   "theme": "Scams / safety",
+   "note": "Impersonator. Expect 'giveaway' or DM follow-ups from it. Only trust @bgarlinghouse."
+  },
+  {
+   "d": "2026-10-23T14:34",
+   "acct": "@DiegoMYellow",
+   "url": "https://x.com/DiegoMYellow/status/2113700638681088289",
+   "title": "Yellow exec says AI-agent trading needs friction-free settlement (216 likes); community recaps say Yellow's Clearnet is integrated with XRPL EVM, using XRP as gas",
+   "status": "speculation",
+   "entities": [
+    "Yellow",
+    "Clearnet",
+    "XRPL EVM"
+   ],
+   "theme": "XRPL / EVM projects",
+   "note": "Diego (Yellow) separately replied 'Our job is making XRPL EVM a place agents actually want to settle' (https://x.com/DiegoMYellow/status/2113713013853155764). Integration details and XRP-gas demand come from fan recaps (e.g. https://x.com/XrpUdate/status/2113715653316334079). Off-chain netting means few mainnet XRP transactions."
+  },
+  {
+   "d": "2026-10-23T13:44",
+   "acct": "@BULLFOCUSS",
+   "url": "https://x.com/BULLFOCUSS/status/2113687986718355807",
+   "title": "Conflicting XRP ETF weekly read: one account claims the first weekly outflow (-$1.84M) after 13 weeks of inflows; another says weekly flows are still positive, with AUM about 1.2B XRP",
+   "status": "speculation",
+   "entities": [
+    "XRP ETFs"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Counter-claim: https://x.com/RipBullWinkle/status/2113730535000330408 . The daily data (SoSoValue: +$3.55M Oct 22, all Franklin XRPZ) is already logged. Wait for official weekly totals."
+  },
+  {
+   "d": "2026-10-23T16:19",
+   "acct": "@Sir__XRP",
+   "url": "https://x.com/Sir__XRP/status/2113727155511370050",
+   "title": "Community claim: XRPL record of 4,416 transactions in a single ledger close, mostly trustline transactions",
+   "status": "speculation",
+   "entities": [
+    "XRPL"
+   ],
+   "theme": "XRPL tech",
+   "note": "Not verified on an explorer. Trustline bursts are often airdrop or spam activity, not payments."
+  },
+  {
+   "d": "2026-10-23T15:05",
+   "acct": "@krippenreiter",
+   "url": "https://x.com/krippenreiter/status/2113708359610196355",
+   "title": "Speculation: the new OKX card is issued by WebBank, the same bank said to have tested RLUSD settlement on XRPL",
+   "status": "speculation",
+   "entities": [
+    "OKX",
+    "WebBank",
+    "RLUSD"
+   ],
+   "theme": "Banks",
+   "note": "Dot-connecting only. No OKX-XRPL link is confirmed."
+  },
+  {
+   "d": "2026-10-23T14:46",
+   "acct": "@ceresquinn",
+   "url": "https://x.com/ceresquinn/status/2113703636517724187",
+   "title": "Claims Ripple Prime prices RWA swaps off Hyperliquid perps and gives institutions access to Hyperliquid markets",
+   "status": "speculation",
+   "entities": [
+    "Ripple Prime",
+    "Hyperliquid"
+   ],
+   "theme": "Market infrastructure",
+   "note": "Also https://x.com/CAILLASSE06/status/2113736201760866736 . Skeptics note that Ripple Prime activity isn't on XRPL (https://x.com/PippyLongStack/status/2113699138571538795). Neutral for XRP demand."
+  },
+  {
+   "d": "2026-10-23T16:09",
+   "acct": "@libertine1042",
+   "url": "https://x.com/libertine1042/status/2113724395852063094",
+   "title": "Fake 'XAMAN Airdrop is live' wave keeps going, and a victim replies 'Just lost all my xrp! Xaman airdrop'",
+   "status": "rumor",
+   "entities": [
+    "Xaman"
+   ],
+   "theme": "Scams / safety",
+   "note": "Copy-paste source example: https://x.com/angle_quit/status/2113717942936576240 . Xaman has no token or airdrop. Never connect a wallet."
+  },
+  {
+   "d": "2026-10-23T15:09",
+   "acct": "@claver602",
+   "url": "https://x.com/claver602/status/2113709326602850417",
+   "title": "SCAM script: 'move your crypto off Coinbase/Uphold and connect a cold wallet set up with an LLC'",
+   "status": "rumor",
+   "entities": [
+    "Coinbase",
+    "Uphold"
+   ],
+   "theme": "Scams / safety",
+   "note": "Wallet-drainer and 'consultant' setup. Never connect a wallet or share a seed."
+  },
+  {
+   "d": "2026-10-23T15:51",
+   "acct": "@XRPstorm",
+   "url": "https://x.com/XRPstorm/status/2113719875407319144",
+   "title": "Unverified claim that Ripple has partnered with 'CryptEscrow' for real-estate escrow",
+   "status": "rumor",
+   "entities": [
+    "Ripple",
+    "CryptEscrow"
+   ],
+   "theme": "Payments / ODL",
+   "note": "No Ripple source. Low-engagement hype account."
+  },
+  {
+   "d": "2026-10-23T15:03",
+   "acct": "@josedairita",
+   "url": "https://x.com/josedairita/status/2113707847871803890",
+   "title": "'BREAKING: BBVA + Ripple' retail custody under MiCA, recycled as new",
+   "status": "rumor",
+   "entities": [
+    "BBVA",
+    "Ripple Custody"
+   ],
+   "theme": "Banks",
+   "note": "The BBVA-Ripple Custody partnership in Spain is old news, not a new deal."
+  },
+  {
+   "d": "2026-10-23T14:25",
+   "acct": "@XRPstorm",
+   "url": "https://x.com/XRPstorm/status/2113698258082042329",
+   "title": "Copy-paste price hype: 'former Barclays exec' says holders aren't ready for next week, with $3,000-$21,000 XRP 'attributed to Bank of America'; separately, 'XRP flashed to $9,864 on an exchange' plus an 'October 31st' tease",
+   "status": "rumor",
+   "entities": [
+    "XRP"
+   ],
+   "theme": "Scams / safety",
+   "note": "Same text posted by several accounts. The $9,864 claim: https://x.com/Patriot_Graham/status/2113733258898772393 . No sources. Classic pump bait before Swell."
+  },
+  {
+   "d": "2026-10-23T15:06",
+   "acct": "@mat24019964",
+   "url": "https://x.com/mat24019964/status/2113708779808473250",
+   "title": "Mr Pool-style teaser: '11/1 Great Blackout' with 11/3-11/4 dates",
+   "status": "rumor",
+   "entities": [
+    "Mr Pool"
+   ],
+   "theme": "Teasers",
+   "note": "Low engagement, no substance. Logged only to track the recurring date teasers."
   }
  ]
 }

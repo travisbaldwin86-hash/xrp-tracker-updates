@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-22T17:08:09-04:00",
+ "updated": "2026-10-22T20:02:18-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -116,7 +116,9 @@
    "hotpatch",
    "emergency config",
    "XRPLA",
-   "full history"
+   "full history",
+   "CLOSE_WAIT",
+   "YELLOW"
   ],
   "Teasers": [
    "big news",
@@ -170,7 +172,8 @@
    "XRP Points",
    "doubling program",
    "lending is live",
-   "bradgarlinhousx"
+   "bradgarlinhousx",
+   "XamanWalletX"
   ]
  },
  "discovered": [
@@ -212,7 +215,9 @@
   "scam bait",
   "genius act",
   "act rules",
-  "wietse wind"
+  "wietse wind",
+  "spot etf",
+  "copy-paste rumor"
  ],
  "events": [
   {
@@ -2031,6 +2036,64 @@
    ],
    "theme": "Scams / safety",
    "note": "Hurts only those who click or connect a wallet; no official XRP points program or QFS exists"
+  },
+  {
+   "d": "2026-10-22T17:09",
+   "acct": "@XamanWalletX",
+   "url": "https://x.com/XamanWalletX/status/2113377113969492131",
+   "title": "Fake Xaman airdrop wave returns from look-alike account @XamanWalletX ('The XAMAN Airdrop is live on XRPL... claim your allocation'), boosted to 230+ likes and 160+ reposts; copies from @k0ryeth",
+   "status": "rumor",
+   "entities": [
+    "Xaman",
+    "impersonator",
+    "airdrop"
+   ],
+   "theme": "Scams / safety",
+   "note": "Hurts anyone who clicks or connects a wallet; the real Xaman runs no airdrop, and this is the third Xaman-airdrop wave this week"
+  },
+  {
+   "d": "2026-10-22T16:34",
+   "acct": "@Rophy15",
+   "url": "https://x.com/Rophy15/status/2113368451444260999",
+   "title": "Crypto Rover's 'RUMOR: BlackRock is planning to file for XRP spot ETF very soon' is now copied word for word by several accounts (@Wardshows, @ylyykgL), and @RJ22688937 replies to @BlackRock that it will be 'announced at Swell'",
+   "status": "speculation",
+   "entities": [
+    "BlackRock",
+    "ETF",
+    "Swell",
+    "copy-paste wave"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "UNCONFIRMED: no BlackRock filing or statement; hype into Swell (Oct 27-29) sets up a sell-the-news risk if nothing comes"
+  },
+  {
+   "d": "2026-10-22T12:01",
+   "acct": "@Xfinancebull",
+   "url": "https://x.com/Xfinancebull/status/2113299591412248889",
+   "title": "Thread (390+ likes) on the YELLOW-XRP link: Chris Larsen led Yellow Network's $10M round, and Yellow's Oct 21 posts pitch XRP as the settlement asset for AI-agent trading; YELLOW token reportedly up 150-200% in a day",
+   "status": "speculation",
+   "entities": [
+    "Yellow",
+    "Chris Larsen",
+    "AI agent",
+    "settlement"
+   ],
+   "theme": "XRPL tech",
+   "note": "Small help if Yellow actually settles in XRP on mainnet; for now it's a teaser plus a token pump, UNCONFIRMED as live usage"
+  },
+  {
+   "d": "2026-10-22T18:46",
+   "acct": "@JoelKatz",
+   "url": "https://x.com/JoelKatz/status/2113401647678583214",
+   "title": "Schwartz to XRPL operators: the stuck hub connections were sockets in CLOSE_WAIT (the peer already closed; the app never called close), which points to an application bug, and forcibly killing them is very dangerous",
+   "status": "confirmed",
+   "entities": [
+    "XRPL Operations",
+    "hub",
+    "node operators"
+   ],
+   "theme": "XRPL tech",
+   "note": "Neutral for price; operator guidance after this week's instability, so don't force-kill node sockets"
   }
  ]
 }

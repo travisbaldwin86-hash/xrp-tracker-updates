@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-23T11:10:20-04:00",
+ "updated": "2026-10-23T14:04:23-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -62,7 +62,10 @@
    "Fed",
    "Treasury",
    "Regulation Crypto Assets",
-   "comment letter"
+   "comment letter",
+   "Rahul Advani",
+   "onchain money",
+   "Basel"
   ],
   "Market infrastructure": [
    "DTCC",
@@ -129,7 +132,9 @@
    "XRPLA",
    "full history",
    "CLOSE_WAIT",
-   "YELLOW"
+   "YELLOW",
+   "Clearpool",
+   "CLEAR"
   ],
   "Teasers": [
    "big news",
@@ -149,7 +154,9 @@
    "Nov 7",
    "Oct 31",
    "IMF",
-   "Tobias Adrian"
+   "Tobias Adrian",
+   "So it begins",
+   "PERSEVERE"
   ],
   "Exchanges / whales": [
    "whale",
@@ -185,7 +192,9 @@
    "lending is live",
    "bradgarlinhousx",
    "XamanWalletX",
-   "Eligibility Checker"
+   "Eligibility Checker",
+   "Trustpad",
+   "Genesis Airdrop"
   ]
  },
  "discovered": [
@@ -234,7 +243,11 @@
   "xrp exchange",
   "swell 2026",
   "scam wave",
-  "airdrop is"
+  "airdrop is",
+  "oct 20",
+  "cryptoquant data",
+  "regulation crypto",
+  "crypto assets"
  ],
  "events": [
   {
@@ -2300,6 +2313,102 @@
    ],
    "theme": "Banks",
    "note": "No Garlinghouse or BIS post found; account uses a famous name and urgency bait. Ignore."
+  },
+  {
+   "d": "2026-10-23T13:11",
+   "acct": "@BankXRP (Ripple's Rahul Advani)",
+   "url": "https://x.com/BankXRP/status/2113679629990940984",
+   "title": "Ripple global co-head of policy Rahul Advani at the IMF / World Bank Annual Meetings in Bangkok (Atlantic Council stage): 'The migration from fiat to onchain money is happening now'; says Ripple engages directly with the Basel Committee and central banks",
+   "status": "confirmed",
+   "entities": [
+    "Ripple",
+    "IMF",
+    "World Bank",
+    "Basel Committee",
+    "Rahul Advani"
+   ],
+   "theme": "Regulation",
+   "note": "Mild positive: Ripple is in the room with central bankers during IMF week, but it's a talk, not a deal; quote relayed by a fan account, not Ripple itself."
+  },
+  {
+   "d": "2026-10-23T11:59",
+   "acct": "@s_alderoty",
+   "url": "https://x.com/s_alderoty/status/2113661518189568099",
+   "title": "Ripple CLO Stuart Alderoty backs the SEC's proposed Regulation Crypto Assets: investors deserve to know what's promised and who's accountable; rule protects issuers who play by the rules",
+   "status": "confirmed",
+   "entities": [
+    "Ripple",
+    "SEC",
+    "Stuart Alderoty"
+   ],
+   "theme": "Regulation",
+   "note": "Small positive: Ripple publicly supports clearer SEC offering rules, which favors established tokens like XRP over fly-by-night launches."
+  },
+  {
+   "d": "2026-10-23T13:19",
+   "acct": "@FunOnTheDump",
+   "url": "https://x.com/FunOnTheDump/status/2113681829341315412",
+   "title": "Claim: Clearpool (institutional credit protocol, Ripple + Cicada RLUSD credit fund partner) is preparing to migrate its Ethereum token to $CLEAR native on the XRP Ledger, 1:1, with 50% of fees burned",
+   "status": "speculation",
+   "entities": [
+    "Clearpool",
+    "Ripple",
+    "RLUSD",
+    "XRPL"
+   ],
+   "theme": "XRPL tech",
+   "note": "Neutral-to-small positive: more RLUSD credit on XRPL if true, but loans settle in RLUSD, not XRP; no official Clearpool post found in this scan."
+  },
+  {
+   "d": "2026-10-23T13:23",
+   "acct": "@fuzzy_xrp",
+   "url": "https://x.com/fuzzy_xrp/status/2113682623122018518",
+   "title": "Fuzzybear teaser 'So it begins' (450+ likes): image of a gate marked PERSEVERE / SEMPER SEPTENTRIO with Roman-numeral dates XXIII.X (Oct 23), XXVI.X (Oct 26), V.XI and MMXXVIII (2028); community decoding it as a countdown",
+   "status": "speculation",
+   "entities": [
+    "FUZZY"
+   ],
+   "theme": "Teasers",
+   "note": "Fun to watch, no substance: a community NFT/meme teaser, not a Ripple hint. Watch Oct 26 and Nov 5 only for what Fuzzy itself does."
+  },
+  {
+   "d": "2026-10-23T11:00",
+   "acct": "@FomoEraCom",
+   "url": "https://x.com/FomoEraCom/status/2113646709867692413",
+   "title": "SCAM variant: 'Xaman, in collaboration with Trustpad, has officially launched the XRP Genesis Airdrop' (snapshot Oct 20) posted 10+ times in 3 minutes by a 103K-follower account, alongside the ongoing 'XAMAN Airdrop is live' copy-paste wave from adult-spam accounts",
+   "status": "rumor",
+   "entities": [
+    "Xaman",
+    "Trustpad"
+   ],
+   "theme": "Scams / safety",
+   "note": "Scam: Xaman has no airdrop. Never connect a wallet or 'check eligibility' from an X link."
+  },
+  {
+   "d": "2026-10-23T13:24",
+   "acct": "@XRPLF (RT @XRPLWin)",
+   "url": "https://x.com/XRPLF/status/2113683081597001762",
+   "title": "XRPL Foundation boosts XRPLWin: research-grade XRPL datasets (real-time TPS, ledger data) now indexed in Google Dataset Search",
+   "status": "confirmed",
+   "entities": [
+    "XRPL Foundation",
+    "XRPLWin",
+    "Google"
+   ],
+   "theme": "XRPL tech",
+   "note": "Tiny positive for research visibility; this is a Google search listing, not a Google partnership, despite how it may get spun."
+  },
+  {
+   "d": "2026-10-23T12:07",
+   "acct": "@chachaX72 (CryptoQuant data)",
+   "url": "https://x.com/chachaX72/status/2113663638892630159",
+   "title": "CryptoQuant data relayed: about 6.05B XRP moved onto exchanges over the last 30 days while macro stays risk-off",
+   "status": "speculation",
+   "entities": [
+    "CryptoQuant"
+   ],
+   "theme": "Exchanges / whales",
+   "note": "Hurts short term if accurate: heavy exchange inflows usually mean sell pressure; number not checked at CryptoQuant."
   }
  ]
 }

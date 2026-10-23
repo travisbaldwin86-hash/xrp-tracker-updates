@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-23T08:13:59-04:00",
+ "updated": "2026-10-23T11:10:20-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -32,7 +32,10 @@
    "dust",
    "Arf",
    "settlement liquidity",
-   "working capital"
+   "working capital",
+   "BLOOM",
+   "Bank Negara",
+   "Bank of Thailand"
   ],
   "ETFs / treasuries": [
    "ETF",
@@ -43,7 +46,10 @@
    "warrant",
    "in-kind",
    "BitGo",
-   "Hanwha"
+   "Hanwha",
+   "Franklin",
+   "Larry Fink",
+   "Horsley"
   ],
   "Regulation": [
    "SEC",
@@ -73,7 +79,9 @@
    "NSCC",
    "Meridian",
    "FICC",
-   "Treasury market"
+   "Treasury market",
+   "Securitize",
+   "Securitize Stocks"
   ],
   "Banks": [
    "bank",
@@ -83,7 +91,8 @@
    "custody",
    "Sparkasse",
    "DekaBank",
-   "Zodia"
+   "Zodia",
+   "BIS"
   ],
   "Big tech": [
    "Google",
@@ -2195,6 +2204,102 @@
    ],
    "theme": "Exchanges / whales",
    "note": "Sell-pressure signal, low-engagement accounts; contradicts the 'Binance whale withdrawals at 5-year low' post."
+  },
+  {
+   "d": "2026-10-23T04:02",
+   "acct": "@FintechSIN",
+   "url": "https://x.com/FintechSIN/status/2113541496804675816",
+   "title": "MAS: Bank Negara Malaysia and Bank of Thailand join Singapore's BLOOM initiative for cross-border settlement with regulated stablecoins and tokenized deposits; Ripple is an industry member alongside Visa, Mastercard and the World Bank Group",
+   "status": "confirmed",
+   "entities": [
+    "MAS",
+    "Bank Negara Malaysia",
+    "Bank of Thailand",
+    "Ripple",
+    "BLOOM"
+   ],
+   "theme": "RLUSD / stablecoins",
+   "note": "Helps a little: Ripple is in the room as BLOOM goes regional, but no XRP or RLUSD volume or role is named yet."
+  },
+  {
+   "d": "2026-10-23T09:58",
+   "acct": "@Cointurknews",
+   "url": "https://x.com/Cointurknews/status/2113631182604648795",
+   "title": "Spot ETF flows Oct 22: Franklin Templeton XRP ETF takes $3.55M net inflow while other XRP ETFs report zero; XRP ETFs the only positive inflow while BTC ETFs shed ~$635M",
+   "status": "confirmed",
+   "entities": [
+    "Franklin Templeton",
+    "XRP ETF"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Small positive: steady but tiny XRP ETF demand, better than flat days Oct 20-21."
+  },
+  {
+   "d": "2026-10-23T08:21",
+   "acct": "@Xaif_Crypto",
+   "url": "https://x.com/Xaif_Crypto/status/2113606809835745740",
+   "title": "Claim (copy-pasted widely): SRH, a $3.15B investment adviser, disclosed a 27,301-share (~$441,738) position in Franklin's XRP ETF",
+   "status": "speculation",
+   "entities": [
+    "Franklin Templeton",
+    "SRH",
+    "XRP ETF"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Tiny position even if true; filing not checked. Not a sign of 'quiet institutional positioning'."
+  },
+  {
+   "d": "2026-10-23T10:40",
+   "acct": "@klaybrowning_",
+   "url": "https://x.com/klaybrowning_/status/2113641737356705975",
+   "title": "Copy-paste claim: Bitwise CEO Hunter Horsley says its XRP ETF drew 'hundreds of millions' in inflows despite two quarters of bear market",
+   "status": "speculation",
+   "entities": [
+    "Bitwise",
+    "XRP ETF"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Quote not verified at the source; Bitwise's XRP ETF showed outflows on Oct 21. Treat as hype until Horsley's own post is found."
+  },
+  {
+   "d": "2026-10-22T11:11",
+   "acct": "@OscarRamos60",
+   "url": "https://x.com/OscarRamos60/status/2113287249760559208",
+   "title": "Copy-paste wave: 'BlackRock CEO Larry Fink says: I can't speak about XRP. XRP IS A DONE DEAL'",
+   "status": "rumor",
+   "entities": [
+    "BlackRock",
+    "Larry Fink"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Recycled clip (one reply dates it to around Feb 2024); 'can't comment' is not a filing. Feeds the BlackRock XRP ETF rumor before Swell."
+  },
+  {
+   "d": "2026-10-23T10:51",
+   "acct": "@Securitize",
+   "url": "https://x.com/Securitize/status/2113644410600591673",
+   "title": "Securitize Stocks goes live: Apple, Nvidia, Tesla and 9 more top US stocks tokenized 1:1, tradable by eligible investors on Solana (not XRPL)",
+   "status": "confirmed",
+   "entities": [
+    "Securitize",
+    "Solana",
+    "Ripple Prime"
+   ],
+   "theme": "Market infrastructure",
+   "note": "Slight negative for the XRPL tokenization story: launch chain is Solana. Posts saying 'Ripple Prime supports Securitize Stocks' (@Crypt0Senseii) are not confirmed by Securitize."
+  },
+  {
+   "d": "2026-10-23T09:53",
+   "acct": "@Ron_WatkinsQ",
+   "url": "https://x.com/Ron_WatkinsQ/status/2113629967372406787",
+   "title": "Rumor: 'Ripple CEO Brad Garlinghouse confirms BIS (Bank for International Settlements) is testing with XRPL' with 'read this before it's too late' bait",
+   "status": "rumor",
+   "entities": [
+    "BIS",
+    "Garlinghouse"
+   ],
+   "theme": "Banks",
+   "note": "No Garlinghouse or BIS post found; account uses a famous name and urgency bait. Ignore."
   }
  ]
 }

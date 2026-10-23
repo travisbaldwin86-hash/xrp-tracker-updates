@@ -1,5 +1,5 @@
 {
- "version": "20261023-140441",
+ "version": "20261023-140516",
  "files": [
   {
    "path": "site/paper.js",
@@ -19,7 +19,7 @@
   },
   {
    "path": "site/thesis.js",
-   "sha256": "6f86f97b6d4f66a76bdc3fa4a47164027a8d49217170d0e75e7f47a6197b3ec9"
+   "sha256": "d843d72a4b4474e85881b27ed0b562af087f4b45f982ae3a62e1b8bb7809c229"
   },
   {
    "path": "site/rig.js",

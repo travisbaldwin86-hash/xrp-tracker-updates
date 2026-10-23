@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-22T20:02:18-04:00",
+ "updated": "2026-10-23T08:13:59-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -41,7 +41,9 @@
    "treasury",
    "BlackRock",
    "warrant",
-   "in-kind"
+   "in-kind",
+   "BitGo",
+   "Hanwha"
   ],
   "Regulation": [
    "SEC",
@@ -173,7 +175,8 @@
    "doubling program",
    "lending is live",
    "bradgarlinhousx",
-   "XamanWalletX"
+   "XamanWalletX",
+   "Eligibility Checker"
   ]
  },
  "discovered": [
@@ -217,7 +220,12 @@
   "act rules",
   "wietse wind",
   "spot etf",
-  "copy-paste rumor"
+  "copy-paste rumor",
+  "xrp etf",
+  "xrp exchange",
+  "swell 2026",
+  "scam wave",
+  "airdrop is"
  ],
  "events": [
   {
@@ -2094,6 +2102,99 @@
    ],
    "theme": "XRPL tech",
    "note": "Neutral for price; operator guidance after this week's instability, so don't force-kill node sockets"
+  },
+  {
+   "d": "2026-10-23T08:00",
+   "acct": "@JARMANYEACH",
+   "url": "https://x.com/JARMANYEACH/status/2113595838425395517",
+   "title": "SCAM wave: \"The XAMAN Eligibility Checker is live... Connect the wallet you use on the XRP Ledger\" posted 20+ times by a 99.9K-follower account created Sep 30 2026",
+   "status": "rumor",
+   "entities": [
+    "Xaman"
+   ],
+   "theme": "Scams / safety",
+   "note": "New variant of the fake Xaman airdrop. Xaman never asks you to connect a wallet to a checker. Never click, never connect."
+  },
+  {
+   "d": "2026-10-23T01:04",
+   "acct": "@Habibi_wild",
+   "url": "https://x.com/Habibi_wild/status/2113498766338900026",
+   "title": "SCAM: \"XAMAN Airdrop is live\" copy-paste continues from new high-follower accounts (@Habibi_wild, @fables_sup, @Oralexpertx)",
+   "status": "rumor",
+   "entities": [
+    "Xaman"
+   ],
+   "theme": "Scams / safety",
+   "note": "Same wallet-drainer bait, new accounts. Ignore."
+  },
+  {
+   "d": "2026-10-23T07:16",
+   "acct": "@XRPHolders367",
+   "url": "https://x.com/XRPHolders367/status/2113590418197582270",
+   "title": "Claim: \"Binance announces 600,000 XRP giveaway for RLUSD holders, Oct 23 - Nov 20, weekly rewards\"",
+   "status": "rumor",
+   "entities": [
+    "Binance",
+    "RLUSD"
+   ],
+   "theme": "Scams / safety",
+   "note": "Not checked against Binance's official announcements page. Only check on binance.com directly; never use a link from a post."
+  },
+  {
+   "d": "2026-10-22T20:31",
+   "acct": "@TheCryptoSquire",
+   "url": "https://x.com/TheCryptoSquire/status/2113427936158376309",
+   "title": "Evernorth names Ripple, Kraken, Coinbase and BitGo as first institutional trading partners for its ~473M XRP treasury (256 likes)",
+   "status": "speculation",
+   "entities": [
+    "Evernorth",
+    "Ripple",
+    "Kraken",
+    "Coinbase",
+    "BitGo"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Widely reported since Oct 21 (CCN too) as an Evernorth announcement; official release not read this run. Treat as reported, not verified."
+  },
+  {
+   "d": "2026-10-22T23:44",
+   "acct": "@heythereRich",
+   "url": "https://x.com/heythereRich/status/2113476705146769548",
+   "title": "Claim: \"1st XRP ETF launching in South Korea\" with Ripple, Canary Capital and Hanwha Asset Management (Hanwha owns 9.8% of Upbit operator Dunamu)",
+   "status": "speculation",
+   "entities": [
+    "Hanwha",
+    "Canary",
+    "Ripple",
+    "South Korea"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Single source, no filing or Hanwha release found. Korea has not yet approved spot crypto ETFs as far as found."
+  },
+  {
+   "d": "2026-10-22T08:30",
+   "acct": "@allthemoney",
+   "url": "https://x.com/crypto27home/status/2113584212922028248",
+   "title": "Swell 2026 speaker list said to grow from 109 (Oct 1) to 155, 49 new names; heavily retweeted overnight",
+   "status": "speculation",
+   "entities": [
+    "Swell",
+    "Ripple"
+   ],
+   "theme": "Market infrastructure",
+   "note": "More speakers is not an announcement. Feeds the 'big Swell reveal' hype ahead of Oct 27-29."
+  },
+  {
+   "d": "2026-10-22T21:37",
+   "acct": "@Digital__family",
+   "url": "https://x.com/Digital__family/status/2113444710148677743",
+   "title": "Bearish: XRP exchange reserves reportedly up to 11.81B tokens; whale deposits blamed for ~5% drop to ~$1.31",
+   "status": "speculation",
+   "entities": [
+    "XRP"
+   ],
+   "theme": "Exchanges / whales",
+   "note": "Sell-pressure signal, low-engagement accounts; contradicts the 'Binance whale withdrawals at 5-year low' post."
   }
  ]
 }

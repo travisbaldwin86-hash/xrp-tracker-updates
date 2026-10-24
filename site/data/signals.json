@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-23T20:02:13-04:00",
+ "updated": "2026-10-24T08:03:10-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -91,7 +91,9 @@
    "Securitize",
    "Securitize Stocks",
    "Hyperliquid",
-   "LMAX"
+   "LMAX",
+   "sgBENJI",
+   "BENJI"
   ],
   "Banks": [
    "bank",
@@ -148,7 +150,9 @@
    "Clearpool",
    "CLEAR",
    "Clearnet",
-   "single ledger record"
+   "single ledger record",
+   "Xahau",
+   "PWA Builder"
   ],
   "Teasers": [
    "big news",
@@ -171,7 +175,9 @@
    "Tobias Adrian",
    "So it begins",
    "PERSEVERE",
-   "Great Blackout"
+   "Great Blackout",
+   "wipe out all debt",
+   "Debt Clock"
   ],
   "Exchanges / whales": [
    "whale",
@@ -212,7 +218,9 @@
    "Genesis Airdrop",
    "CryptEscrow",
    "LLC cold wallet",
-   "former Barclays"
+   "former Barclays",
+   "recovery service",
+   "12 seed phrase"
   ],
   "Energy / carbon": [
    "energy-backed",
@@ -283,7 +291,10 @@
   "000 xrp",
   "before swell",
   "founder wietse",
-  "xaman founder"
+  "xaman founder",
+  "flows oct",
+  "etf flows",
+  "xrp spot"
  ],
  "events": [
   {
@@ -2717,6 +2728,102 @@
    ],
    "theme": "Teasers",
    "note": "No content beyond an image link; low engagement so far. Logged to track pre-Swell teasers. Reminder: Xaman has no airdrop or token."
+  },
+  {
+   "d": "2026-10-24T01:25",
+   "acct": "X News (CoinDesk report)",
+   "url": "https://x.com/i/trending/2113887819630514299",
+   "title": "Franklin Templeton adds ~$150M of tokenized money-market fund shares (sgBENJI) to the XRP Ledger, nearly quadrupling its XRPL position to ~193M shares (~$200M); now the 2nd-largest tokenized issuer on XRPL after RLUSD",
+   "status": "confirmed",
+   "entities": [
+    "Franklin Templeton",
+    "sgBENJI",
+    "Tokenization",
+    "RLUSD"
+   ],
+   "theme": "Market infrastructure",
+   "note": "On-ledger and reported by CoinDesk; all of it sits in one issuer-linked wallet, so it may be one client. Good for XRPL credibility, but XRP itself is only used for fees and reserves here."
+  },
+  {
+   "d": "2026-10-23T22:23",
+   "acct": "@REDCANDLEKILLER",
+   "url": "https://x.com/REDCANDLEKILLER/status/2113818721089401113",
+   "title": "Claim: ~90% of XRPL's tokenized commodity value sits in one energy token held by only 165 wallets, so the '$1.9B RWA inflows' headline is narrower than it looks",
+   "status": "speculation",
+   "entities": [
+    "XRPL",
+    "RWA",
+    "Energy token"
+   ],
+   "theme": "Energy / carbon",
+   "note": "Single low-engagement account reading the ledger; token not named. Worth watching for the energy-backed thesis, but heavy concentration is a caution, not a demand signal."
+  },
+  {
+   "d": "2026-10-23T20:54",
+   "acct": "@WietseWind",
+   "url": "https://x.com/WietseWind/status/2113796237241839969",
+   "title": "Wietse Wind on Xahau's new PWA Builder (testnet): 'generate a website and deploy to and serve straight from Xahau' (on-ledger web apps, token portals, NFT hubs)",
+   "status": "confirmed",
+   "entities": [
+    "Wietse Wind",
+    "Xahau",
+    "Xaman"
+   ],
+   "theme": "XRPL tech",
+   "note": "Real product, but on Xahau (XRPL's sister chain, uses XAH), testnet only. Also re-stated Xaman is only on its official site and in-app support. Neutral for XRP."
+  },
+  {
+   "d": "2026-10-24T05:36",
+   "acct": "@Lynmoni2726 (and copies)",
+   "url": "https://x.com/Lynmoni2726/status/2113927632291078422",
+   "title": "SCAM bait wave: identical posts 'can I send $3000 USDT to Bybit from my MetaMask with 12 seed phrase (...)' from several fresh accounts, tagged XRP",
+   "status": "rumor",
+   "entities": [
+    "Scam",
+    "Seed phrase"
+   ],
+   "theme": "Scams / safety",
+   "note": "Classic honeypot: the 'leaked' wallet is rigged so anyone who imports it and sends gas loses it. Never import a stranger's seed phrase. No effect on XRP price."
+  },
+  {
+   "d": "2026-10-24T01:59",
+   "acct": "@SentryXRecovery",
+   "url": "https://x.com/SentryXRecovery/status/2113872952118936039",
+   "title": "SCAM: 'recovery' account replies to the Xaman fake-airdrop victim offering forensic recovery of lost XRP",
+   "status": "rumor",
+   "entities": [
+    "Scam",
+    "Xaman"
+   ],
+   "theme": "Scams / safety",
+   "note": "Recovery-service replies target people who were just drained; they charge fees and recover nothing. Second wave after the fake 'XAMAN Airdrop is live' posts, which are still spreading today."
+  },
+  {
+   "d": "2026-10-24T02:05",
+   "acct": "@ExtraVOD_",
+   "url": "https://x.com/ExtraVOD_/status/2113874445941243918",
+   "title": "Mr Pool riddle (85 likes): 'XRP @claudeai WIPE OUT ALL DEBT. MR POOL KNEW'; @Tom1990_0101 ties a Swell speaker's IMF / NY Fed past to the US Debt Clock",
+   "status": "speculation",
+   "entities": [
+    "Mr Pool",
+    "IMF",
+    "Swell"
+   ],
+   "theme": "Teasers",
+   "note": "Pure pre-Swell riddle reading; nothing from Ripple or any official. Neutral, but shows the 'debt reset' theme heating up before Oct 27."
+  },
+  {
+   "d": "2026-10-24T01:50",
+   "acct": "@Evan_CryptoInfo",
+   "url": "https://x.com/Evan_CryptoInfo/status/2113849904275824968",
+   "title": "US ETF flows Oct 23: XRP spot ETFs flat ($0); BTC -$138M after Thursday's -$635M (biggest since June); ETH +$4M",
+   "status": "confirmed",
+   "entities": [
+    "XRP ETFs",
+    "SoSoValue"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Aggregator figures (matches @cryptoetftoday). Flat XRP flows plus BTC outflows fit XRP slipping to ~$1.29. Mildly negative short-term; no XRP selling from the funds."
   }
  ]
 }

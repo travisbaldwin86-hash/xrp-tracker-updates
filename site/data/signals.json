@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-24T08:03:10-04:00",
+ "updated": "2026-10-24T11:06:09-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -22,7 +22,8 @@
    "remittance",
    "Thunes",
    "Water.org",
-   "Get Blue"
+   "Get Blue",
+   "CryptEscrow"
   ],
   "RLUSD / stablecoins": [
    "RLUSD",
@@ -53,7 +54,8 @@
    "Horsley",
    "CDCC",
    "Evolve",
-   "FuzzyCon"
+   "FuzzyCon",
+   "XRP Insights"
   ],
   "Regulation": [
    "SEC",
@@ -152,7 +154,9 @@
    "Clearnet",
    "single ledger record",
    "Xahau",
-   "PWA Builder"
+   "PWA Builder",
+   "hackathon",
+   "XRPL Commons"
   ],
   "Teasers": [
    "big news",
@@ -220,7 +224,10 @@
    "LLC cold wallet",
    "former Barclays",
    "recovery service",
-   "12 seed phrase"
+   "12 seed phrase",
+   "Simple Wallet",
+   "unauthorized transfers",
+   "QFS card"
   ],
   "Energy / carbon": [
    "energy-backed",
@@ -294,7 +301,8 @@
   "xaman founder",
   "flows oct",
   "etf flows",
-  "xrp spot"
+  "xrp spot",
+  "several accounts"
  ],
  "events": [
   {
@@ -2824,6 +2832,63 @@
    ],
    "theme": "ETFs / treasuries",
    "note": "Aggregator figures (matches @cryptoetftoday). Flat XRP flows plus BTC outflows fit XRP slipping to ~$1.29. Mildly negative short-term; no XRP selling from the funds."
+  },
+  {
+   "d": "2026-10-24T10:48",
+   "acct": "@wellbianlabs",
+   "url": "https://x.com/wellbianlabs/status/2114006223968522380",
+   "title": "Wellbian (XRPL weather-data project) urgent notice: WLBN, XRP and RLUSD moved without authorization from some members' Google/email 'Simple Wallets' for ~10 minutes; logins, rewards, claims, minting and payments suspended",
+   "status": "confirmed",
+   "entities": [
+    "Wellbian",
+    "RLUSD",
+    "Xaman",
+    "Wallet security"
+   ],
+   "theme": "Scams / safety",
+   "note": "Official project notice. A hosted-wallet breach at one small app, not an XRPL bug; people using their own Xaman or D'CENT wallet weren't affected. Small negative for sentiment only. Expect fake 'recovery' accounts to target victims next."
+  },
+  {
+   "d": "2026-10-24T10:23",
+   "acct": "@xrpl_commons",
+   "url": "https://x.com/xrpl_commons/status/2113999773741330633",
+   "title": "XRPL Commons kicks off a 36-hour XRP Ledger hackathon in NYC with @XRPLF and @RippleXDev, room full, right before Swell",
+   "status": "confirmed",
+   "entities": [
+    "XRPL Commons",
+    "XRPL Foundation",
+    "RippleX",
+    "Swell"
+   ],
+   "theme": "XRPL tech",
+   "note": "Real developer activity in Swell week. Good for the builder pipeline over time, but no price effect on its own."
+  },
+  {
+   "d": "2026-10-24T08:00",
+   "acct": "@mikenichols",
+   "url": "https://x.com/mikenichols/status/2113963819227615510",
+   "title": "CryptEscrow 'Ripple partnership' re-posted as JUST IN by several accounts, but the only source is the Florida startup's own Oct 22 press release; Ripple hasn't said anything and no product, terms or start date are named",
+   "status": "speculation",
+   "entities": [
+    "CryptEscrow",
+    "Ripple",
+    "RLUSD"
+   ],
+   "theme": "Payments / ODL",
+   "note": "Treat as a small company's marketing claim until Ripple confirms it. Neutral for XRP."
+  },
+  {
+   "d": "2026-10-24T10:25",
+   "acct": "@Qjstormxrp (citing XRP Insights)",
+   "url": "https://x.com/Qjstormxrp/status/2114000247588532352",
+   "title": "XRP Insights: tracked US spot XRP ETF holdings fell 1.81M XRP on Oct 23; six funds held ~1.17B XRP (~$1.54B) at the close",
+   "status": "speculation",
+   "entities": [
+    "XRP ETFs",
+    "XRP Insights"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Comes via copy-paste repost accounts, and it conflicts a little with the $0 flow figure logged earlier. If it's right, it's a tiny outflow, mildly negative short-term."
   }
  ]
 }

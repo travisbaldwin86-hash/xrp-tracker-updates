@@ -181,6 +181,9 @@ const AD_CURATED=window.AD_CURATED=[
   /* X scan Oct 24 2026 08:00 */
   {type:'Network activity',what:'Franklin Templeton adds ~$150M of tokenized money-market fund shares (sgBENJI) on XRPL; position ~193M shares (~$200M), 2nd-largest XRPL issuer after RLUSD; all in one wallet',asset:'Tokenized fund shares (not XRP)',stage:'On-ledger holdings (per CoinDesk)',confirmed:'CONFIRMED (on-ledger, CoinDesk via X News)',metric:'sgBENJI on XRPL ~$200M',xrp:'Not established (XRP for fees/reserves only)',date:'2026-10-24',url:'https://x.com/i/trending/2113887819630514299'},
   {type:'Claimed institutional adoption',what:'Claim: ~90% of XRPL tokenized commodity value is one energy token held by 165 wallets',asset:'Energy token (unnamed)',stage:UNK,confirmed:'UNCONFIRMED (community ledger read)',metric:'None',xrp:'Not established',date:'2026-10-24',url:'https://x.com/REDCANDLEKILLER/status/2113818721089401113'},
+  /* X scan Oct 24 2026 11:00 */
+  {type:'XRPL ecosystem integration',what:'XRPL Commons 36-hour XRP Ledger hackathon in NYC with XRPLF and RippleX, ahead of Swell',asset:'XRPL (developer activity)',stage:'Event live (Oct 24-25)',confirmed:'CONFIRMED (organiser post)',metric:UNK,xrp:'Not established',date:'2026-10-24',url:'https://x.com/xrpl_commons/status/2113999773741330633'},
+  {type:'Claimed institutional adoption',what:'CryptEscrow says it partnered with Ripple for crypto-funded US real-estate payments (startup press release only; Ripple silent)',asset:'RLUSD / XRP (claimed)',stage:'Press release (no product or date)',confirmed:'UNCONFIRMED',metric:'None',xrp:'Not established',date:'2026-10-24',url:'https://x.com/mikenichols/status/2113963819227615510'},
 ];
 function adoption(){ const rows=[]; const W=window.WW_DEALS||[], F=window.RF_FAMILY||[], rf=LS.get('rf',{});
   const R=(o)=>rows.push({type:UNK,what:'',asset:UNK,stage:UNK,confirmed:'UNCONFIRMED',metric:UNK,xrp:UNK,date:'',url:'',...o});

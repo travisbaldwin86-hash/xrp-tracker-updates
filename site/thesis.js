@@ -184,6 +184,7 @@ const AD_CURATED=window.AD_CURATED=[
   /* X scan Oct 24 2026 11:00 */
   {type:'XRPL ecosystem integration',what:'XRPL Commons 36-hour XRP Ledger hackathon in NYC with XRPLF and RippleX, ahead of Swell',asset:'XRPL (developer activity)',stage:'Event live (Oct 24-25)',confirmed:'CONFIRMED (organiser post)',metric:UNK,xrp:'Not established',date:'2026-10-24',url:'https://x.com/xrpl_commons/status/2113999773741330633'},
   {type:'Claimed institutional adoption',what:'CryptEscrow says it partnered with Ripple for crypto-funded US real-estate payments (startup press release only; Ripple silent)',asset:'RLUSD / XRP (claimed)',stage:'Press release (no product or date)',confirmed:'UNCONFIRMED',metric:'None',xrp:'Not established',date:'2026-10-24',url:'https://x.com/mikenichols/status/2113963819227615510'},
+  {type:'Claimed institutional adoption',what:'Jeonbuk Bank (Korea) reportedly launching personal remittances to Vietnam and the Philippines on Ripple Payments in December, pre-funded in dollars',asset:'Ripple Payments (XRP use not stated)',stage:'Planned launch (Dec 2026, per reports)',confirmed:'UNCONFIRMED',metric:'None',xrp:'Not established',date:'2026-10-24',url:'https://x.com/RemiDAoust/status/2114009023607615854'},
 ];
 function adoption(){ const rows=[]; const W=window.WW_DEALS||[], F=window.RF_FAMILY||[], rf=LS.get('rf',{});
   const R=(o)=>rows.push({type:UNK,what:'',asset:UNK,stage:UNK,confirmed:'UNCONFIRMED',metric:UNK,xrp:UNK,date:'',url:'',...o});

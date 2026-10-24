@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-24T11:06:09-04:00",
+ "updated": "2026-10-24T14:08:56-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -23,7 +23,8 @@
    "Thunes",
    "Water.org",
    "Get Blue",
-   "CryptEscrow"
+   "CryptEscrow",
+   "Jeonbuk"
   ],
   "RLUSD / stablecoins": [
    "RLUSD",
@@ -227,7 +228,9 @@
    "12 seed phrase",
    "Simple Wallet",
    "unauthorized transfers",
-   "QFS card"
+   "QFS card",
+   "401k QFS",
+   "IRA to QFS"
   ],
   "Energy / carbon": [
    "energy-backed",
@@ -302,7 +305,10 @@
   "flows oct",
   "etf flows",
   "xrp spot",
-  "several accounts"
+  "several accounts",
+  "inflow streak",
+  "etf very",
+  "very soon'"
  ],
  "events": [
   {
@@ -2889,6 +2895,75 @@
    ],
    "theme": "ETFs / treasuries",
    "note": "Comes via copy-paste repost accounts, and it conflicts a little with the $0 flow figure logged earlier. If it's right, it's a tiny outflow, mildly negative short-term."
+  },
+  {
+   "d": "2026-10-24T11:00",
+   "acct": "@RemiDAoust",
+   "url": "https://x.com/RemiDAoust/status/2114009023607615854",
+   "title": "Reports say South Korea's Jeonbuk Bank will launch personal remittances to Vietnam and the Philippines on Ripple Payments in December, the first Korean Ripple partner to move real customer money",
+   "status": "speculation",
+   "entities": [
+    "Jeonbuk Bank",
+    "Ripple Payments",
+    "Korea"
+   ],
+   "theme": "Payments / ODL",
+   "note": "Several community accounts say this, but no Ripple or Jeonbuk release is linked yet. The bank reportedly pre-funds in dollars, so 'XRP rails' is overstated. Mildly good for Ripple; XRP use not shown."
+  },
+  {
+   "d": "2026-10-24T11:34",
+   "acct": "@julexcolors (KUWL market update)",
+   "url": "https://x.com/julexcolors/status/2114017817733267522",
+   "title": "XRP led the overnight crypto drop, down 3.4% to about $1.27 and sitting right on its 200-day average near $1.28, as Bitcoin fell below $80,000 with heavy ETF outflows",
+   "status": "confirmed",
+   "entities": [
+    "XRP price",
+    "Bitcoin",
+    "ETFs"
+   ],
+   "theme": "Exchanges / whales",
+   "note": "Price move matches the X News story on the market-wide selloff. Losing the 200-day average would be a bearish technical sign short-term."
+  },
+  {
+   "d": "2026-10-24T10:55",
+   "acct": "@blueshopping24",
+   "url": "https://x.com/blueshopping24/status/2114007955225878694",
+   "title": "Claim: highest monthly whale deposits of XRP to Binance this month, while the spot XRP ETF inflow streak has stalled and long liquidations cascade",
+   "status": "speculation",
+   "entities": [
+    "Binance",
+    "Whales",
+    "XRP ETFs"
+   ],
+   "theme": "Exchanges / whales",
+   "note": "No on-chain data source linked. If true, more XRP on exchanges means more potential selling. Mildly negative."
+  },
+  {
+   "d": "2026-10-24T12:01",
+   "acct": "@MelGibson_CG (and copies)",
+   "url": "https://x.com/MelGibson_CG/status/2114024480720691207",
+   "title": "SCAM wave: identical posts from many fake accounts say 'switch your 401k and IRA to QFS' and buy XRP and XLM through their link, with 'DM for guidelines'",
+   "status": "rumor",
+   "entities": [
+    "QFS",
+    "Scams"
+   ],
+   "theme": "Scams / safety",
+   "note": "There is no Quantum Financial System. These accounts steal retirement money and crypto. Never DM or click. No effect on XRP itself."
+  },
+  {
+   "d": "2026-10-24T13:27",
+   "acct": "@RayJnr_1",
+   "url": "https://x.com/RayJnr_1/status/2114046081990336989",
+   "title": "Recycled claim: ETF analyst Nate Geraci 'expects BlackRock to file for a spot XRP ETF very soon', paired with token promos counting down to Nov 1",
+   "status": "speculation",
+   "entities": [
+    "BlackRock",
+    "Nate Geraci",
+    "XRP ETFs"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "No BlackRock filing exists, and the quote isn't new or linked. Posts use it to pump small XRPL tokens. Neutral until a real SEC filing shows up."
   }
  ]
 }

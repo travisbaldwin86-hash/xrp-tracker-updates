@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-24T14:08:56-04:00",
+ "updated": "2026-10-24T17:06:38-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -56,7 +56,9 @@
    "CDCC",
    "Evolve",
    "FuzzyCon",
-   "XRP Insights"
+   "XRP Insights",
+   "Cantor",
+   "equity line"
   ],
   "Regulation": [
    "SEC",
@@ -73,7 +75,8 @@
    "Rahul Advani",
    "onchain money",
    "Basel",
-   "examination priorities"
+   "examination priorities",
+   "David Sacks"
   ],
   "Market infrastructure": [
    "DTCC",
@@ -157,7 +160,8 @@
    "Xahau",
    "PWA Builder",
    "hackathon",
-   "XRPL Commons"
+   "XRPL Commons",
+   "lending votes"
   ],
   "Teasers": [
    "big news",
@@ -182,7 +186,10 @@
    "PERSEVERE",
    "Great Blackout",
    "wipe out all debt",
-   "Debt Clock"
+   "Debt Clock",
+   "X + Y = Z",
+   "Purple",
+   "Zelle"
   ],
   "Exchanges / whales": [
    "whale",
@@ -230,7 +237,9 @@
    "unauthorized transfers",
    "QFS card",
    "401k QFS",
-   "IRA to QFS"
+   "IRA to QFS",
+   "SenatorLump8",
+   "Lummis RV"
   ],
   "Energy / carbon": [
    "energy-backed",
@@ -308,7 +317,11 @@
   "several accounts",
   "inflow streak",
   "etf very",
-  "very soon'"
+  "very soon'",
+  "will launch",
+  "read as",
+  "oct 27-29",
+  "oct 22"
  ],
  "events": [
   {
@@ -2964,6 +2977,130 @@
    ],
    "theme": "ETFs / treasuries",
    "note": "No BlackRock filing exists, and the quote isn't new or linked. Posts use it to pump small XRPL tokens. Neutral until a real SEC filing shows up."
+  },
+  {
+   "d": "2026-10-24T04:43",
+   "acct": "@Archie_XRPL (SEC 8-K Oct 23)",
+   "url": "https://x.com/Archie_XRPL/status/2113914342680764470",
+   "title": "Evernorth (XRPN) signs ~$80.7M equity line with Cantor: can sell up to 5.22M new shares over ~14 months at 97% of VWAP; needs S-1 effective first (8-K + S-1 filed Oct 23)",
+   "status": "confirmed",
+   "entities": [
+    "Evernorth",
+    "Cantor",
+    "SEC"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Verified on SEC EDGAR (8-K 0001628280-26-067061, S-1 0001628280-26-067081). Gives Evernorth cash it may use for XRP buys; dilution for XRPN holders. 890 likes."
+  },
+  {
+   "d": "2026-10-24T12:18",
+   "acct": "@RemiReliefX",
+   "url": "https://x.com/RemiReliefX/status/2114051153553965096",
+   "title": "Riddle wave 'X + Y = Z' (green XRP, yellow Yellow, purple = ?): guesses Zelle, MoonPay, Kraken, Block ($XYZ); claims Zelle's $3.4B/day 'all handled by XRP' and XRP $1000+",
+   "status": "speculation",
+   "entities": [
+    "XRP",
+    "Yellow",
+    "Zelle",
+    "MoonPay",
+    "Kraken",
+    "Block"
+   ],
+   "theme": "Teasers",
+   "note": "700 likes, 26k views. No official source; Zelle has never named Ripple or XRP. Price targets are hype."
+  },
+  {
+   "d": "2026-10-24T10:16",
+   "acct": "@OCLostArt",
+   "url": "https://x.com/OCLostArt/status/2113998155318481063",
+   "title": "Claim: Mastercard complimented RLUSD live during the XRPL Commons hackathon partner pitch (Mastercard listed as hackathon sponsor)",
+   "status": "speculation",
+   "entities": [
+    "Mastercard",
+    "RLUSD",
+    "XRPL Commons"
+   ],
+   "theme": "Big tech",
+   "note": "273 likes, 24k views; amplified by @InvestWithD. No Mastercard statement; a hackathon remark is not adoption."
+  },
+  {
+   "d": "2026-10-24T14:08",
+   "acct": "@cryptodylnews",
+   "url": "https://x.com/cryptodylnews/status/2114056388225778089",
+   "title": "Rumor: BlackRock XRP ETF to be announced at Ripple Swell (Oct 27-29) because BlackRock is speaking there",
+   "status": "rumor",
+   "entities": [
+    "BlackRock",
+    "Swell"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "No S-1 or filing from BlackRock/iShares. Continues the recycled BlackRock XRP ETF pattern."
+  },
+  {
+   "d": "2026-10-24T16:41",
+   "acct": "@Curious0x",
+   "url": "https://x.com/Curious0x/status/2114095039475249606",
+   "title": "Claim (DefiLlama): XRPL stablecoins ~$1.03B on Oct 23, down ~9% in a week after slipping under $1B Oct 22; ~91% is RLUSD",
+   "status": "speculation",
+   "entities": [
+    "RLUSD",
+    "DefiLlama"
+   ],
+   "theme": "RLUSD / stablecoins",
+   "note": "Fits earlier RLUSD-supply-down posts; check the tracker RLUSD panel. Mild negative for XRPL usage if sustained."
+  },
+  {
+   "d": "2026-10-24T16:26",
+   "acct": "@HardwireCrypto",
+   "url": "https://x.com/HardwireCrypto/status/2114091299410497811",
+   "title": "Claim: XRPL lending amendment has 17 of 32 validator votes, needs 25; Arf plans to lend RLUSD to payment firms on XRPL",
+   "status": "speculation",
+   "entities": [
+    "XLS-66",
+    "Arf",
+    "RLUSD"
+   ],
+   "theme": "XRPL tech",
+   "note": "Oct 19 reading was 19 votes; if accurate, support slipped. Verify on an XRPL amendments page before relying on it."
+  },
+  {
+   "d": "2026-10-24T15:04",
+   "acct": "@MonicaXRP4",
+   "url": "https://x.com/MonicaXRP4/status/2114070546484998584",
+   "title": "Rumor: David Sacks says 'a new payment system will launch in the US', read as XRP/RLUSD mass adoption",
+   "status": "rumor",
+   "entities": [
+    "David Sacks",
+    "RLUSD"
+   ],
+   "theme": "Regulation",
+   "note": "No quote or source given; other posts admit 'no confirmed link'."
+  },
+  {
+   "d": "2026-10-24T17:00",
+   "acct": "@SenatorLump8",
+   "url": "https://x.com/SenatorLump8/status/2114098440913190978",
+   "title": "Impersonator account 'Senator Cynthia lummis RV' posts fake '$10B payments partner, XRP $45.50' and 'SEC confirms nationwide' claims",
+   "status": "rumor",
+   "entities": [
+    "Lummis impersonator",
+    "SEC"
+   ],
+   "theme": "Scams / safety",
+   "note": "Not Sen. Lummis's real account. Treat as scam bait; never click links or send coins."
+  },
+  {
+   "d": "2026-10-24T15:39",
+   "acct": "@TheCryptoSquire",
+   "url": "https://x.com/TheCryptoSquire/status/2114079227741876483",
+   "title": "Claim: Ripple Payments presentation says some banks can finish integration and testing in ~3 weeks, others 2-3 months",
+   "status": "speculation",
+   "entities": [
+    "Ripple Payments",
+    "Banks"
+   ],
+   "theme": "Payments / ODL",
+   "note": "Copy-pasted by several accounts; no deck link. Ease of onboarding, not new customers."
   }
  ]
 }

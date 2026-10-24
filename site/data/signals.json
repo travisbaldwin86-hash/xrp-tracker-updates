@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-23T17:12:34-04:00",
+ "updated": "2026-10-23T20:02:13-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -50,7 +50,10 @@
    "Hanwha",
    "Franklin",
    "Larry Fink",
-   "Horsley"
+   "Horsley",
+   "CDCC",
+   "Evolve",
+   "FuzzyCon"
   ],
   "Regulation": [
    "SEC",
@@ -66,7 +69,8 @@
    "comment letter",
    "Rahul Advani",
    "onchain money",
-   "Basel"
+   "Basel",
+   "examination priorities"
   ],
   "Market infrastructure": [
    "DTCC",
@@ -101,7 +105,8 @@
    "BIS",
    "WebBank",
    "BBVA",
-   "OKX card"
+   "OKX card",
+   "VTB"
   ],
   "Big tech": [
    "Google",
@@ -275,7 +280,10 @@
   "cryptoquant data",
   "regulation crypto",
   "crypto assets",
-  "000 xrp"
+  "000 xrp",
+  "before swell",
+  "founder wietse",
+  "xaman founder"
  ],
  "events": [
   {
@@ -2640,6 +2648,75 @@
    ],
    "theme": "Teasers",
    "note": "Low engagement, no substance. Logged only to track the recurring date teasers."
+  },
+  {
+   "d": "2026-10-23T10:19",
+   "acct": "@Cointelegraph",
+   "url": "https://x.com/Cointelegraph/status/2113636504400461878",
+   "title": "SEC releases fiscal 2027 examination priorities: tokenization risks, AI and emerging tech, cybersecurity, investor protection, private funds and credit, AML (covers 34,000+ registrants)",
+   "status": "confirmed",
+   "entities": [
+    "SEC",
+    "Tokenization"
+   ],
+   "theme": "Regulation",
+   "note": "Clearing agencies and Regulation SCI entities get explicit tokenization scrutiny. Mixed: more compliance pressure on tokenized assets, but it treats tokenization as mainstream infrastructure. Community posts spinning it as 'IT'S HAPPENING' for XRP are hype."
+  },
+  {
+   "d": "2026-10-23T18:18",
+   "acct": "@evernorthxrp",
+   "url": "https://x.com/evernorthxrp/status/2113757048328663488",
+   "title": "Evernorth (473M XRP treasury) video on Fuzzybear, the 2013 wallet behind the 1 XRP for 1 BTC order (887 likes); X News says co-branded Fuzzy merch debuts at FuzzyCon NYC on Oct 26, just before Swell",
+   "status": "confirmed",
+   "entities": [
+    "Evernorth",
+    "Fuzzybear",
+    "Swell"
+   ],
+   "theme": "Community / teasers",
+   "note": "Official Evernorth post; merch detail is from an X News summary. Per that summary Evernorth does not endorse the $FUZZY token, which has seen whale sells. Community goodwill only, neutral for XRP demand."
+  },
+  {
+   "d": "2026-10-23T17:59",
+   "acct": "@Sir__XRP",
+   "url": "https://x.com/Sir__XRP/status/2113752362422563296",
+   "title": "Claim: options approved for Canada's Evolve XRP ETF and Purpose XRP ETF (XRPP), with US sales authorised, per a CDCC SEC filing",
+   "status": "speculation",
+   "entities": [
+    "Evolve",
+    "Purpose",
+    "CDCC",
+    "XRP ETFs"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Single low-engagement account, filing not linked or verified. If true, mildly positive (more ways to trade XRP exposure), not direct XRP buying."
+  },
+  {
+   "d": "2026-10-23T18:56",
+   "acct": "@klaybrowning_",
+   "url": "https://x.com/klaybrowning_/status/2113766510149906715",
+   "title": "Claim: Russia's VTB bank to launch XRP trading for retail customers next month and recommends up to 7% allocation",
+   "status": "rumor",
+   "entities": [
+    "VTB",
+    "Russia"
+   ],
+   "theme": "Banks",
+   "note": "No VTB source found; low engagement. Treat as hype until VTB or a major outlet confirms."
+  },
+  {
+   "d": "2026-10-23T19:57",
+   "acct": "@WietseWind",
+   "url": "https://x.com/WietseWind/status/2113781808290804002",
+   "title": "Xaman founder Wietse Wind posts a bare eyes-emoji teaser the night before Swell week",
+   "status": "speculation",
+   "entities": [
+    "Wietse Wind",
+    "Xaman",
+    "Swell"
+   ],
+   "theme": "Teasers",
+   "note": "No content beyond an image link; low engagement so far. Logged to track pre-Swell teasers. Reminder: Xaman has no airdrop or token."
   }
  ]
 }

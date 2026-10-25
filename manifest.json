@@ -1,5 +1,5 @@
 {
- "version": "20261025-081142",
+ "version": "20261025-111034",
  "files": [
   {
    "path": "site/paper.js",
@@ -143,11 +143,11 @@
   },
   {
    "path": "site/data/signals.js",
-   "sha256": "0b5da0d118436bead4090b2fb6481afbfcf2293b5e53a58d150344ab72c7aec6"
+   "sha256": "026b200ddaa9922856bbc090a0406ed9a9d2c21ab79996078b8eceb2cbe7a328"
   },
   {
    "path": "site/data/signals.json",
-   "sha256": "91ac99186013615e139a0258658727bfff23db58f9324302e53697785758daed"
+   "sha256": "6c4f0c9e45db319074e5d6a930df0a07fbb47f475303a6da30da224be37688c8"
   },
   {
    "path": "site/fonts/fonts.css",

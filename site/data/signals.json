@@ -1,12 +1,13 @@
 {
  "version": 1,
- "updated": "2026-10-25T08:11:42-04:00",
+ "updated": "2026-10-25T11:10:29-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
    "SWIFT",
    "Swift",
-   "Sibos"
+   "Sibos",
+   "First Citizens"
   ],
   "Escrow / supply": [
    "escrow",
@@ -24,7 +25,8 @@
    "Water.org",
    "Get Blue",
    "CryptEscrow",
-   "Jeonbuk"
+   "Jeonbuk",
+   "DriveWealth"
   ],
   "RLUSD / stablecoins": [
    "RLUSD",
@@ -39,7 +41,9 @@
    "BLOOM",
    "Bank Negara",
    "Bank of Thailand",
-   "Bitquery"
+   "Bitquery",
+   "RedCoin",
+   "PayMe"
   ],
   "ETFs / treasuries": [
    "ETF",
@@ -195,7 +199,8 @@
    "Purple",
    "Zelle",
    "589",
-   "gematria"
+   "gematria",
+   "xyz"
   ],
   "Exchanges / whales": [
    "whale",
@@ -249,7 +254,9 @@
    "Lummis RV",
    "RealBriefly",
    "REAL token",
-   "wallets drained"
+   "wallets drained",
+   "reset is live",
+   "12-hour warning"
   ],
   "Energy / carbon": [
    "energy-backed",
@@ -338,7 +345,11 @@
   "about $1",
   "will be",
   "1 1",
-  "riddle wave"
+  "riddle wave",
+  "evm sidechain",
+  "y z",
+  "z riddle",
+  "x y"
  ],
  "events": [
   {
@@ -355,6 +366,11 @@
    "d": "2026-10-28",
    "name": "FOMC decision 2 PM ET",
    "kind": "macro"
+  },
+  {
+   "d": "2026-10-28",
+   "name": "Ripple x DriveWealth fireside, Swell Institutional Stage",
+   "kind": "conference"
   },
   {
    "d": "2026-11-01",
@@ -3269,6 +3285,78 @@
    ],
    "theme": "ETFs / treasuries",
    "note": "Third-party estimate from a news roundup, not fund filings. Underwater holders can mean selling into any Swell bounce. Mild negative."
+  },
+  {
+   "d": "2026-10-25T08:48",
+   "acct": "X News (HSBC / HKMA)",
+   "url": "https://x.com/i/trending/2114336794854469866",
+   "title": "HSBC launches RedCoin (RCHKD), its first regulated Hong Kong dollar stablecoin, inside the PayMe app for 3.3M users and 100,000+ merchants, on a permissioned chain",
+   "status": "confirmed",
+   "entities": [
+    "HSBC",
+    "RedCoin",
+    "HKMA",
+    "Hong Kong"
+   ],
+   "theme": "RLUSD / stablecoins",
+   "note": "A big bank shipping its own closed stablecoin, not RLUSD or XRPL. Shows banks going onchain but also building their own rails; neutral to slightly negative for RLUSD's bank story."
+  },
+  {
+   "d": "2026-10-25T08:58",
+   "acct": "@stoneiland",
+   "url": "https://x.com/stoneiland/status/2114340805309837316",
+   "title": "Korean X + Y = Z riddle thread (101 likes): Evernorth's .xyz web address, Alphabet (abc.xyz) and Hyperliquid (.xyz) all end in 'xyz', so Z is read as a Ripple-linked web of partners; replies now say Z = the XRPL EVM sidechain (purple palette)",
+   "status": "speculation",
+   "entities": [
+    "Evernorth",
+    "Alphabet",
+    "Hyperliquid",
+    "Yellow",
+    "XRPL EVM"
+   ],
+   "theme": "Teasers",
+   "note": "Pattern-matching on web domains and brand colors, no statement from Yellow or Ripple. The riddle is now in English, Japanese, Spanish and Korean with Zelle, Kraken, MoonPay and now XRPL EVM as guesses. Neutral."
+  },
+  {
+   "d": "2026-10-25T09:44",
+   "acct": "@SenatorLump8",
+   "url": "https://x.com/SenatorLump8/status/2114352357068685677",
+   "title": "SCAM: fake 'Senator Cynthia Lummis RV' account posts 'FINAL 12-HOUR WARNING: THE RESET IS LIVE' and pushes a Telegram handle",
+   "status": "rumor",
+   "entities": [
+    "Lummis impersonator",
+    "QFS",
+    "Telegram"
+   ],
+   "theme": "Scams / safety",
+   "note": "Same impersonator logged Oct 24, now running a countdown to move people to Telegram. Classic reset scam; ignore and never DM. No effect on XRP."
+  },
+  {
+   "d": "2026-10-25T10:42",
+   "acct": "@TheCryptoSquire",
+   "url": "https://x.com/TheCryptoSquire/status/2114366873651315074",
+   "title": "First Citizens Bank tells customers it is moving to ISO 20022 payment messaging; poster notes XRP isn't mentioned",
+   "status": "speculation",
+   "entities": [
+    "First Citizens Bank",
+    "ISO 20022"
+   ],
+   "theme": "ISO 20022 / SWIFT",
+   "note": "Bank-wide ISO 20022 moves are real and routine (notice shown as a screenshot, not independently checked). It's a messaging standard, not an XRP adoption. Neutral."
+  },
+  {
+   "d": "2026-10-25T08:40",
+   "acct": "@DigPerspectives",
+   "url": "https://x.com/DigPerspectives/status/2114336331526459549",
+   "title": "Claim: 'DTCC tokenize $114 trillion in 3 days', with Ripple Prime and Ripple Treasury as key beneficiaries and XRP used as institutional collateral at scale",
+   "status": "rumor",
+   "entities": [
+    "DTCC",
+    "Ripple Prime",
+    "Ripple Treasury"
+   ],
+   "theme": "Market infrastructure",
+   "note": "No DTCC statement says this; the real news is a 50+ firm tokenization working group that includes Ripple Prime. DTCC hype keeps growing before Swell. Neutral; watch for disappointment if nothing is announced."
   }
  ]
 }

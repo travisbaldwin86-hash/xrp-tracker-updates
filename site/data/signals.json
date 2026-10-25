@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-24T20:11:12-04:00",
+ "updated": "2026-10-25T08:11:42-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -116,7 +116,8 @@
    "WebBank",
    "BBVA",
    "OKX card",
-   "VTB"
+   "VTB",
+   "BNY"
   ],
   "Big tech": [
    "Google",
@@ -163,7 +164,8 @@
    "PWA Builder",
    "hackathon",
    "XRPL Commons",
-   "lending votes"
+   "lending votes",
+   "non-EVM"
   ],
   "Teasers": [
    "big news",
@@ -191,7 +193,9 @@
    "Debt Clock",
    "X + Y = Z",
    "Purple",
-   "Zelle"
+   "Zelle",
+   "589",
+   "gematria"
   ],
   "Exchanges / whales": [
    "whale",
@@ -242,7 +246,10 @@
    "401k QFS",
    "IRA to QFS",
    "SenatorLump8",
-   "Lummis RV"
+   "Lummis RV",
+   "RealBriefly",
+   "REAL token",
+   "wallets drained"
   ],
   "Energy / carbon": [
    "energy-backed",
@@ -325,7 +332,13 @@
   "read as",
   "oct 27-29",
   "oct 22",
-  "30 days"
+  "30 days",
+  "prime is",
+  "blackrock xrp",
+  "about $1",
+  "will be",
+  "1 1",
+  "riddle wave"
  ],
  "events": [
   {
@@ -3159,6 +3172,103 @@
    ],
    "theme": "Exchanges / whales",
    "note": "Macro risk-off, not XRP-specific. Short-term negative; weekend with ETFs closed until Monday, three days before Swell."
+  },
+  {
+   "d": "2026-10-24T17:37",
+   "acct": "@CryptoGeekNews",
+   "url": "https://x.com/CryptoGeekNews/status/2114108987687960736",
+   "title": "Fake headline 'BLACKROCK SIGNS $6.5 TRILLION #XRP TOKENIZATION DEAL' (951 likes), same account that pushed '$9T BlackRock XRP buy' in September to shill the REAL / RealBriefly token",
+   "status": "rumor",
+   "entities": [
+    "BlackRock",
+    "RealBriefly",
+    "XRP"
+   ],
+   "theme": "Scams / safety",
+   "note": "No BlackRock statement exists; Grok fact-checks in replies call it false. Recurring pump-the-headline, sell-the-small-token play. Neutral for XRP, dangerous for anyone who buys the shilled token."
+  },
+  {
+   "d": "2026-10-24T21:53",
+   "acct": "@JakeClaverxrr",
+   "url": "https://x.com/JakeClaverxrr/status/2114173546205249809",
+   "title": "Claim: over 1,500 XRP wallets drained and millions of XRP stolen; 'XRPL wasn't hacked, wallet security is crucial'",
+   "status": "speculation",
+   "entities": [
+    "XRP",
+    "wallet security"
+   ],
+   "theme": "Scams / safety",
+   "note": "No source, wallet list or incident report given. Fits the week's fake-airdrop and Wellbian unauthorized-transfer reports, so the safety message is real even if the number isn't verified. Mild sentiment negative."
+  },
+  {
+   "d": "2026-10-24T21:38",
+   "acct": "@XRP_HAIJI (and copies)",
+   "url": "https://x.com/XRP_HAIJI/status/2114169728575152493",
+   "title": "X + Y = Z riddle wave in Japanese: X = XRP, Y = Yellow, Z = Zelle, with '5 x 8 x 9 = 360 = Zelle gematria' tied to the 589 meme; 242 likes, pasted word for word by NESARA accounts",
+   "status": "speculation",
+   "entities": [
+    "Zelle",
+    "Yellow",
+    "XRP"
+   ],
+   "theme": "Teasers",
+   "note": "Numerology, not news; no Zelle, Yellow or Ripple statement. The riddle has now spread from English to Japanese and Spanish accounts in two days, so expect more of it into Swell."
+  },
+  {
+   "d": "2026-10-25T06:59",
+   "acct": "@Archie_XRPL",
+   "url": "https://x.com/Archie_XRPL/status/2114310993425641678",
+   "title": "Ripple Prime is listed in DTCC's 50+ firm tokenization working group, and BNY's head of markets (Laide Majiyagbe, a DTCC board member) speaks on Ripple's Swell stage Tuesday",
+   "status": "speculation",
+   "entities": [
+    "DTCC",
+    "BNY",
+    "Ripple Prime",
+    "Swell"
+   ],
+   "theme": "Market infrastructure",
+   "note": "The working-group listing and Swell speaker slot are public; the 'Ripple is inside DTCC's vault' framing is the poster's. DTCC hasn't chosen XRP for anything, so this is Ripple-company positive, not direct XRP demand."
+  },
+  {
+   "d": "2026-10-25T04:33",
+   "acct": "@RipBullWinkle",
+   "url": "https://x.com/RipBullWinkle/status/2114274201695576523",
+   "title": "Claim: Yellow Network's whitepaper plans non-EVM chain support, so native XRPL (not just Flare or the XRPL EVM bridge) could plug in directly",
+   "status": "speculation",
+   "entities": [
+    "Yellow",
+    "XRPL",
+    "XRPL EVM"
+   ],
+   "theme": "XRPL tech",
+   "note": "A roadmap line, not a launch or partnership. Explains why the Yellow riddle keeps tagging XRP. Small possible positive if it ever ships."
+  },
+  {
+   "d": "2026-10-25T00:21",
+   "acct": "@Tom1990_0101",
+   "url": "https://x.com/Tom1990_0101/status/2114210772842856682",
+   "title": "Claim: Treasury will take over the Fed, debt will be wiped and the old USD reminted 1:1 as RLUSD on the XRPL via BNY and a Fed master account (45 likes)",
+   "status": "rumor",
+   "entities": [
+    "RLUSD",
+    "BNY",
+    "Fed",
+    "Treasury"
+   ],
+   "theme": "Teasers",
+   "note": "Same account tied the Mr Pool 'wipe out all debt' riddle to a Swell speaker yesterday. No basis; this is QFS-style reset talk that scammers feed on."
+  },
+  {
+   "d": "2026-10-25T03:03",
+   "acct": "@Neome_com (media roundup)",
+   "url": "https://x.com/Neome_com/status/2114251509462454275",
+   "title": "Report: XRP ETF investors put in about $1.8B but holdings are now worth about $1.48B, so ETF buyers are roughly $320M underwater",
+   "status": "speculation",
+   "entities": [
+    "XRP ETF"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Third-party estimate from a news roundup, not fund filings. Underwater holders can mean selling into any Swell bounce. Mild negative."
   }
  ]
 }

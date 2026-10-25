@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-24T17:06:38-04:00",
+ "updated": "2026-10-24T20:11:12-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -38,7 +38,8 @@
    "working capital",
    "BLOOM",
    "Bank Negara",
-   "Bank of Thailand"
+   "Bank of Thailand",
+   "Bitquery"
   ],
   "ETFs / treasuries": [
    "ETF",
@@ -99,7 +100,8 @@
    "Hyperliquid",
    "LMAX",
    "sgBENJI",
-   "BENJI"
+   "BENJI",
+   "haircut"
   ],
   "Banks": [
    "bank",
@@ -203,7 +205,8 @@
    "MoonPay",
    "listing",
    "CryptoQuant",
-   "exchange reserves"
+   "exchange reserves",
+   "liquidations"
   ],
   "Scams / safety": [
    "scam",
@@ -321,7 +324,8 @@
   "will launch",
   "read as",
   "oct 27-29",
-  "oct 22"
+  "oct 22",
+  "30 days"
  ],
  "events": [
   {
@@ -3101,6 +3105,60 @@
    ],
    "theme": "Payments / ODL",
    "note": "Copy-pasted by several accounts; no deck link. Ease of onboarding, not new customers."
+  },
+  {
+   "d": "2026-10-24T16:53",
+   "acct": "@Cointurknews (Bitquery data)",
+   "url": "https://x.com/Cointurknews/status/2114097959428104349",
+   "title": "Bitquery: 110 wallets generated 99.6% of RLUSD payments on XRPL over 30 days (~7.8M transactions worth only ~$7,722 total)",
+   "status": "speculation",
+   "entities": [
+    "Bitquery",
+    "RLUSD"
+   ],
+   "theme": "RLUSD / stablecoins",
+   "note": "Third-party analytics, not verified here. Suggests RLUSD payment counts are mostly bot/dust traffic, so raw tx counts overstate real usage. Mild negative for the 'RLUSD activity = XRP demand' story."
+  },
+  {
+   "d": "2026-10-24T19:28",
+   "acct": "@LenaSunny90",
+   "url": "https://x.com/LenaSunny90/status/2114137071447380428",
+   "title": "Claim: DTCC collateral schedule gives XRP up to a 100% haircut below $5 and ~35% above $5, read as 'DTCC says XRP can't stay cheap'",
+   "status": "speculation",
+   "entities": [
+    "DTCC",
+    "XRP"
+   ],
+   "theme": "Market infrastructure",
+   "note": "130 likes on only ~260 views (likely boosted). Only a screenshot; no DTCC document linked. A haircut rule doesn't push price up; it just limits collateral use."
+  },
+  {
+   "d": "2026-10-24T18:54",
+   "acct": "@JW_WWJD (copy-paste wave)",
+   "url": "https://x.com/JW_WWJD/status/2114128426512835043",
+   "title": "X + Y = Z riddle wave now names Kraken as 'purple': XRP + Yellow + Kraken (Fed payment access), pasted as replies under @Yellow and others",
+   "status": "speculation",
+   "entities": [
+    "Kraken",
+    "Yellow",
+    "XRP"
+   ],
+   "theme": "Teasers",
+   "note": "Same reply pasted 5+ times in an hour; no Kraken or Yellow statement. Pure riddle-chasing."
+  },
+  {
+   "d": "2026-10-24T19:58",
+   "acct": "X News (market summary)",
+   "url": "https://x.com/i/trending/2114135268827505094",
+   "title": "Bitcoin drops below $80K (low ~$79.1K) amid US-Iran tensions; $800M+ in leveraged longs liquidated in 24h; XRP ~$1.27, testing the $1.25-1.30 support zone",
+   "status": "confirmed",
+   "entities": [
+    "Bitcoin",
+    "XRP",
+    "Liquidations"
+   ],
+   "theme": "Exchanges / whales",
+   "note": "Macro risk-off, not XRP-specific. Short-term negative; weekend with ETFs closed until Monday, three days before Swell."
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-25T11:10:29-04:00",
+ "updated": "2026-10-25T14:07:05-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -43,7 +43,10 @@
    "Bank of Thailand",
    "Bitquery",
    "RedCoin",
-   "PayMe"
+   "PayMe",
+   "SOFIE",
+   "SoFiUSD",
+   "tokenized deposit"
   ],
   "ETFs / treasuries": [
    "ETF",
@@ -105,7 +108,9 @@
    "LMAX",
    "sgBENJI",
    "BENJI",
-   "haircut"
+   "haircut",
+   "52 hours",
+   "Oct 28"
   ],
   "Banks": [
    "bank",
@@ -132,7 +137,9 @@
    "Visa",
    "Mastercard",
    "Meta",
-   "future of money"
+   "future of money",
+   "long-press",
+   "tip"
   ],
   "XRPL tech": [
    "XLS-65",
@@ -256,7 +263,11 @@
    "REAL token",
    "wallets drained",
    "reset is live",
-   "12-hour warning"
+   "12-hour warning",
+   "Treasury Reserve Banking",
+   "JUPXRPL",
+   "decentralized wallet",
+   "SET TL"
   ],
   "Energy / carbon": [
    "energy-backed",
@@ -349,7 +360,8 @@
   "evm sidechain",
   "y z",
   "z riddle",
-  "x y"
+  "x y",
+  "october 28"
  ],
  "events": [
   {
@@ -3357,6 +3369,76 @@
    ],
    "theme": "Market infrastructure",
    "note": "No DTCC statement says this; the real news is a 50+ firm tokenization working group that includes Ripple Prime. DTCC hype keeps growing before Swell. Neutral; watch for disappointment if nothing is announced."
+  },
+  {
+   "d": "2026-10-25T13:00",
+   "acct": "@RippleXity",
+   "url": "https://x.com/RippleXity/status/2114401685028368674",
+   "title": "'BOOM: Less than 52 hours until DTCC's October 28 tokenization target with Ripple Prime involved' (154 likes)",
+   "status": "rumor",
+   "entities": [
+    "DTCC",
+    "Ripple Prime"
+   ],
+   "theme": "Market infrastructure",
+   "note": "Countdown hype on the Oct 28 DTCC date. What's real: DTCC's tokenization service and a 50+ firm working group that includes Ripple Prime; nothing says XRP is used. Same day as the Fed decision and Swell day 2, so expect volatility and possible disappointment. Neutral."
+  },
+  {
+   "d": "2026-10-25T13:26",
+   "acct": "@ALLEXWEST (copy-paste wave)",
+   "url": "https://x.com/ALLEXWEST/status/2114408310472368489",
+   "title": "SCAM/QFS wave: 'U.S. Treasury Reserve Banking System is Officially on QFS running on XRPL through XRP', copied by several accounts alongside 'set up your QFS account, DM me / Telegram' posts",
+   "status": "rumor",
+   "entities": [
+    "QFS",
+    "US Treasury",
+    "Telegram"
+   ],
+   "theme": "Scams / safety",
+   "note": "No Treasury statement exists; QFS posts are bait to move people into DMs and fake wallets. A separate warning (@Xkrontasaurus) shows the DM script: flattery, then 'have you moved your assets to a decentralized wallet?', then a link. Ignore. No effect on XRP."
+  },
+  {
+   "d": "2026-10-25T13:29",
+   "acct": "@Mruphuz789",
+   "url": "https://x.com/Mruphuz789/status/2114409016390762963",
+   "title": "'$JUPXRPL AIRDROP 10,000,000,000 tokens: tag 3 friends, comment your address, SET TL' with a trustline link",
+   "status": "rumor",
+   "entities": [
+    "JUPXRPL",
+    "XRPL trustline"
+   ],
+   "theme": "Scams / safety",
+   "note": "Unknown token asking people to set a trustline from a link; this is how worthless or scam tokens get into wallets. Never click trustline links from posts. No effect on XRP."
+  },
+  {
+   "d": "2026-10-25T12:00",
+   "acct": "X News (X Money)",
+   "url": "https://x.com/i/trending/2113724055664951418",
+   "title": "X adds long-press on the like button to tip creators $1 instantly through X Money",
+   "status": "confirmed",
+   "entities": [
+    "X Money",
+    "X",
+    "Elon Musk"
+   ],
+   "theme": "Big tech",
+   "note": "Real payments feature, but nothing links X Money to XRP or RLUSD; the community will keep pattern-matching it to Cross River (which banks X Money and integrated RLUSD). Neutral for XRP."
+  },
+  {
+   "d": "2026-10-23T16:00",
+   "acct": "X News (SoFi / OCC)",
+   "url": "https://x.com/i/trending/2113435910805365101",
+   "title": "SoFi launches SOFIE, an FDIC-insured tokenized deposit paying 4.40% APY that converts to its SoFiUSD stablecoin, right after the OCC's GENIUS Act rule",
+   "status": "confirmed",
+   "entities": [
+    "SoFi",
+    "SOFIE",
+    "SoFiUSD",
+    "OCC",
+    "GENIUS"
+   ],
+   "theme": "RLUSD / stablecoins",
+   "note": "US banks are launching their own tokenized dollars, which competes with RLUSD rather than using it; no XRPL link. Neutral to slightly negative for RLUSD's bank story."
   }
  ]
 }

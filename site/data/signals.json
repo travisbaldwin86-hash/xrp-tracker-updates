@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-25T14:07:05-04:00",
+ "updated": "2026-10-25T17:04:59-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -84,7 +84,8 @@
    "onchain money",
    "Basel",
    "examination priorities",
-   "David Sacks"
+   "David Sacks",
+   "digital commodity"
   ],
   "Market infrastructure": [
    "DTCC",
@@ -176,7 +177,12 @@
    "hackathon",
    "XRPL Commons",
    "lending votes",
-   "non-EVM"
+   "non-EVM",
+   "clearing",
+   "netting",
+   "Lodestar",
+   "stXRP",
+   "FXRP"
   ],
   "Teasers": [
    "big news",
@@ -207,7 +213,9 @@
    "Zelle",
    "589",
    "gematria",
-   "xyz"
+   "xyz",
+   "Malaysia central bank",
+   "$300 trillion"
   ],
   "Exchanges / whales": [
    "whale",
@@ -222,7 +230,8 @@
    "listing",
    "CryptoQuant",
    "exchange reserves",
-   "liquidations"
+   "liquidations",
+   "exchange outflows"
   ],
   "Scams / safety": [
    "scam",
@@ -267,7 +276,11 @@
    "Treasury Reserve Banking",
    "JUPXRPL",
    "decentralized wallet",
-   "SET TL"
+   "SET TL",
+   "stXRP recovery",
+   "Dapp app module",
+   "Xaman Rewards Desk",
+   "Xarnan"
   ],
   "Energy / carbon": [
    "energy-backed",
@@ -281,7 +294,9 @@
    "carbon credits",
    "tokenized carbon",
    "carbon tonnes",
-   "renewable energy credit"
+   "renewable energy credit",
+   "Aramco",
+   "oil reserves"
   ]
  },
  "discovered": [
@@ -361,7 +376,11 @@
   "y z",
   "z riddle",
   "x y",
-  "october 28"
+  "october 28",
+  "claim cryptoquant",
+  "while btc",
+  "look-alike account",
+  "says xrp"
  ],
  "events": [
   {
@@ -3439,6 +3458,164 @@
    ],
    "theme": "RLUSD / stablecoins",
    "note": "US banks are launching their own tokenized dollars, which competes with RLUSD rather than using it; no XRPL link. Neutral to slightly negative for RLUSD's bank story."
+  },
+  {
+   "d": "2026-10-24T12:05",
+   "acct": "@DiegoMYellow (Yellow CEO)",
+   "url": "https://x.com/DiegoMYellow/status/2114025423709274133",
+   "title": "Yellow CEO Diego lays out a plan to channel trading flow into XRPL's native markets, first deepening XRP and RLUSD liquidity pairs, with native clearing that nets obligations on XRPL; 'more details shortly'",
+   "status": "confirmed",
+   "entities": [
+    "Yellow",
+    "XRPL",
+    "RLUSD",
+    "clearing",
+    "netting",
+    "fee burn"
+   ],
+   "theme": "XRPL tech",
+   "note": "The CEO's own long post (1,016 likes, 222 reposts). The plan is confirmed but nothing has launched, so there's no timeline or volume numbers yet. Follow-up reply today: https://x.com/DiegoMYellow/status/2114406020990881868. Mildly helps XRP: more DEX/AMM activity and fee burn. Netting does mean fewer gross on-ledger settlements."
+  },
+  {
+   "d": "2026-10-25T14:00",
+   "acct": "@Steph_iscrypto (+ copy-paste wave)",
+   "url": "https://x.com/Steph_iscrypto/status/2114416703262322858",
+   "title": "Copy-paste rumor: Saudi oil giant ARAMCO 'reportedly wants to tokenize its oil reserves on XRP' (497 likes, 104 reposts, many copies)",
+   "status": "rumor",
+   "entities": [
+    "Aramco",
+    "Saudi Arabia",
+    "RWA",
+    "tokeniz",
+    "oil"
+   ],
+   "theme": "Energy / carbon",
+   "note": "A recycled, debunked document from May 2025. A community fact-check (https://x.com/CMcferdy/status/2114421177573683432) notes Aramco said it isn't working with the XRP Ledger and the named official doesn't exist. Neutral for XRP, with disappointment risk. No energy-backed money on XRPL is confirmed."
+  },
+  {
+   "d": "2026-10-25T13:09",
+   "acct": "@Steph_iscrypto (+ copy-paste wave)",
+   "url": "https://x.com/Steph_iscrypto/status/2114403877348872692",
+   "title": "Copy-paste rumor: 'Malaysia's central bank says XRP could replace bank deposits used in the $300 trillion global payments industry'",
+   "status": "rumor",
+   "entities": [
+    "Bank Negara",
+    "Malaysia",
+    "BLOOM",
+    "$300 trillion"
+   ],
+   "theme": "Teasers",
+   "note": "175 likes, 28 reposts, and dozens of RTs and copies (e.g. XRPMarket_watch, EyesopenOpen1). This looks like a misreading of the logged BLOOM news (Bank Negara joining Singapore's BLOOM, with Ripple as one industry member). No Bank Negara statement naming XRP was found. Neutral, with disappointment risk."
+  },
+  {
+   "d": "2026-10-25T16:00",
+   "acct": "@Steph_iscrypto",
+   "url": "https://x.com/Steph_iscrypto/status/2114446900405621113",
+   "title": "Overstated claim: 'IT'S OFFICIAL: XRP is classified as a digital commodity across the U.S., UK, EU, UAE, Singapore and Japan'",
+   "status": "rumor",
+   "entities": [
+    "digital commodity",
+    "SEC",
+    "CFTC",
+    "EU",
+    "Japan"
+   ],
+   "theme": "Regulation",
+   "note": "99 likes. No single cross-jurisdiction 'digital commodity' classification exists, and the US status is still being written (CLARITY, Regulation Crypto Assets). It lumps different regimes together. Neutral."
+  },
+  {
+   "d": "2026-10-25T15:10",
+   "acct": "@jwalkerflr + fake 'recovery' accounts",
+   "url": "https://x.com/jwalkerflr/status/2114434377975279770",
+   "title": "SCAM: Firelight/stXRP users with balance questions are told to 'reclaim and redeem your assets through the Dapp app module', while fake recovery services (SentryXRecovery, Rexrecovery) offer to trace 'missing stXRP'",
+   "status": "rumor",
+   "entities": [
+    "stXRP",
+    "Firelight",
+    "Flare",
+    "Mystic",
+    "recovery service",
+    "Dapp app module"
+   ],
+   "theme": "Scams / safety",
+   "note": "Classic wallet-drainer bait aimed at Flare/stXRP holders. Never connect a wallet through a link in a reply, and use only the official Firelight app or docs. Related: SentryXRecovery https://x.com/SentryXRecovery/status/2114410974744563841 and Rexrecovery https://x.com/Rexrecovery/status/2114461279553306635. Hurts sentiment slightly and is a direct risk to holders."
+  },
+  {
+   "d": "2026-10-25T14:04",
+   "acct": "@Xarnan_Govern (impersonator)",
+   "url": "https://x.com/Xarnan_Govern/status/2114417841302884536",
+   "title": "SCAM: 'Xaman Governance' look-alike account (Xarnan, with an rn in place of the m) tells people to 'Claim your $XRP allocation on the official Xaman Rewards Desk' via a link",
+   "status": "rumor",
+   "entities": [
+    "Xaman",
+    "impersonat",
+    "claim your allocation",
+    "Xaman Rewards Desk"
+   ],
+   "theme": "Scams / safety",
+   "note": "The name swaps 'rn' for 'm' and uses capital I in place of lowercase l. Xaman has no 'rewards desk'. Don't click. Part of the ongoing Xaman-airdrop scam theme. Neutral for price but risky for holders."
+  },
+  {
+   "d": "2026-10-25T14:18",
+   "acct": "@lodestar_flr",
+   "url": "https://x.com/lodestar_flr/status/2114421274243944836",
+   "title": "Lodestar (Flare) adds stXRP as collateral, raises the FXRP borrow cap 5x to $25k and cuts the fee to 0.25% per 30 days on FXRP, stXRP and sFLR loans",
+   "status": "confirmed",
+   "entities": [
+    "Lodestar",
+    "Flare",
+    "stXRP",
+    "FXRP",
+    "USDT0"
+   ],
+   "theme": "XRPL tech",
+   "note": "An XRPFi product update from the project's own account. flare_builders reports about 143.5M FXRP minted (~$187M). A small positive for XRP DeFi use. It's borrowing against XRP, which carries smart-contract risk."
+  },
+  {
+   "d": "2026-10-25T16:38",
+   "acct": "@XRPstorm and others (recycled)",
+   "url": "https://x.com/XRPstorm/status/2114456705148858484",
+   "title": "Recycled news reposted as new: 'Standard Chartered offers RLUSD custody on XRPL via its Dubai DIFC branch; LMAX collateral integration still in development'",
+   "status": "speculation",
+   "entities": [
+    "Standard Chartered",
+    "RLUSD",
+    "custody",
+    "LMAX",
+    "DIFC"
+   ],
+   "theme": "Banks",
+   "note": "The underlying custody news is from Oct 12 and already logged. Accounts are recirculating it as 'institutional update' bait ahead of Swell (e.g. amkamstevenson). Neutral, nothing new."
+  },
+  {
+   "d": "2026-10-25T13:37",
+   "acct": "@terminalcripto (CryptoQuant data)",
+   "url": "https://x.com/terminalcripto/status/2114411021557207355",
+   "title": "Claim (CryptoQuant data): 5.3B XRP (~$7B) left exchanges over 30 days, led by Binance (2.2B) and OKX (501.5M); other accounts cite Upbit -$42M, Binance -$25M and Coinbase -$14M net outflows",
+   "status": "speculation",
+   "entities": [
+    "CryptoQuant",
+    "Binance",
+    "OKX",
+    "Upbit",
+    "exchange reserves"
+   ],
+   "theme": "Exchanges / whales",
+   "note": "This conflicts with the Oct 20-23 CryptoQuant relays of about 6.05B XRP flowing ONTO exchanges in 30 days, so the window or metric probably differs. Unverified. If true, it slightly helps by reducing sell-side supply. Also see Xfinancebull https://x.com/Xfinancebull/status/2114462252157882370."
+  },
+  {
+   "d": "2026-10-25T15:24",
+   "acct": "@cryptodylnews",
+   "url": "https://x.com/cryptodylnews/status/2114438070200381530",
+   "title": "Claim: $810M in crypto liquidations Saturday and an XRP 'death cross', but XRP ETFs flipped back to +$4.25M inflows while BTC, ETH and SOL ETFs bled",
+   "status": "speculation",
+   "entities": [
+    "ETF",
+    "liquidations",
+    "death cross"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Unverified flow number, and it conflicts with other calendar posts claiming '13th straight week of inflows, $11.31M'. The death cross is a technical bearish signal. Mixed: ETF demand is holding while the chart is weak. The post includes a Kalshi promo code, so treat it as ad-driven."
   }
  ]
 }

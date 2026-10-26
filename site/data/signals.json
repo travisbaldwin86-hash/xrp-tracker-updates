@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-26T08:06:25-04:00",
+ "updated": "2026-10-26T11:09:51-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -54,7 +54,10 @@
    "Sentora",
    "Morpho",
    "EURØP",
-   "Schuman"
+   "Schuman",
+   "24/7 Returns",
+   "Ripple Treasury",
+   "idle cash"
   ],
   "ETFs / treasuries": [
    "ETF",
@@ -153,7 +156,8 @@
    "Meta",
    "future of money",
    "long-press",
-   "tip"
+   "tip",
+   "Google Pay"
   ],
   "XRPL tech": [
    "XLS-65",
@@ -302,7 +306,9 @@
    "Xarnan",
    "$20,000 worth of coins",
    "randomly selected",
-   "social media support"
+   "social media support",
+   "QFS account",
+   "withdrawals are paused"
   ],
   "Energy / carbon": [
    "energy-backed",
@@ -403,7 +409,9 @@
   "while btc",
   "look-alike account",
   "says xrp",
-  "'the xaman"
+  "'the xaman",
+  "tokenization launch",
+  "water org"
  ],
  "events": [
   {
@@ -3868,6 +3876,87 @@
    ],
    "theme": "Scams / safety",
    "note": "Honeypot trick: the wallet holds tokens you can't move without sending your own gas first, which gets swept. Never import a stranger's seed phrase."
+  },
+  {
+   "d": "2026-10-26T09:06",
+   "acct": "@Ripple",
+   "url": "https://x.com/Ripple/status/2114705191958139335",
+   "title": "Ripple Treasury goes 'always-on': AI-powered cash forecasting, reconciliation, liquidity and payments, plus '24/7 Returns' so eligible companies earn on idle cash (including RLUSD) overnight and on weekends; named users include American Airlines, Subway, Christian Louboutin, Adecco and Kingfisher (2,200+ likes)",
+   "status": "confirmed",
+   "entities": [
+    "Ripple Treasury",
+    "24/7 Returns",
+    "RLUSD",
+    "American Airlines",
+    "Subway",
+    "Louboutin",
+    "Adecco",
+    "Kingfisher",
+    "Swell"
+   ],
+   "theme": "RLUSD / stablecoins",
+   "note": "Official Ripple launch, covered by The Block. Gives big companies a real reason to hold RLUSD outside bank hours. Helps RLUSD directly; XRP only indirectly (no XRP use stated)."
+  },
+  {
+   "d": "2026-10-25T20:57",
+   "acct": "@mrnguyen007 (viral graphic)",
+   "url": "https://x.com/mrnguyen007/status/2114518087835992089",
+   "title": "Viral 'Google Pay | XRP Coming Soon' promo graphic spreading with the NYC subway ad photos",
+   "status": "rumor",
+   "entities": [
+    "Google Pay",
+    "Google",
+    "XRP",
+    "fake graphic"
+   ],
+   "theme": "Big tech",
+   "note": "No Google or Ripple announcement; replies and fact-checks call it a fabricated mockup (you can only buy XRP with Google Pay on third-party apps). Hurts if people buy on it."
+  },
+  {
+   "d": "2026-10-26T10:58",
+   "acct": "@DonaldTrump_D, @MelaniaDtrump47, @CynLummis (impersonators)",
+   "url": "https://x.com/DonaldTrump_D/status/2114733393149587745",
+   "title": "SCAM wave: 'Commentary' impersonator accounts of Trump, Melania and Sen. Lummis push 'QFS is now live, ISO20022 running on XRP and XLM... DM me to set up your QFS account'; others claim exchange XRP withdrawals are paused",
+   "status": "rumor",
+   "entities": [
+    "QFS",
+    "ISO 20022",
+    "impersonator",
+    "Lummis",
+    "scam"
+   ],
+   "theme": "Scams / safety",
+   "note": "Same QFS scam as earlier runs with new fake-politician names. There is no QFS account; never DM or move coins. Hurts only victims."
+  },
+  {
+   "d": "2026-10-26T08:25",
+   "acct": "@Cpt_Cavey (article)",
+   "url": "https://x.com/Cpt_Cavey/status/2114694856463573460",
+   "title": "Article claim: DTCC tokenization launch week Day 1 list grew from 25 to 34 securities ahead of the October rollout",
+   "status": "speculation",
+   "entities": [
+    "DTCC",
+    "tokenization",
+    "Oct 28"
+   ],
+   "theme": "Market infrastructure",
+   "note": "Small account, not confirmed by DTCC this run, and no XRP link stated. Neutral for XRP; worth checking against DTCC itself."
+  },
+  {
+   "d": "2026-10-26T09:45",
+   "acct": "@xrpl_commons",
+   "url": "https://x.com/xrpl_commons/status/2114715007363563753",
+   "title": "XRPL Commons releases Community Magazine #8 on real-world utility on XRPL (tokenization, payments, agentic web), featuring dropchan, Water.org, Lobstr and others, handed out at its Swell booth",
+   "status": "confirmed",
+   "entities": [
+    "XRPL Commons",
+    "Water.org",
+    "dropchan",
+    "Lobstr",
+    "Swell"
+   ],
+   "theme": "XRPL tech",
+   "note": "Official, but it's a roundup, not new adoption. Neutral."
   }
  ]
 }

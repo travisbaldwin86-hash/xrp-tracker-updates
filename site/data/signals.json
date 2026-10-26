@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-25T20:02:37-04:00",
+ "updated": "2026-10-26T08:06:25-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -51,7 +51,10 @@
    "SoFiUSD",
    "tokenized deposit",
    "Aave",
-   "Sentora"
+   "Sentora",
+   "Morpho",
+   "EURØP",
+   "Schuman"
   ],
   "ETFs / treasuries": [
    "ETF",
@@ -117,7 +120,11 @@
    "haircut",
    "52 hours",
    "Oct 28",
-   "Quant"
+   "Quant",
+   "Aviva",
+   "Komainu",
+   "Licuido",
+   "tokenized share class"
   ],
   "Banks": [
    "bank",
@@ -224,7 +231,10 @@
    "Malaysia central bank",
    "$300 trillion",
    "Unified Ledger",
-   "takeover confirmed"
+   "takeover confirmed",
+   "subway",
+   "Times Square",
+   "10/27"
   ],
   "Exchanges / whales": [
    "whale",
@@ -289,7 +299,10 @@
    "stXRP recovery",
    "Dapp app module",
    "Xaman Rewards Desk",
-   "Xarnan"
+   "Xarnan",
+   "$20,000 worth of coins",
+   "randomly selected",
+   "social media support"
   ],
   "Energy / carbon": [
    "energy-backed",
@@ -389,7 +402,8 @@
   "claim cryptoquant",
   "while btc",
   "look-alike account",
-  "says xrp"
+  "says xrp",
+  "'the xaman"
  ],
  "events": [
   {
@@ -3718,6 +3732,142 @@
    ],
    "theme": "Teasers",
    "note": "The BIS Unified Ledger is a concept and test projects (e.g. Agorá) that don't use XRP. Nothing from BIS names XRP. Same family as the Oct 23 BIS rumor. Neutral, with disappointment risk."
+  },
+  {
+   "d": "2026-10-26T05:44",
+   "acct": "@Ripple",
+   "url": "https://x.com/Ripple/status/2114654501013541032",
+   "title": "Aviva Investors launches a tokenized share class of its Sterling (GBP) Liquidity Fund (its largest fund, ~£22B AUM) on the XRP Ledger (2,400+ likes); Reece Merrick congratulates",
+   "status": "confirmed",
+   "entities": [
+    "Aviva Investors",
+    "Ripple",
+    "XRPL",
+    "Komainu",
+    "Licuido",
+    "tokenized fund"
+   ],
+   "theme": "Market infrastructure",
+   "note": "Official Ripple post. X News says custody is Komainu, tech from Ripple and Licuido, and it follows a USD version from July, with ~£86M across both tokenized classes (not the full £22B). Helps the XRPL tokenization story; direct XRP demand is just fees and reserves."
+  },
+  {
+   "d": "2026-10-26T02:00",
+   "acct": "@JacobMarquez__ (X News story)",
+   "url": "https://x.com/JacobMarquez__/status/2114597900739096955",
+   "title": "XRP-branded NYC subway wrap ('Crypto Responsibly') on the Grand Central to Times Square shuttle and 42nd St platforms the night before Swell (243 likes)",
+   "status": "confirmed",
+   "entities": [
+    "XRP",
+    "Swell",
+    "Times Square",
+    "Grand Central",
+    "subway"
+   ],
+   "theme": "Teasers",
+   "note": "Photos plus an X News story confirm the ads exist; who paid wasn't confirmed by Ripple this run. Marketing, not adoption. Community reads the route (old rail hub to Nasdaq/Times Square) as symbolism. Neutral to mildly positive for attention."
+  },
+  {
+   "d": "2026-10-26T06:09",
+   "acct": "@XRPBrainst0rm",
+   "url": "https://x.com/XRPBrainst0rm/status/2114660612030816482",
+   "title": "Easter-egg read: Garlinghouse in Times Square in front of the Nasdaq MarketSite holding up a small purple XRP logo; poster ties it to '500' and Fortune 500",
+   "status": "speculation",
+   "entities": [
+    "Garlinghouse",
+    "Nasdaq",
+    "Times Square",
+    "Purple"
+   ],
+   "theme": "Teasers",
+   "note": "Video is real-looking but the meaning is pure pattern-reading; no Ripple statement. Same purple-hint family as earlier runs. Neutral."
+  },
+  {
+   "d": "2026-10-26T05:03",
+   "acct": "@WhiteRiderXRP",
+   "url": "https://x.com/WhiteRiderXRP/status/2114644114104885524",
+   "title": "Mr Pool riddle: '10/27 believe in XRP!' tied to Halloween as the night 'two worlds collide' (80 likes)",
+   "status": "speculation",
+   "entities": [
+    "Mr Pool",
+    "Oct 27",
+    "Halloween",
+    "Oct 31"
+   ],
+   "theme": "Teasers",
+   "note": "Oct 27 is just Swell's opening day. Riddle accounts have set several dates (Oct 31, Nov 1, Nov 7). Neutral, with disappointment risk if nothing lands."
+  },
+  {
+   "d": "2026-10-26T02:01",
+   "acct": "@MjB38",
+   "url": "https://x.com/MjB38/status/2114598313442131976",
+   "title": "Claim: a Morpho lending market shows ~$265M RLUSD supplied and ~$240M borrowed against Bitcoin collateral",
+   "status": "speculation",
+   "entities": [
+    "RLUSD",
+    "Morpho",
+    "Bitcoin",
+    "lending"
+   ],
+   "theme": "RLUSD / stablecoins",
+   "note": "Small account, numbers not checked on Morpho. If true, RLUSD is getting real DeFi use, but on Ethereum, not XRPL. Neutral for XRP directly."
+  },
+  {
+   "d": "2026-10-26T07:27",
+   "acct": "@Schuman_io",
+   "url": "https://x.com/Schuman_io/status/2114680258473386266",
+   "title": "Schuman Financial (EURØP euro stablecoin) says EURØP is live on the XRP Ledger, XRPL Commons is a founding member of its Eurøpe Consortium, and its founders attend Swell",
+   "status": "confirmed",
+   "entities": [
+    "Schuman",
+    "EURØP",
+    "XRPL Commons",
+    "Swell",
+    "stablecoin"
+   ],
+   "theme": "RLUSD / stablecoins",
+   "note": "Issuer's own post; the XRPL listing isn't new today, but it's a regulated euro stablecoin showing up at Swell. Mildly positive for XRPL as a stablecoin venue."
+  },
+  {
+   "d": "2026-10-26T06:54",
+   "acct": "@Family_milfl",
+   "url": "https://x.com/Family_milfl/status/2114672065622179948",
+   "title": "SCAM: 'The XAMAN Airdrop is live on XRPL... check whether you qualify and claim your allocation' from an unrelated 197K-follower account with a link",
+   "status": "rumor",
+   "entities": [
+    "Xaman",
+    "airdrop",
+    "scam"
+   ],
+   "theme": "Scams / safety",
+   "note": "Same fake-airdrop wave as Oct 21-23. Wietse Wind (Xaman founder) posted this morning: never trust social media support, use in-app tickets. Don't click or connect a wallet."
+  },
+  {
+   "d": "2026-10-25T23:57",
+   "acct": "@JackyTang0804 and others",
+   "url": "https://x.com/JackyTang0804/status/2114566979210092754",
+   "title": "SCAM reply wave: 'You've been randomly selected... won $20,000 worth of coins. DM us your $XRP wallet address' from several accounts",
+   "status": "rumor",
+   "entities": [
+    "giveaway",
+    "scam",
+    "DM"
+   ],
+   "theme": "Scams / safety",
+   "note": "Classic giveaway bait timed for Swell week. Real giveaways never ask you to DM. Hurts only people who reply."
+  },
+  {
+   "d": "2026-10-26T07:17",
+   "acct": "@Leahzdu and copies",
+   "url": "https://x.com/Leahzdu/status/2114677707954884634",
+   "title": "SCAM bait: copy-paste posts 'publicly' sharing a 12-word seed phrase and asking how to move $3000 USDT, tagged #xrp",
+   "status": "rumor",
+   "entities": [
+    "seed phrase",
+    "scam",
+    "honeypot"
+   ],
+   "theme": "Scams / safety",
+   "note": "Honeypot trick: the wallet holds tokens you can't move without sending your own gas first, which gets swept. Never import a stranger's seed phrase."
   }
  ]
 }

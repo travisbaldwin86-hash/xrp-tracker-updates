@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-26T14:14:51-04:00",
+ "updated": "2026-10-26T17:11:10-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -79,7 +79,9 @@
    "Cantor",
    "equity line",
    "Teddy Fusaro",
-   "First 365 Days"
+   "First 365 Days",
+   "80,000,000 XRP",
+   "ETF tape"
   ],
   "Regulation": [
    "SEC",
@@ -246,7 +248,12 @@
    "Times Square",
    "10/27",
    "$6.5 trillion",
-   "in 4 days"
+   "in 4 days",
+   "Cleared for takeoff",
+   "And so it begins",
+   "Demo Day",
+   "Soon Moon",
+   "TV ad"
   ],
   "Exchanges / whales": [
    "whale",
@@ -319,7 +326,9 @@
    "social media support",
    "QFS account",
    "withdrawals are paused",
-   "Instagram ads"
+   "Instagram ads",
+   "double your XRP",
+   "fake livestream"
   ],
   "Energy / carbon": [
    "energy-backed",
@@ -426,7 +435,9 @@
   "tokenization launch",
   "water org",
   "swell oct",
-  "franklin templeton"
+  "franklin templeton",
+  "2k likes",
+  "oct 26"
  ],
  "events": [
   {
@@ -4092,6 +4103,123 @@
    ],
    "theme": "Energy / carbon",
    "note": "Official, but it's a competitor chain, not XRPL, and a talk, not a launch. Neutral to slightly hurts XRPL's carbon story."
+  },
+  {
+   "d": "2026-10-26T14:34",
+   "acct": "@Ripple",
+   "url": "https://x.com/Ripple/status/2114787821168849056",
+   "title": "Teaser: 'It's happening...Cleared for takeoff 🛫' with a photo of a film set (camera monitor, storyboards marked :30 and :15); 6.4K likes, 260K views",
+   "status": "confirmed",
+   "entities": [
+    "Ripple",
+    "Swell",
+    "teaser",
+    "Cleared for takeoff"
+   ],
+   "theme": "Teasers",
+   "note": "The post is official, but it says nothing about what's coming. Looks like an ad shoot timed to Swell. Helps hype; no XRP demand until something is announced."
+  },
+  {
+   "d": "2026-10-26T14:49",
+   "acct": "@JoelKatz",
+   "url": "https://x.com/JoelKatz/status/2114791514643550258",
+   "title": "David Schwartz: 'And so it begins!' with a photo of Swell Demo Day (Oct 26); 5.2K likes",
+   "status": "confirmed",
+   "entities": [
+    "David Schwartz",
+    "Swell",
+    "Demo Day",
+    "And so it begins"
+   ],
+   "theme": "Teasers",
+   "note": "Official, but it's the start of Swell's pre-event Demo Day, not a product reveal. Neutral; the community is reading it as a signal."
+  },
+  {
+   "d": "2026-10-26T14:45",
+   "acct": "@Archie_XRPL",
+   "url": "https://x.com/Archie_XRPL/status/2114790420739948968",
+   "title": "Read of Ripple's teaser: the ':30' and ':15' storyboards are TV spot lengths, so Ripple is filming a TV ad (subway wraps, NYC billboard, Swell)",
+   "status": "speculation",
+   "entities": [
+    "Ripple",
+    "TV ad",
+    "Swell",
+    "subway"
+   ],
+   "theme": "Teasers",
+   "note": "Plausible read of the photo, not confirmed by Ripple. A mass-market ad would help awareness, not XRP demand directly."
+  },
+  {
+   "d": "2026-10-26T15:07",
+   "acct": "@xrp_seer and others",
+   "url": "https://x.com/xrp_seer/status/2114795987709632571",
+   "title": "'Elon Musk said Soon Moon' tied to XRP and Ripple's teaser (205 likes). Elon's post quotes a full-moon telescope photo and never mentions XRP",
+   "status": "rumor",
+   "entities": [
+    "Elon Musk",
+    "Soon Moon",
+    "Cleared for takeoff"
+   ],
+   "theme": "Teasers",
+   "note": "Misread: Elon was replying to a moon photo. Ignore it as an XRP signal."
+  },
+  {
+   "d": "2026-10-26T15:09",
+   "acct": "@DigitalWeau4 and copies",
+   "url": "https://x.com/DigitalWeau4/status/2114796620789244320",
+   "title": "Copy-paste claim: 'Evernorth is planning to buy another 80,000,000 XRP this week'",
+   "status": "rumor",
+   "entities": [
+    "Evernorth",
+    "XRPN",
+    "80,000,000 XRP",
+    "equity line"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Mixes up dollars and XRP: the Oct 23 filing is an up-to-$80.7M share facility over about 14 months, not 80M XRP this week. Hurts if people buy expecting a sudden purchase."
+  },
+  {
+   "d": "2026-10-26T16:14",
+   "acct": "@XRP__Live",
+   "url": "https://x.com/XRP__Live/status/2114812908748038497",
+   "title": "Spot XRP ETF tape: $22.63M traded, about 0.6x a normal day; funds hold ~1.196B XRP",
+   "status": "speculation",
+   "entities": [
+    "XRP ETF",
+    "ETF flows"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Community tally, not checked by the tracker. A quiet day right before Swell; neutral."
+  },
+  {
+   "d": "2026-10-26T17:00",
+   "acct": "@thexrpguy",
+   "url": "https://x.com/thexrpguy/status/2114824413455773701",
+   "title": "Warning: any livestream offering to 'double your XRP' is a scam, even if it shows real Swell footage; Ripple never asks you to send XRP",
+   "status": "confirmed",
+   "entities": [
+    "scam",
+    "livestream",
+    "double your XRP",
+    "Swell"
+   ],
+   "theme": "Scams / safety",
+   "note": "Fake Swell livestreams are the usual scam during the event. No price effect; never send coins."
+  },
+  {
+   "d": "2026-10-26T14:40",
+   "acct": "@endorphinestake",
+   "url": "https://x.com/endorphinestake/status/2114781483718025320",
+   "title": "Endorphine Stake beta: macro data (gold, silver, copper) flows Band Protocol oracle, then a RippleX relay transaction, then published as blobs on Celestia",
+   "status": "speculation",
+   "entities": [
+    "Band Protocol",
+    "RippleX",
+    "Celestia",
+    "oracle"
+   ],
+   "theme": "XRPL tech",
+   "note": "A small validator's own beta, not a Ripple announcement. Tiny XRPL usage; neutral."
   }
  ]
 }

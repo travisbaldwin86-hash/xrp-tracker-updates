@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-25T17:04:59-04:00",
+ "updated": "2026-10-25T20:02:37-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -26,7 +26,10 @@
    "Get Blue",
    "CryptEscrow",
    "Jeonbuk",
-   "DriveWealth"
+   "DriveWealth",
+   "Interledger",
+   "Dassie",
+   "Stefan Thomas"
   ],
   "RLUSD / stablecoins": [
    "RLUSD",
@@ -46,7 +49,9 @@
    "PayMe",
    "SOFIE",
    "SoFiUSD",
-   "tokenized deposit"
+   "tokenized deposit",
+   "Aave",
+   "Sentora"
   ],
   "ETFs / treasuries": [
    "ETF",
@@ -111,7 +116,8 @@
    "BENJI",
    "haircut",
    "52 hours",
-   "Oct 28"
+   "Oct 28",
+   "Quant"
   ],
   "Banks": [
    "bank",
@@ -182,7 +188,8 @@
    "netting",
    "Lodestar",
    "stXRP",
-   "FXRP"
+   "FXRP",
+   "agent payments"
   ],
   "Teasers": [
    "big news",
@@ -215,7 +222,9 @@
    "gematria",
    "xyz",
    "Malaysia central bank",
-   "$300 trillion"
+   "$300 trillion",
+   "Unified Ledger",
+   "takeover confirmed"
   ],
   "Exchanges / whales": [
    "whale",
@@ -3616,6 +3625,99 @@
    ],
    "theme": "ETFs / treasuries",
    "note": "Unverified flow number, and it conflicts with other calendar posts claiming '13th straight week of inflows, $11.31M'. The death cross is a technical bearish signal. Mixed: ETF demand is holding while the chart is weak. The post includes a Kalshi promo code, so treat it as ad-driven."
+  },
+  {
+   "d": "2026-10-25T16:44",
+   "acct": "@Jenny_Solstice (Garlinghouse clip)",
+   "url": "https://x.com/Jenny_Solstice/status/2114458077122691478",
+   "title": "Garlinghouse video clip: asks why marketplaces like Amazon haven't adopted blockchain like the XRP Ledger for payments, citing Uber paying drivers faster to keep them (250 likes)",
+   "status": "confirmed",
+   "entities": [
+    "Garlinghouse",
+    "Amazon",
+    "Uber",
+    "XRPL",
+    "RLUSD"
+   ],
+   "theme": "Big tech",
+   "note": "His own words on video, but the clip's original date wasn't verified and there's no Amazon or Uber deal. It's a sales pitch, not adoption. Neutral to mildly positive for the narrative."
+  },
+  {
+   "d": "2026-10-25T19:55",
+   "acct": "@daikokunet009 (Swell agenda tracker)",
+   "url": "https://x.com/daikokunet009/status/2114506040477987187",
+   "title": "Swell agenda change: Stefan Thomas (Coil founder, Ripple CTO 2013-2018) added for Oct 29 4:30 PM, 'Dassie: A Payment...' session (Interledger peer-to-peer network)",
+   "status": "speculation",
+   "entities": [
+    "Stefan Thomas",
+    "Dassie",
+    "Interledger",
+    "Coil",
+    "Swell"
+   ],
+   "theme": "Payments / ODL",
+   "note": "Reported by one account that tracks the agenda daily; not confirmed on swell.ripple.com this run. A former Ripple CTO back on stage is interesting for Interledger/payments talk. No XRP demand implied yet. Neutral to mildly positive."
+  },
+  {
+   "d": "2026-10-25T17:12",
+   "acct": "@OfVoice25355",
+   "url": "https://x.com/OfVoice25355/status/2114465044348150020",
+   "title": "Claim: Sentora-curated markets go live on Aave v4 (first externally curated V4 markets), with RLUSD, PYUSD and OUSG borrowing",
+   "status": "speculation",
+   "entities": [
+    "Aave",
+    "Sentora",
+    "RLUSD",
+    "PYUSD",
+    "OUSG"
+   ],
+   "theme": "RLUSD / stablecoins",
+   "note": "Small account; not checked against Aave or Sentora's own posts. If true, more DeFi use for RLUSD on Ethereum, not XRPL. Neutral for XRP directly."
+  },
+  {
+   "d": "2026-10-25T19:00",
+   "acct": "@RipBullWinkle",
+   "url": "https://x.com/RipBullWinkle/status/2114492428010893443",
+   "title": "Claim: AI agent payments on the XRP Ledger reached 13.49M across 168 merchants as of Oct 11, up from about 1M in July",
+   "status": "speculation",
+   "entities": [
+    "AI agent",
+    "x402",
+    "XRPL",
+    "RLUSD"
+   ],
+   "theme": "XRPL tech",
+   "note": "132K-follower account citing a dashboard link; numbers not verified. Payment counts can be bots or tiny amounts (like the RLUSD dust finding). Mildly helps the AI-payments story if real."
+  },
+  {
+   "d": "2026-10-25T18:33",
+   "acct": "@CMcferdy",
+   "url": "https://x.com/CMcferdy/status/2114485644621935078",
+   "title": "Quant's new docs list the XRP Ledger and Stellar as managed setups (Hedera self-serve) for its tokenized-deposit infrastructure",
+   "status": "speculation",
+   "entities": [
+    "Quant",
+    "Overledger",
+    "XRPL",
+    "Stellar",
+    "tokenized deposit"
+   ],
+   "theme": "Market infrastructure",
+   "note": "Poster notes Quant has had an XRPL connector since 2018, so it isn't new access, just documentation. Neutral."
+  },
+  {
+   "d": "2026-10-25T18:07",
+   "acct": "@APEXCONSULTNFA",
+   "url": "https://x.com/APEXCONSULTNFA/status/2114479098051559840",
+   "title": "Hype claim: 'RIPPLE XRP GLOBAL TAKEOVER CONFIRMED! XRP powers BIS Unified Ledger & cross-border payments'",
+   "status": "rumor",
+   "entities": [
+    "BIS",
+    "Unified Ledger",
+    "QNT"
+   ],
+   "theme": "Teasers",
+   "note": "The BIS Unified Ledger is a concept and test projects (e.g. Agorá) that don't use XRP. Nothing from BIS names XRP. Same family as the Oct 23 BIS rumor. Neutral, with disappointment risk."
   }
  ]
 }

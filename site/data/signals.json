@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-26T11:09:51-04:00",
+ "updated": "2026-10-26T14:14:51-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -77,7 +77,9 @@
    "FuzzyCon",
    "XRP Insights",
    "Cantor",
-   "equity line"
+   "equity line",
+   "Teddy Fusaro",
+   "First 365 Days"
   ],
   "Regulation": [
    "SEC",
@@ -127,7 +129,10 @@
    "Aviva",
    "Komainu",
    "Licuido",
-   "tokenized share class"
+   "tokenized share class",
+   "CME",
+   "Terry Duffy",
+   "CoinDesk live"
   ],
   "Banks": [
    "bank",
@@ -200,7 +205,8 @@
    "Lodestar",
    "stXRP",
    "FXRP",
-   "agent payments"
+   "agent payments",
+   "Confidential Loans"
   ],
   "Teasers": [
    "big news",
@@ -238,7 +244,9 @@
    "takeover confirmed",
    "subway",
    "Times Square",
-   "10/27"
+   "10/27",
+   "$6.5 trillion",
+   "in 4 days"
   ],
   "Exchanges / whales": [
    "whale",
@@ -254,7 +262,9 @@
    "CryptoQuant",
    "exchange reserves",
    "liquidations",
-   "exchange outflows"
+   "exchange outflows",
+   "sell the news",
+   "last five Swells"
   ],
   "Scams / safety": [
    "scam",
@@ -308,7 +318,8 @@
    "randomly selected",
    "social media support",
    "QFS account",
-   "withdrawals are paused"
+   "withdrawals are paused",
+   "Instagram ads"
   ],
   "Energy / carbon": [
    "energy-backed",
@@ -324,7 +335,9 @@
    "carbon tonnes",
    "renewable energy credit",
    "Aramco",
-   "oil reserves"
+   "oil reserves",
+   "carbon collateral",
+   "GBBC"
   ]
  },
  "discovered": [
@@ -411,7 +424,9 @@
   "says xrp",
   "'the xaman",
   "tokenization launch",
-  "water org"
+  "water org",
+  "swell oct",
+  "franklin templeton"
  ],
  "events": [
   {
@@ -3957,6 +3972,126 @@
    ],
    "theme": "XRPL tech",
    "note": "Official, but it's a roundup, not new adoption. Neutral."
+  },
+  {
+   "d": "2026-10-26T13:15",
+   "acct": "@CoinDesk (reposted by @Ripple)",
+   "url": "https://x.com/CoinDesk/status/2114767764825198866",
+   "title": "CoinDesk to stream live from Ripple Swell Oct 28-29 with interviews of Garlinghouse, CME Group's Terry Duffy and DriveWealth's Naureen Hassan",
+   "status": "confirmed",
+   "entities": [
+    "CoinDesk",
+    "Swell",
+    "CME Group",
+    "Terry Duffy",
+    "DriveWealth",
+    "Garlinghouse"
+   ],
+   "theme": "Market infrastructure",
+   "note": "Official. CME's chairman on Ripple's stage is a real TradFi signal, but it's an interview, not a deal. Mildly helps attention; no XRP demand yet."
+  },
+  {
+   "d": "2026-10-26T11:17",
+   "acct": "@Bitwise",
+   "url": "https://x.com/Bitwise/status/2114738158726484171",
+   "title": "Bitwise President Teddy Fusaro speaks at Swell Thursday 2:30 PM ET on 'The First 365 Days: Lessons from the First Spot XRP ETF' with Canary Capital and Franklin Templeton",
+   "status": "confirmed",
+   "entities": [
+    "Bitwise",
+    "Teddy Fusaro",
+    "Canary",
+    "Franklin Templeton",
+    "XRP ETF",
+    "Swell"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Official panel listing. Expect ETF flow talk Thursday; neutral unless they share new numbers."
+  },
+  {
+   "d": "2026-10-26T09:58",
+   "acct": "@societalruin (reposted by @xrpl_commons)",
+   "url": "https://x.com/societalruin/status/2114718410504597998",
+   "title": "XRPL hackathon: 'Confidential Loans' (onchain lending with encrypted loan amounts, payments and balances) wins the Protocol Innovation track",
+   "status": "confirmed",
+   "entities": [
+    "XRPL Commons",
+    "hackathon",
+    "Confidential Loans",
+    "lending"
+   ],
+   "theme": "XRPL tech",
+   "note": "Real but hackathon-stage. Privacy is something banks want before lending onchain, so a small long-term plus."
+  },
+  {
+   "d": "2026-10-26T13:04",
+   "acct": "@NewsCointribute",
+   "url": "https://x.com/NewsCointribute/status/2114765159927251086",
+   "title": "Pattern claim: 'XRP has fallen after each of the last five Swells. The sixth starts today'",
+   "status": "speculation",
+   "entities": [
+    "Swell",
+    "sell the news",
+    "XRP price"
+   ],
+   "theme": "Exchanges / whales",
+   "note": "A sell-the-news history read, not checked by the tracker. If traders believe it, it can weigh on price this week. Hurts short-term sentiment."
+  },
+  {
+   "d": "2026-10-26T12:23",
+   "acct": "@mrnguyen007",
+   "url": "https://x.com/mrnguyen007/status/2114754706228830546",
+   "title": "'THIS WEDNESDAY, OCTOBER 28: DTCC 🤝 RIPPLE PRIME' (239 likes); same account later says it expects no major price move this week",
+   "status": "speculation",
+   "entities": [
+    "DTCC",
+    "Ripple Prime",
+    "Oct 28"
+   ],
+   "theme": "Market infrastructure",
+   "note": "Ripple Prime is in DTCC's working group (logged), but no source says Oct 28 is a DTCC-Ripple Prime launch. Neutral until DTCC or Ripple says so."
+  },
+  {
+   "d": "2026-10-26T12:50",
+   "acct": "@Communitynewsx (recycled)",
+   "url": "https://x.com/Communitynewsx/status/2114761561596457085",
+   "title": "Recycled fake 'BLACKROCK JUST SIGNED A $6.5 TRILLION XRP TOKENIZATION DEAL... HAPPENING IN 4 DAYS'; fact-checkers (@noolanded, X News) find no filing or announcement",
+   "status": "rumor",
+   "entities": [
+    "BlackRock",
+    "$6.5 trillion",
+    "fake headline"
+   ],
+   "theme": "Teasers",
+   "note": "Same fake headline logged Oct 24, now with a '4 days' countdown to Swell. Hurts if people buy on it."
+  },
+  {
+   "d": "2026-10-26T14:13",
+   "acct": "@ChartNerdTA",
+   "url": "https://x.com/ChartNerdTA/status/2114782392053268837",
+   "title": "Warning: 'Ripple Payments' and XRP ads on Instagram are scams; don't click links",
+   "status": "confirmed",
+   "entities": [
+    "Instagram ads",
+    "scam",
+    "Ripple Payments"
+   ],
+   "theme": "Scams / safety",
+   "note": "Scam ads are moving off X to Instagram ahead of Swell. No price effect; protect wallets."
+  },
+  {
+   "d": "2026-10-26T12:12",
+   "acct": "@hedera",
+   "url": "https://x.com/hedera/status/2114752046855499784",
+   "title": "Hedera at GBBC's UNGA event: carbon credits need digital definitions, trusted data and custody so they can be used as collateral",
+   "status": "confirmed",
+   "entities": [
+    "Hedera",
+    "GBBC",
+    "carbon credits",
+    "collateral"
+   ],
+   "theme": "Energy / carbon",
+   "note": "Official, but it's a competitor chain, not XRPL, and a talk, not a launch. Neutral to slightly hurts XRPL's carbon story."
   }
  ]
 }

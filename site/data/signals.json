@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-26T17:11:10-04:00",
+ "updated": "2026-10-26T20:06:51-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -13,7 +13,8 @@
    "escrow",
    "unlock",
    "relock",
-   "burn"
+   "burn",
+   "1.3 billion"
   ],
   "Payments / ODL": [
    "ODL",
@@ -81,7 +82,8 @@
    "Teddy Fusaro",
    "First 365 Days",
    "80,000,000 XRP",
-   "ETF tape"
+   "ETF tape",
+   "NDA"
   ],
   "Regulation": [
    "SEC",
@@ -100,7 +102,9 @@
    "Basel",
    "examination priorities",
    "David Sacks",
-   "digital commodity"
+   "digital commodity",
+   "National Trust Bank",
+   "final approval"
   ],
   "Market infrastructure": [
    "DTCC",
@@ -271,7 +275,9 @@
    "liquidations",
    "exchange outflows",
    "sell the news",
-   "last five Swells"
+   "last five Swells",
+   "Swell-dump",
+   "Santiment"
   ],
   "Scams / safety": [
    "scam",
@@ -437,7 +443,10 @@
   "swell oct",
   "franklin templeton",
   "2k likes",
-  "oct 26"
+  "oct 26",
+  "onto exchanges",
+  "nov 1",
+  "trust bank"
  ],
  "events": [
   {
@@ -4220,6 +4229,149 @@
    ],
    "theme": "XRPL tech",
    "note": "A small validator's own beta, not a Ripple announcement. Tiny XRPL usage; neutral."
+  },
+  {
+   "d": "2026-10-26T19:22",
+   "acct": "@bgarlinghouse",
+   "url": "https://x.com/bgarlinghouse/status/2114860293859778775",
+   "title": "Garlinghouse: the OCC has granted FINAL approval for Ripple National Trust Bank, a federally supervised platform for RLUSD and enterprise digital-asset custody (6.1K likes, 150K views); upgrades the Dec 2025 conditional approval",
+   "status": "confirmed",
+   "entities": [
+    "Ripple",
+    "OCC",
+    "Ripple National Trust Bank",
+    "RLUSD",
+    "custody",
+    "charter",
+    "Swell"
+   ],
+   "theme": "Regulation",
+   "note": "Real, official news right before Swell. Big win for RLUSD and Ripple's bank-grade credibility; helps XRP sentiment, but doesn't by itself create XRP demand."
+  },
+  {
+   "d": "2026-10-26T19:32",
+   "acct": "@s_alderoty",
+   "url": "https://x.com/s_alderoty/status/2114862653260841179",
+   "title": "Ripple CLO Stuart Alderoty on the final OCC approval: 'build within the regulatory perimeter, not around it'",
+   "status": "confirmed",
+   "entities": [
+    "Stuart Alderoty",
+    "OCC",
+    "Ripple National Trust Bank"
+   ],
+   "theme": "Regulation",
+   "note": "Confirms the charter from Ripple's legal chief. Same story; helps trust in Ripple."
+  },
+  {
+   "d": "2026-10-26T19:54",
+   "acct": "@247Wire / @coinotag headlines",
+   "url": "https://x.com/247Wire/status/2114868241181118905",
+   "title": "Headline wording: 'OCC grants final approval for Ripple National Trust Bank to manage $2.5 billion RLUSD reserves'",
+   "status": "speculation",
+   "entities": [
+    "OCC",
+    "RLUSD",
+    "$2.5 billion RLUSD reserves"
+   ],
+   "theme": "RLUSD / stablecoins",
+   "note": "The $2.5B figure comes from news-wire headlines, not Garlinghouse's post; treat the number as unverified."
+  },
+  {
+   "d": "2026-10-26T19:45",
+   "acct": "Community replies",
+   "url": "https://x.com/GabeBuff3tt/status/2114866037132755106",
+   "title": "After the charter, the crowd moves on to 'Fed master account next'",
+   "status": "speculation",
+   "entities": [
+    "Fed",
+    "master account",
+    "Ripple National Trust Bank"
+   ],
+   "theme": "Regulation",
+   "note": "Hope, not news: no master-account filing outcome has been announced. Watch for it, don't trade on it."
+  },
+  {
+   "d": "2026-10-26T18:51",
+   "acct": "@SantimentData",
+   "url": "https://x.com/SantimentData/status/2114852436024160434",
+   "title": "Santiment: wallets holding 10M+ XRP now control 46.87B XRP (~68.5% of supply), the highest share since Nov 2022",
+   "status": "speculation",
+   "entities": [
+    "whale",
+    "Santiment",
+    "10M+ XRP wallets"
+   ],
+   "theme": "Exchanges / whales",
+   "note": "Data firm's reading, not checked by the tracker. Big holders accumulating mildly helps."
+  },
+  {
+   "d": "2026-10-26T17:20",
+   "acct": "@strivex_ / AMBCrypto",
+   "url": "https://x.com/strivex_/status/2114829613486813359",
+   "title": "Counter-read: whale wallets fell from 351 to 339 and about $61M of XRP moved onto exchanges; $1.26 support in focus",
+   "status": "speculation",
+   "entities": [
+    "whale",
+    "exchange inflows",
+    "$1.26 support"
+   ],
+   "theme": "Exchanges / whales",
+   "note": "Contradicts Santiment's read. Exchange inflows can mean selling; mildly hurts short term."
+  },
+  {
+   "d": "2026-10-26T17:45",
+   "acct": "@FredrikAlmer",
+   "url": "https://x.com/FredrikAlmer/status/2114835927059308918",
+   "title": "'Prepare for a Swell-dump': claims XRP fell 9-15% (2025), 5-8% (2024) and 10-20% (2023) in the 1-2 weeks after Swell",
+   "status": "speculation",
+   "entities": [
+    "Swell-dump",
+    "sell the news",
+    "Swell"
+   ],
+   "theme": "Exchanges / whales",
+   "note": "Unverified history, but it fits the sell-the-news pattern already on the watchlist. Hurts short-term if it repeats."
+  },
+  {
+   "d": "2026-10-26T19:40",
+   "acct": "@Susan223331",
+   "url": "https://x.com/Susan223331/status/2114864808214610402",
+   "title": "'Why is Ripple releasing 1.3 billion XRP on Nov 1 instead of 1 billion?' (103 likes)",
+   "status": "rumor",
+   "entities": [
+    "escrow",
+    "1.3 billion XRP",
+    "Nov 1"
+   ],
+   "theme": "Escrow / supply",
+   "note": "No Ripple source for 1.3B; the monthly escrow unlock is 1B and most is usually relocked. Its own math is off (300M, not 300K). Ignore until the Nov 1 ledger data shows it."
+  },
+  {
+   "d": "2026-10-26T20:02",
+   "acct": "@mrnguyen007",
+   "url": "https://x.com/mrnguyen007/status/2114870372822892615",
+   "title": "'F the NDA... BLACKROCK TO FILE SPOT XRP ETF' (16 likes)",
+   "status": "rumor",
+   "entities": [
+    "BlackRock",
+    "XRP ETF",
+    "NDA"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Classic 'insider' bait with no filing behind it. Nothing until it shows up on SEC EDGAR."
+  },
+  {
+   "d": "2026-10-26T18:54",
+   "acct": "@7FigSaykhoamz and others",
+   "url": "https://x.com/7FigSaykhoamz/status/2114853309714739502",
+   "title": "Weekly crypto ETF flows: XRP +$4.25M, BTC +$442.7M, ETH -$225M, SOL -$17.3M",
+   "status": "speculation",
+   "entities": [
+    "XRP ETF",
+    "ETF flows"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Community tally. Small positive XRP inflow in a mixed week; neutral to slightly helpful."
   }
  ]
 }

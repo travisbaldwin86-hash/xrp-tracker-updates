@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-27T11:16:19-04:00",
+ "updated": "2026-10-27T14:13:35-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -94,7 +94,11 @@
    "3x",
    "leveraged ETF",
    "Nov 30",
-   "Max Stein"
+   "Max Stein",
+   "Friday the 13th",
+   "Nov 13",
+   "SBI",
+   "JPYSC"
   ],
   "Regulation": [
    "SEC",
@@ -120,7 +124,11 @@
    "Scott Bessent",
    "Fairshake",
    "midterms",
-   "super PAC"
+   "super PAC",
+   "FedNow",
+   "Tier 3",
+   "abandon XRP",
+   "separation"
   ],
   "Market infrastructure": [
    "DTCC",
@@ -185,7 +193,10 @@
    "future of money",
    "long-press",
    "tip",
-   "Google Pay"
+   "Google Pay",
+   "Stripe",
+   "zerohash",
+   "AI Moves Money"
   ],
   "XRPL tech": [
    "XLS-65",
@@ -229,7 +240,8 @@
    "stXRP",
    "FXRP",
    "agent payments",
-   "Confidential Loans"
+   "Confidential Loans",
+   "Fuzzyverse"
   ],
   "Teasers": [
    "big news",
@@ -274,7 +286,8 @@
    "And so it begins",
    "Demo Day",
    "Soon Moon",
-   "TV ad"
+   "TV ad",
+   "triples down"
   ],
   "Exchanges / whales": [
    "whale",
@@ -470,7 +483,13 @@
   "'fed master",
   "speaker list",
   "rlusd settlement",
-  "x news"
+  "x news",
+  "claim ripple",
+  "xrp as",
+  "david schwartz",
+  "ripple swell",
+  "' with",
+  "treasury secretary"
  ],
  "events": [
   {
@@ -491,6 +510,11 @@
   {
    "d": "2026-10-28",
    "name": "Ripple x DriveWealth fireside, Swell Institutional Stage",
+   "kind": "conference"
+  },
+  {
+   "d": "2026-10-28",
+   "name": "Swell panel 'What Happens When AI Moves Money?' (AWS, Stripe, zerohash, Mastercard), 1:20 PM ET",
    "kind": "conference"
   },
   {
@@ -4545,6 +4569,134 @@
    ],
    "theme": "ETFs / treasuries",
    "note": "A panel seat is not a filing. Expect 'BlackRock ETF' rumors to spike during Swell; nothing on SEC EDGAR yet."
+  },
+  {
+   "d": "2026-10-27T12:19",
+   "acct": "@Prolotario1 / community replies",
+   "url": "https://x.com/Prolotario1/status/2115116119841263676",
+   "title": "'Did Ripple abandon XRP?' backlash: critics say Swell-day news (bank charter, BNY, Robinhood) barely mentions XRP; rebuttal thread (161 likes) says the separation is deliberate to keep the OCC, Fed and Treasury onside",
+   "status": "speculation",
+   "entities": [
+    "Ripple",
+    "XRP",
+    "RLUSD",
+    "OCC",
+    "Fed",
+    "Bessent"
+   ],
+   "theme": "Regulation",
+   "note": "Hurts short-term sentiment. True that today's official deals center on RLUSD, with XRP only in BNY custody and as XRPL fee/reserve; the 'by design' argument is opinion, not a Ripple statement."
+  },
+  {
+   "d": "2026-10-27T11:26",
+   "acct": "@mrnguyen007",
+   "url": "https://x.com/mrnguyen007/status/2115102942412099707",
+   "title": "'Will Treasury Secretary Scott Bessent announce a FED MASTER ACCOUNT for Ripple?' (220 likes); replies claim Ripple sits in a 'Tier 3' review held until Dec 2026",
+   "status": "speculation",
+   "entities": [
+    "Bessent",
+    "Fed",
+    "master account",
+    "Ripple",
+    "FedNow"
+   ],
+   "theme": "Regulation",
+   "note": "Treasury doesn't grant master accounts; the Fed decides separately (Custodia was denied in 2023), and the 'Tier 3 hold' claim has no source. Set-up for disappointment if Bessent's talk is generic."
+  },
+  {
+   "d": "2026-10-27T13:34",
+   "acct": "@RippleXity",
+   "url": "https://x.com/RippleXity/status/2115134934746824988",
+   "title": "'MASSIVE: The United States triples down on XRP as Treasury Secretary joins Ripple Swell 2026' (388 likes)",
+   "status": "speculation",
+   "entities": [
+    "Bessent",
+    "Treasury",
+    "Swell",
+    "XRP"
+   ],
+   "theme": "Regulation",
+   "note": "Hype framing. A speaker slot is not U.S. policy on XRP, and the Bessent appearance still isn't confirmed by Ripple or Treasury in this scan."
+  },
+  {
+   "d": "2026-10-27T13:50",
+   "acct": "@RemiReliefX",
+   "url": "https://x.com/RemiReliefX/status/2115139018723647683",
+   "title": "'BlackRock XRP ETF is up next in 17 days... Friday the 13th' (Nov 13), date-pattern post tying past BlackRock moves to the 13th",
+   "status": "speculation",
+   "entities": [
+    "BlackRock",
+    "XRP ETF",
+    "Nov 13"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Pure date numerology; nothing on SEC EDGAR. BlackRock's Swell panel slot (1:10-1:40 PM ET today) produced no XRP ETF news in this scan."
+  },
+  {
+   "d": "2026-10-27T11:59",
+   "acct": "@xrpl_commons",
+   "url": "https://x.com/xrpl_commons/status/2115111115680055374",
+   "title": "XRPL Commons names winners of the AI & Fintech XRP Ledger Hackathon NYC, thanking Ripple, RippleX, XRPLF, Mastercard, AWS, Ledger and QuickNode",
+   "status": "confirmed",
+   "entities": [
+    "XRPL Commons",
+    "Mastercard",
+    "AWS",
+    "Ledger",
+    "QuickNode",
+    "Confidential Loans"
+   ],
+   "theme": "XRPL tech",
+   "note": "Official. Good for builder pipeline; sponsor thank-yous are not partnerships, so no direct XRP demand."
+  },
+  {
+   "d": "2026-10-27T14:00",
+   "acct": "@TheCryptoSquire",
+   "url": "https://x.com/TheCryptoSquire/status/2115141479630823756",
+   "title": "Swell agenda: Wed Oct 28, 1:20 PM, Institutional Stage, 'What Happens When AI Moves Money?' with AWS, Stripe, zerohash and Mastercard",
+   "status": "speculation",
+   "entities": [
+    "AWS",
+    "Stripe",
+    "zerohash",
+    "Mastercard",
+    "AI agent",
+    "Swell"
+   ],
+   "theme": "Big tech",
+   "note": "Agenda listing reposted by a community account, not checked on Ripple's site. Feeds the AI-agent-payments narrative; watch whether XRPL or RLUSD is named on stage."
+  },
+  {
+   "d": "2026-10-27T13:25",
+   "acct": "X News summary",
+   "url": "https://x.com/i/trending/2114835101729083835",
+   "title": "FuzzyCon NYC: David Schwartz makes a surprise appearance; Fuzzyverse, an evolving NFT collection on XRPL, sells out in under an hour",
+   "status": "speculation",
+   "entities": [
+    "FuzzyCon",
+    "Fuzzyverse",
+    "David Schwartz",
+    "XRPL",
+    "NFT"
+   ],
+   "theme": "XRPL tech",
+   "note": "From an X News summary. Community energy on XRPL, but NFT sell-outs barely move XRP."
+  },
+  {
+   "d": "2026-10-27T13:14",
+   "acct": "X News summary",
+   "url": "https://x.com/i/trending/2114903699508093034",
+   "title": "BlackRock signs an MOU with SBI Holdings and Startale to explore linking its tokenized money-market funds (BUIDL) with JPYSC, Japan's trust-type yen stablecoin",
+   "status": "confirmed",
+   "entities": [
+    "BlackRock",
+    "SBI",
+    "Startale",
+    "BUIDL",
+    "JPYSC"
+   ],
+   "theme": "Market infrastructure",
+   "note": "Exploratory MOU, no product or timeline, and not on XRPL. SBI is a long-time Ripple partner, so expect 'SBI + BlackRock = XRP' connect-the-dots posts."
   }
  ]
 }

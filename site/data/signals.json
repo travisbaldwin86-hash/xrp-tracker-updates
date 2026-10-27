@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-27T08:11:47-04:00",
+ "updated": "2026-10-27T11:16:19-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -61,7 +61,10 @@
    "Schuman",
    "24/7 Returns",
    "Ripple Treasury",
-   "idle cash"
+   "idle cash",
+   "Robinhood",
+   "Robinhood Chain",
+   "Bitstamp"
   ],
   "ETFs / treasuries": [
    "ETF",
@@ -90,7 +93,8 @@
    "GraniteShares",
    "3x",
    "leveraged ETF",
-   "Nov 30"
+   "Nov 30",
+   "Max Stein"
   ],
   "Regulation": [
    "SEC",
@@ -113,7 +117,10 @@
    "National Trust Bank",
    "final approval",
    "Bessent",
-   "Scott Bessent"
+   "Scott Bessent",
+   "Fairshake",
+   "midterms",
+   "super PAC"
   ],
   "Market infrastructure": [
    "DTCC",
@@ -461,7 +468,9 @@
   "tokenized deposits",
   "'ripple prime",
   "'fed master",
-  "speaker list"
+  "speaker list",
+  "rlusd settlement",
+  "x news"
  ],
  "events": [
   {
@@ -4471,6 +4480,71 @@
    ],
    "theme": "Regulation",
    "note": "Opinion, no filing news. Shows the crowd's next hope after the charter; don't trade on it."
+  },
+  {
+   "d": "2026-10-27T09:31",
+   "acct": "@Ripple / @MonicaLongSF",
+   "url": "https://x.com/Ripple/status/2115074012250296682",
+   "title": "Ripple expands its Robinhood partnership across RLUSD, Ripple Prime and Ripple Treasury: RLUSD settlement on the XRP Ledger, prime brokerage, and treasury management for Robinhood's own operations (4.1K likes)",
+   "status": "confirmed",
+   "entities": [
+    "Ripple",
+    "Robinhood",
+    "RLUSD",
+    "Ripple Prime",
+    "Ripple Treasury",
+    "XRPL",
+    "Bitstamp",
+    "Robinhood Chain"
+   ],
+   "theme": "RLUSD / stablecoins",
+   "note": "Official. Per X News, RLUSD is already on Robinhood Chain and Bitstamp and comes to the main Robinhood app later this year (28.6M funded customers). Big distribution win for RLUSD; XRP demand only indirect."
+  },
+  {
+   "d": "2026-10-27T09:58",
+   "acct": "@BankXRP / X News summary",
+   "url": "https://x.com/BankXRP/status/2115080791382438144",
+   "title": "'Brad Garlinghouse with Scott Bessent at Swell' (1.9K likes, copy-pasted by many accounts); X News says the Treasury Secretary joins a conversation with Garlinghouse this week",
+   "status": "speculation",
+   "entities": [
+    "Scott Bessent",
+    "Brad Garlinghouse",
+    "Treasury",
+    "Swell"
+   ],
+   "theme": "Regulation",
+   "note": "Firmer than this morning's speaker-list sighting, but still not confirmed by Ripple or Treasury in this scan. A sentiment boost if it happens; such talks rarely bring new policy."
+  },
+  {
+   "d": "2026-10-27T10:22",
+   "acct": "X News summary",
+   "url": "https://x.com/i/trending/2115085365203574795",
+   "title": "Crypto industry has spent $176M on US midterm races; Fairshake super PAC $150.8M through Oct 20, backed by Coinbase ($58M), Winklevoss twins ($55.9M) and Ripple ($49.6M)",
+   "status": "speculation",
+   "entities": [
+    "Fairshake",
+    "Ripple",
+    "Coinbase",
+    "midterms",
+    "Nov 3"
+   ],
+   "theme": "Regulation",
+   "note": "Figures from an X News summary, not checked against FEC filings. Shows Ripple buying political goodwill ahead of the Nov 3 vote; helps long-term regulatory odds, no direct XRP demand."
+  },
+  {
+   "d": "2026-10-27T11:15",
+   "acct": "@TheCryptoSquire",
+   "url": "https://x.com/TheCryptoSquire/status/2115099955186606491",
+   "title": "BlackRock's Digital Assets Director Max Stein is on a Swell panel about institutional crypto adoption; a BlackRock XRP ETF announcement remains speculation",
+   "status": "speculation",
+   "entities": [
+    "BlackRock",
+    "Max Stein",
+    "Swell",
+    "XRP ETF"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "A panel seat is not a filing. Expect 'BlackRock ETF' rumors to spike during Swell; nothing on SEC EDGAR yet."
   }
  ]
 }

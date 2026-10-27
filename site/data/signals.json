@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-27T14:13:35-04:00",
+ "updated": "2026-10-27T17:03:54-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -98,7 +98,9 @@
    "Friday the 13th",
    "Nov 13",
    "SBI",
-   "JPYSC"
+   "JPYSC",
+   "10-year timeline",
+   "Asheesh Birla"
   ],
   "Regulation": [
    "SEC",
@@ -128,7 +130,9 @@
    "FedNow",
    "Tier 3",
    "abandon XRP",
-   "separation"
+   "separation",
+   "Treasury demand",
+   "dollar-backed stablecoins"
   ],
   "Market infrastructure": [
    "DTCC",
@@ -162,7 +166,8 @@
    "tokenized share class",
    "CME",
    "Terry Duffy",
-   "CoinDesk live"
+   "CoinDesk live",
+   "Tokenization Report"
   ],
   "Banks": [
    "bank",
@@ -287,7 +292,10 @@
    "Demo Day",
    "Soon Moon",
    "TV ad",
-   "triples down"
+   "triples down",
+   "5, 6, 7, 8",
+   "THIS WAY / THAT WAY",
+   "ad campaign"
   ],
   "Exchanges / whales": [
    "whale",
@@ -364,7 +372,9 @@
    "withdrawals are paused",
    "Instagram ads",
    "double your XRP",
-   "fake livestream"
+   "fake livestream",
+   "Xaman WaIIet",
+   "XamanWalleltx"
   ],
   "Energy / carbon": [
    "energy-backed",
@@ -489,7 +499,11 @@
   "david schwartz",
   "ripple swell",
   "' with",
-  "treasury secretary"
+  "treasury secretary",
+  "claim your",
+  "brad garlinghouse",
+  "9k likes",
+  "secretary scott"
  ],
  "events": [
   {
@@ -4697,6 +4711,111 @@
    ],
    "theme": "Market infrastructure",
    "note": "Exploratory MOU, no product or timeline, and not on XRPL. SBI is a long-time Ripple partner, so expect 'SBI + BlackRock = XRP' connect-the-dots posts."
+  },
+  {
+   "d": "2026-10-27T15:00",
+   "acct": "@Ripple",
+   "url": "https://x.com/Ripple/status/2115156665817276490",
+   "title": "Teaser: '5, 6, 7, 8 🥁…' with an 8-second video (4.9K likes, 239K views); community reads it as the TV ad campaign launching, with a 'THIS WAY / THAT WAY' crossroads scene, and '9 is tomorrow (Oct 28)'",
+   "status": "confirmed",
+   "entities": [
+    "Ripple",
+    "Swell",
+    "TV ad"
+   ],
+   "theme": "Teasers",
+   "note": "The post is official; what it means is not. Most likely the ad campaign hinted at Oct 26 ('Cleared for takeoff', :30/:15 storyboards). Ads build awareness but don't create XRP demand by themselves; the 'number 9 on Oct 28' read is guesswork."
+  },
+  {
+   "d": "2026-10-27T13:45",
+   "acct": "X News summary",
+   "url": "https://x.com/i/trending/2115007470049563126",
+   "title": "Treasury Secretary Scott Bessent appeared on stage with Brad Garlinghouse at Swell; reported remarks: dollar-backed stablecoins strengthen the dollar and could become an important source of demand for U.S. Treasuries",
+   "status": "confirmed",
+   "entities": [
+    "Bessent",
+    "Treasury",
+    "Garlinghouse",
+    "Swell",
+    "stablecoins",
+    "RLUSD"
+   ],
+   "theme": "Regulation",
+   "note": "Settles the earlier rumor: he did show up. Helps RLUSD and Ripple's standing in Washington; nothing reported about XRP itself or a Fed master account, so the master-account hype went unanswered."
+  },
+  {
+   "d": "2026-10-27T16:54",
+   "acct": "@zubiqo",
+   "url": "https://x.com/zubiqo/status/2115185481319366959",
+   "title": "Claim: at Swell, Bessent said Treasury could work with the SEC and CFTC to write crypto rules after Congress failed to pass the Clarity Act, and that over 90% of stablecoins are dollar-backed",
+   "status": "speculation",
+   "entities": [
+    "Bessent",
+    "SEC",
+    "CFTC",
+    "CLARITY",
+    "Treasury"
+   ],
+   "theme": "Regulation",
+   "note": "Single small account, no transcript or video found in this scan. If accurate it's mixed: agencies acting is progress, but it implies the Clarity Act stalled in Congress."
+  },
+  {
+   "d": "2026-10-27T10:14",
+   "acct": "@evernorthxrp",
+   "url": "https://x.com/evernorthxrp/status/2115084775203672304",
+   "title": "Evernorth 'Tokenization Report 2026': of ~$400B real-world assets on-chain only $39B can be traded or pledged; on XRPL 86% of DEX XRP trading in 2026 settles against stablecoins or fiat tokens (10% in 2024, 50% in 2025)",
+   "status": "confirmed",
+   "entities": [
+    "Evernorth",
+    "XRPL",
+    "RWA",
+    "tokenized",
+    "stablecoins"
+   ],
+   "theme": "Market infrastructure",
+   "note": "Official data from an XRP treasury company, so it's talking its book, but the stablecoin-pairing trend supports XRP's bridge-asset role on the ledger's own exchange."
+  },
+  {
+   "d": "2026-10-27T15:33",
+   "acct": "@Cointurknews",
+   "url": "https://x.com/Cointurknews/status/2115165081596010996",
+   "title": "Evernorth CEO Asheesh Birla warns XRP investors of a 10-year timeline for institutional adoption; separately says banks may pick just a few blockchains, with XRPL as one",
+   "status": "speculation",
+   "entities": [
+    "Evernorth",
+    "Asheesh Birla",
+    "XRPL",
+    "banks"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Headline from a news account; not checked against the full interview. A long timeline cools short-term pump talk, while the 'few chains' line keeps the long-run thesis alive."
+  },
+  {
+   "d": "2026-10-27T14:59",
+   "acct": "@EyeOpenXr_p / @EmilioBojan",
+   "url": "https://x.com/EyeOpenXr_p/status/2115156332470792619",
+   "title": "Spot crypto ETF flows Oct 26: BTC +$110.3M, ETH -$88.6M, SOL -$8.2M, XRP -$3.6M",
+   "status": "speculation",
+   "entities": [
+    "XRP ETF",
+    "ETF tape"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Community-posted flow numbers, not checked against issuer data. A small XRP outflow on charter day; tiny versus fund holdings, but no 'sell the charter' buying either."
+  },
+  {
+   "d": "2026-10-27T16:24",
+   "acct": "@XamanWalleltx (fake)",
+   "url": "https://x.com/XamanWalleltx/status/2115177919123190129",
+   "title": "Look-alike 'Xaman WaIIet' account (capital I's instead of l's) spamming X Articles titled 'The Xaman Airdrop Is Live — Claim Your XRPL Allocation', with bot quote-counts in the thousands",
+   "status": "confirmed",
+   "entities": [
+    "Xaman",
+    "airdrop",
+    "impersonation"
+   ],
+   "theme": "Scams / safety",
+   "note": "Confirmed scam. Xaman has no airdrop; never open these links or connect a wallet. Same play as earlier fake Xaman accounts, timed to Swell hype."
   }
  ]
 }

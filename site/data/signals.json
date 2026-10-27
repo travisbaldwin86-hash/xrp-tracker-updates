@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-26T20:06:51-04:00",
+ "updated": "2026-10-27T08:11:47-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -30,7 +30,10 @@
    "DriveWealth",
    "Interledger",
    "Dassie",
-   "Stefan Thomas"
+   "Stefan Thomas",
+   "C2FO",
+   "Instant Pay",
+   "trade finance"
   ],
   "RLUSD / stablecoins": [
    "RLUSD",
@@ -83,7 +86,11 @@
    "First 365 Days",
    "80,000,000 XRP",
    "ETF tape",
-   "NDA"
+   "NDA",
+   "GraniteShares",
+   "3x",
+   "leveraged ETF",
+   "Nov 30"
   ],
   "Regulation": [
    "SEC",
@@ -104,7 +111,9 @@
    "David Sacks",
    "digital commodity",
    "National Trust Bank",
-   "final approval"
+   "final approval",
+   "Bessent",
+   "Scott Bessent"
   ],
   "Market infrastructure": [
    "DTCC",
@@ -154,7 +163,8 @@
    "BBVA",
    "OKX card",
    "VTB",
-   "BNY"
+   "BNY",
+   "trade finance"
   ],
   "Big tech": [
    "Google",
@@ -446,7 +456,12 @@
   "oct 26",
   "onto exchanges",
   "nov 1",
-  "trust bank"
+  "trust bank",
+  "btc eth",
+  "tokenized deposits",
+  "'ripple prime",
+  "'fed master",
+  "speaker list"
  ],
  "events": [
   {
@@ -482,6 +497,11 @@
   {
    "d": "2026-11-14",
    "name": "Swift ISO 20022 date (deferred)",
+   "kind": "rule"
+  },
+  {
+   "d": "2026-11-30",
+   "name": "GraniteShares 3x XRP ETFs effective date (pushed, per reports)",
    "kind": "rule"
   },
   {
@@ -4372,6 +4392,85 @@
    ],
    "theme": "ETFs / treasuries",
    "note": "Community tally. Small positive XRP inflow in a mixed week; neutral to slightly helpful."
+  },
+  {
+   "d": "2026-10-27T08:01",
+   "acct": "@Ripple",
+   "url": "https://x.com/Ripple/status/2115051149493465156",
+   "title": "Ripple expands its BNY collaboration across custody and tokenized trade finance, bringing BNY's scale together with RLUSD, XRP and the XRP Ledger (656 likes in the first minutes)",
+   "status": "confirmed",
+   "entities": [
+    "Ripple",
+    "BNY",
+    "RLUSD",
+    "XRP",
+    "custody",
+    "trade finance",
+    "Swell"
+   ],
+   "theme": "Banks",
+   "note": "Official Swell Day 1 news from the world's largest custodian. Helps XRP's credibility; reposts say BNY now custodies XRP and RLUSD, but the trade-finance part is a plan, not a live product yet."
+  },
+  {
+   "d": "2026-10-27T08:03",
+   "acct": "@Ripple",
+   "url": "https://x.com/Ripple/status/2115051662683296073",
+   "title": "Ripple and C2FO (working-capital platform) bring trade finance onto the XRP Ledger: C2FO Instant Pay uses RLUSD so suppliers get paid on approved invoices in seconds",
+   "status": "confirmed",
+   "entities": [
+    "Ripple",
+    "C2FO",
+    "Instant Pay",
+    "RLUSD",
+    "trade finance",
+    "XRPL"
+   ],
+   "theme": "Payments / ODL",
+   "note": "Real XRPL use, but it settles in RLUSD, not XRP. Helps the ledger and RLUSD; XRP demand only indirectly through fees and reserves."
+  },
+  {
+   "d": "2026-10-27T05:11",
+   "acct": "@MjB38 / X News summary",
+   "url": "https://x.com/MjB38/status/2114991124469465118",
+   "title": "Treasury Secretary Scott Bessent spotted on the Swell 2026 speaker list; no session details yet",
+   "status": "speculation",
+   "entities": [
+    "Scott Bessent",
+    "Treasury",
+    "Swell"
+   ],
+   "theme": "Regulation",
+   "note": "Community-spotted, not confirmed by Ripple or Treasury in this scan. If he speaks it's a sentiment boost, not XRP demand. Watch the agenda."
+  },
+  {
+   "d": "2026-10-27T04:56",
+   "acct": "@CryptoJunkeyz / @BANXRPLNEWS",
+   "url": "https://x.com/BANXRPLNEWS/status/2115050897281777835",
+   "title": "GraniteShares amended filing pushes its 3x long and 3x short XRP ETFs (plus BTC, ETH, SOL) to a Nov 30 effective date",
+   "status": "speculation",
+   "entities": [
+    "GraniteShares",
+    "3x leveraged ETF",
+    "XRP ETF",
+    "Nov 30"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Community reports of an Oct 26 filing, not checked on SEC EDGAR yet. A delay of a leveraged product; neutral to slightly negative short term."
+  },
+  {
+   "d": "2026-10-27T03:04",
+   "acct": "Community replies (@Monetaryguy589, @XRP_the_future)",
+   "url": "https://x.com/Monetaryguy589/status/2114893986595049500",
+   "title": "Master-account debate heats up: 'Fed master account is the real unlock for XRP' vs 'Ripple Prime with BNY tokenized deposits doesn't need one'",
+   "status": "speculation",
+   "entities": [
+    "Fed master account",
+    "Ripple National Trust Bank",
+    "BNY",
+    "Ripple Prime"
+   ],
+   "theme": "Regulation",
+   "note": "Opinion, no filing news. Shows the crowd's next hope after the charter; don't trade on it."
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-27T20:04:37-04:00",
+ "updated": "2026-10-28T08:14:28-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -64,7 +64,12 @@
    "idle cash",
    "Robinhood",
    "Robinhood Chain",
-   "Bitstamp"
+   "Bitstamp",
+   "Moody's",
+   "A2",
+   "P-1",
+   "Coinbase RLUSD",
+   "Base"
   ],
   "ETFs / treasuries": [
    "ETF",
@@ -100,7 +105,8 @@
    "SBI",
    "JPYSC",
    "10-year timeline",
-   "Asheesh Birla"
+   "Asheesh Birla",
+   "BlackRock XRP ETF"
   ],
   "Regulation": [
    "SEC",
@@ -300,7 +306,9 @@
    "THIS WAY / THAT WAY",
    "ad campaign",
    "more to come",
-   "day 0"
+   "day 0",
+   "Green means go",
+   "beyond anyone's imagination"
   ],
   "Exchanges / whales": [
    "whale",
@@ -382,7 +390,13 @@
    "Xaman WaIIet",
    "XamanWalleltx",
    "XamanWalletlx",
-   "Xamasdx"
+   "Xamasdx",
+   "Flare_Explorer",
+   "claim portal",
+   "XamanWalletxApp",
+   "Xarnam",
+   "XRP desk",
+   "QR code"
   ],
   "Energy / carbon": [
    "energy-backed",
@@ -516,7 +530,15 @@
   "24 7",
   "rlusd xrp",
   "ripple national",
-  "national trust"
+  "national trust",
+  "ripple x",
+  "fake xaman",
+  "markets with",
+  "now live",
+  "1k likes",
+  "live claim",
+  "your xrpl",
+  "xrpl allocation'"
  ],
  "events": [
   {
@@ -600,6 +622,11 @@
    "teaser": "Mr Pool \"WATCH THE WATER\" (2022) re-read as Water.org / Matt Damon at Swell; handle decode points to Nov 7 2026 (community riddle, Oct 22)",
    "outcome": "pending (Damon slot was announced Jun 17, so not a new reveal)",
    "url": "https://x.com/Archie_XRPL/status/2113189709815926925"
+  },
+  {
+   "teaser": "@XRP 'Trade finance is coming to the XRP Ledger. Green means go.' (Oct 27)",
+   "outcome": "pending; tied to C2FO/BNY news, community reads 'green' as the X+Y=Z riddle",
+   "url": "https://x.com/XRP/status/2115236355240231281"
   }
  ],
  "signals": [
@@ -4922,6 +4949,111 @@
    ],
    "theme": "Exchanges / whales",
    "note": "Another US-regulated venue listing XRP alongside the majors; good for visibility, but short-term betting doesn't create lasting XRP demand. Comes amid a reported CFTC probe of Polymarket."
+  },
+  {
+   "d": "2026-10-28T08:01",
+   "acct": "@Ripple",
+   "url": "https://x.com/Ripple/status/2115413568069771663",
+   "title": "Ripple x Coinbase: RLUSD is coming to the largest US crypto exchange for retail and institutional markets, with support on the XRP Ledger, Ethereum and Base (1.1K likes in first minutes)",
+   "status": "confirmed",
+   "entities": [
+    "Ripple",
+    "Coinbase",
+    "RLUSD",
+    "XRPL",
+    "Base"
+   ],
+   "theme": "RLUSD / stablecoins",
+   "note": "Official. Big distribution win for RLUSD and puts more stablecoin liquidity on the XRP Ledger; helps the ecosystem, but RLUSD on Coinbase does not by itself require buying XRP."
+  },
+  {
+   "d": "2026-10-28T02:47",
+   "acct": "Moody's via Ripple's Jack McDonald (widely reported)",
+   "url": "https://x.com/Trensik_com/status/2115334711472161073",
+   "title": "Moody's rates RLUSD investment grade: A2 long-term and P-1 short-term, described as the first stablecoin rated under its new stablecoin framework; reserves mostly US Treasuries and cash",
+   "status": "confirmed",
+   "entities": [
+    "Moody's",
+    "RLUSD",
+    "Ripple",
+    "Jack McDonald"
+   ],
+   "theme": "RLUSD / stablecoins",
+   "note": "Reported by many outlets citing Ripple exec Jack McDonald and in X's news summary. Makes RLUSD easier for banks and funds to hold; helps XRPL credibility, indirect for XRP price."
+  },
+  {
+   "d": "2026-10-27T20:17",
+   "acct": "@XRP",
+   "url": "https://x.com/XRP/status/2115236355240231281",
+   "title": "'Trade finance is coming to the XRP Ledger. Green means go.' (8.1K likes, 195K views)",
+   "status": "confirmed",
+   "entities": [
+    "XRP",
+    "trade finance",
+    "C2FO",
+    "BNY"
+   ],
+   "theme": "Teasers",
+   "note": "Official account amplifying the C2FO/BNY trade-finance news already logged; 'Green means go' is being read as a nod to the green/yellow/purple riddle. Sentiment boost, no new deal."
+  },
+  {
+   "d": "2026-10-28T06:20",
+   "acct": "@RippleXity",
+   "url": "https://x.com/RippleXity/status/2115388221635104922",
+   "title": "'MASSIVE: DTCC Tokenization Service is now LIVE with Ripple Prime involved' (249 likes, retweeted by many accounts); companion post 'The day has arrived for DTCC's tokenization target'",
+   "status": "speculation",
+   "entities": [
+    "DTCC",
+    "Ripple Prime",
+    "tokenization",
+    "Oct 28"
+   ],
+   "theme": "Market infrastructure",
+   "note": "Today is the long-hyped Oct 28 DTCC date, but no DTCC or Ripple post confirms a launch; Ripple Prime is reportedly one of 50+ firms in a DTCC working group, not a special role. Unconfirmed; would help only if DTCC says so itself."
+  },
+  {
+   "d": "2026-10-27T21:41",
+   "acct": "@RippleXrpie (copy-paste wave)",
+   "url": "https://x.com/RippleXrpie/status/2115257582566674443",
+   "title": "'RUMORS: BlackRock will announce an XRP ETF at the Ripple SWELL event' (397 likes, 15.8K views), pasted word-for-word by dozens of accounts incl. Japanese translations; RippleXity adds 'BlackRock is inside Ripple Swell and what's coming next is beyond anyone's imagination' (611 likes)",
+   "status": "rumor",
+   "entities": [
+    "BlackRock",
+    "ETF",
+    "Swell",
+    "Max Stein"
+   ],
+   "theme": "ETFs / treasuries",
+   "note": "Rooted only in BlackRock's Max Stein sitting on a Swell panel; no BlackRock filing or statement. Posters themselves say 'rumor only'. Sell-the-news risk if Swell ends without it."
+  },
+  {
+   "d": "2026-10-28T00:54",
+   "acct": "@Flare_Explorer (look-alike)",
+   "url": "https://x.com/Flare_Explorer/status/2115306134118502421",
+   "title": "Account named 'Flare Explorer' replying to users that they can 'claim your FLR/SGB airdrop rewards manually on the Flare portal' if they held XRP before the Dec 2020 snapshot",
+   "status": "rumor",
+   "entities": [
+    "Flare",
+    "FLR",
+    "airdrop",
+    "impersonation"
+   ],
+   "theme": "Scams / safety",
+   "note": "Not Flare's official account (@FlareNetworks). Classic claim-portal bait aimed at XRP holders; never connect a wallet or enter a seed phrase from a reply."
+  },
+  {
+   "d": "2026-10-27T23:28",
+   "acct": "@XamanWalletxApp / @Xarnam_Foundn (fake)",
+   "url": "https://x.com/XamanWalletxApp/status/2115284429924978891",
+   "title": "More fake Xaman accounts: 'The Xaman Airdrop Is Live — Claim Your XRPL Allocation' articles plus replies naming 'Eligible user: @handle' and pointing to an 'XRP desk' link (2,442 bot quotes on one post)",
+   "status": "confirmed",
+   "entities": [
+    "Xaman",
+    "airdrop",
+    "impersonation"
+   ],
+   "theme": "Scams / safety",
+   "note": "Confirmed scam, new handles. Separately, a user (@yellowballer13 thread) says they lost all their XRP after scanning a QR code. Xaman has no airdrop."
   }
  ]
 }

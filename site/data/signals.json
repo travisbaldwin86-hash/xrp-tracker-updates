@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-27T17:03:54-04:00",
+ "updated": "2026-10-27T20:04:37-04:00",
  "watchlist": {
   "ISO 20022 / SWIFT": [
    "ISO 20022",
@@ -201,7 +201,10 @@
    "Google Pay",
    "Stripe",
    "zerohash",
-   "AI Moves Money"
+   "AI Moves Money",
+   "Privy",
+   "Henri Stern",
+   "Tempo"
   ],
   "XRPL tech": [
    "XLS-65",
@@ -295,7 +298,9 @@
    "triples down",
    "5, 6, 7, 8",
    "THIS WAY / THAT WAY",
-   "ad campaign"
+   "ad campaign",
+   "more to come",
+   "day 0"
   ],
   "Exchanges / whales": [
    "whale",
@@ -315,7 +320,8 @@
    "sell the news",
    "last five Swells",
    "Swell-dump",
-   "Santiment"
+   "Santiment",
+   "Polymarket"
   ],
   "Scams / safety": [
    "scam",
@@ -374,7 +380,9 @@
    "double your XRP",
    "fake livestream",
    "Xaman WaIIet",
-   "XamanWalleltx"
+   "XamanWalleltx",
+   "XamanWalletlx",
+   "Xamasdx"
   ],
   "Energy / carbon": [
    "energy-backed",
@@ -503,7 +511,12 @@
   "claim your",
   "brad garlinghouse",
   "9k likes",
-  "secretary scott"
+  "secretary scott",
+  "eth sol",
+  "24 7",
+  "rlusd xrp",
+  "ripple national",
+  "national trust"
  ],
  "events": [
   {
@@ -4816,6 +4829,99 @@
    ],
    "theme": "Scams / safety",
    "note": "Confirmed scam. Xaman has no airdrop; never open these links or connect a wallet. Same play as earlier fake Xaman accounts, timed to Swell hype."
+  },
+  {
+   "d": "2026-10-27T18:58",
+   "acct": "@bgarlinghouse",
+   "url": "https://x.com/bgarlinghouse/status/2115216477045624862",
+   "title": "Garlinghouse 4-part Swell recap (3.2K likes): Bessent opened the conference; Robinhood (RLUSD settlement on the XRP Ledger, prime brokerage, treasury) and BNY (custody and tokenized trade finance with RLUSD, XRP and the XRP Ledger); Ripple Treasury 24/7 Returns; OCC final approval for Ripple National Trust Bank. Ends: 'it's only day 0 ... More to come this week…'",
+   "status": "confirmed",
+   "entities": [
+    "Garlinghouse",
+    "Swell",
+    "Robinhood",
+    "BNY",
+    "OCC",
+    "Bessent",
+    "Ripple Treasury"
+   ],
+   "theme": "Teasers",
+   "note": "Official CEO recap; the news itself was already logged, but 'more to come this week' is a direct teaser that more announcements land Oct 28-29. Helps sentiment; no new XRP-demand detail yet."
+  },
+  {
+   "d": "2026-10-27T18:48",
+   "acct": "@CryptoTweets",
+   "url": "https://x.com/CryptoTweets/status/2115213964770431318",
+   "title": "Daily recap (5.3K views) repeats the claim that Bessent said Treasury could work with the SEC and CFTC to advance crypto rules 'despite the CLARITY Act's failure'",
+   "status": "speculation",
+   "entities": [
+    "Bessent",
+    "SEC",
+    "CFTC",
+    "CLARITY",
+    "Treasury"
+   ],
+   "theme": "Regulation",
+   "note": "The earlier single-account claim is spreading to a bigger recap account, but still no transcript or video found. Mixed if true: agencies may act, while Congress stalls."
+  },
+  {
+   "d": "2026-10-27T18:14",
+   "acct": "@Alexvasabxt3 / @IvankaTrumg8xn (copy-paste)",
+   "url": "https://x.com/Alexvasabxt3/status/2115205510773280986",
+   "title": "Copy-paste wave: 'Cross River Bank has implemented RLUSD on its XRP Ledger core banking infrastructure ... XRP will bridge every single RLUSD transaction'; replies tie it to Cross River powering X Money",
+   "status": "rumor",
+   "entities": [
+    "Cross River",
+    "RLUSD",
+    "XRPL",
+    "X Money"
+   ],
+   "theme": "Banks",
+   "note": "Posted by fresh, likely bot or impersonation accounts (one poses as Ivanka Trump) with near-zero engagement; no Cross River or Ripple post found. 'XRP bridges every RLUSD transaction' is false: RLUSD moves without XRP. Treat as noise."
+  },
+  {
+   "d": "2026-10-27T18:28",
+   "acct": "@InvestWithD",
+   "url": "https://x.com/InvestWithD/status/2115209066322751648",
+   "title": "'Is the PURPLE guy actually Stripe?' theory: Stripe-owned Privy partnered with Ripple on Oct 13 to bring embedded/programmable wallets to the XRP Ledger, and Stripe's head of crypto (Privy's co-founder) is said to speak at Swell tomorrow",
+   "status": "speculation",
+   "entities": [
+    "Stripe",
+    "Privy",
+    "Henri Stern",
+    "Swell",
+    "Purple"
+   ],
+   "theme": "Big tech",
+   "note": "The Privy-XRPL wallet tie-up is widely reported by community accounts; the 'purple guy = Stripe' reveal and the Swell talk are unverified. A Stripe mention on stage would help sentiment, but Stripe also runs its own competing chain (Tempo)."
+  },
+  {
+   "d": "2026-10-27T18:36",
+   "acct": "@XamanWalletlx / @Xamasdx (fake)",
+   "url": "https://x.com/XamanWalletlx/status/2115211174610690133",
+   "title": "Two more look-alike 'Xaman WaIIet' accounts posting 'The Xaman Airdrop Is Live — Claim Your XRPL Allocation' articles every few minutes; one post shows 2,239 bot quotes",
+   "status": "confirmed",
+   "entities": [
+    "Xaman",
+    "airdrop",
+    "impersonation"
+   ],
+   "theme": "Scams / safety",
+   "note": "Confirmed scam, new handles for the same play. Xaman has no airdrop; never open these links, connect a wallet, or enter a seed phrase."
+  },
+  {
+   "d": "2026-10-27T18:17",
+   "acct": "X News summary",
+   "url": "https://x.com/i/trending/2115171955313688638",
+   "title": "Polymarket's CFTC-regulated US app launches five-minute up/down prediction markets on BTC, ETH, SOL and XRP",
+   "status": "confirmed",
+   "entities": [
+    "Polymarket",
+    "CFTC",
+    "XRP"
+   ],
+   "theme": "Exchanges / whales",
+   "note": "Another US-regulated venue listing XRP alongside the majors; good for visibility, but short-term betting doesn't create lasting XRP demand. Comes amid a reported CFTC probe of Polymarket."
   }
  ]
 }
